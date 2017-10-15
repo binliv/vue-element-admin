@@ -14,9 +14,9 @@ export function export_txt_to_zip(th, jsonData, txtName, zipName) {
     txtData += `${tempStr}\r\n`
   })
   zip.file(`${txt_name}.txt`, txtData)
-  zip.generateAsync({type:"blob"}).then((blob) => {
+  zip.generateAsync({type:"blob"}).then(function (blob) {
     saveAs(blob, `${zip_name}.zip`)
-  }, (err) => {
+  }, function (err) {
     alert('导出失败')
   })
 }

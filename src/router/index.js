@@ -34,7 +34,7 @@ export const constantRouterMap = [
     redirect: '/introduction/index',
     icon: 'people',
     noDropdown: true,
-    children: [{ path: 'index', component: _import('introduction/index'), name: '简述' }]
+    children: [{ path: 'index', component: _import('user/index'), name: '用户' }]
   }
 ]
 
