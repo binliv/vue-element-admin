@@ -4240,6 +4240,7 @@
             </tr>
           </tbody>
         </table>
+
         <h4>表 Z　语言认知能力评估表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
@@ -4335,11 +4336,1008 @@
             </tr>
           </tbody>
         </table>
-        <h4></h4>
 
-        <h4></h4>
+        <h4>表 K　动词命名评分表</h4>
+        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 15%; height: 18px;">序号</th>
+              <th style="width: 15%; height: 18px;">项目</th>
+              <th style="width: 40%; height: 18px;">反应内容（10秒内）</th>
+              <th style="width: 30%; height: 18px;">反应类别</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="lian_xi">练习1</td>
+              <td>咬</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td class="lian_xi">练习2</td>
+              <td>发抖</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td colspan="4"> </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>睡觉</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>跪</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>蹲</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>游泳</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>醉</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>洗澡</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="2">一元动词小计</td>
+              <td> </td>
+              <td>正确次数  /6  正确率</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>骑</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>表扬</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>剪</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>看望</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>逮捕</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>踢</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="2">二元动词小计</td>
+              <td> </td>
+              <td>正确次数  /6  正确率</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>赠送 </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td> 给</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="2">    强显性三元 (xyz) 小计</td>
+              <td> </td>
+              <td>正确次数  /2  正确率 </td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>  奖励</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>  喂</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="2">中显性三元 (xy) 小计</td>
+              <td> </td>
+              <td>正确次数  /2  正确率 </td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>泼</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>卖</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="2">  中显性三元 (xz) 小计</td>
+              <td> </td>
+              <td>正确次数  /2  正确率 </td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>询问 </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td> 教</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="2">  弱显性三元 (xy/z) 小计</td>
+              <td> </td>
+              <td> 正确次数  /2  正确率</td>
+            </tr>
+            <tr>
+              <td colspan="2">  一元动词合计</td>
+              <td>正确次数  /6</td>
+              <td>正确率</td>
+            </tr>
+            <tr>
+              <td colspan="2">  二元动词合计</td>
+              <td>正确次数  /6</td>
+              <td>正确率</td>
+            </tr>
+            <tr>
+              <td colspan="2">  三元动词合计</td>
+              <td>正确次数  /8 </td>
+              <td>正确率</td>
+            </tr>
+            <tr>
+              <td colspan="2"> 总计</td>
+              <td>正确次数  /20</td>
+              <td>正确率</td>
+            </tr>
+          </tbody>
+        </table>
 
-        <h4></h4>
+        <h4>表 L　动词理解评分表</h4>
+        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 12%; height: 18px;">序号</th>
+              <th style="width: 12%; height: 18px;">目标项</th>
+              <th style="width: 12%; height: 18px;"> 同类干扰项</th>
+              <th style="width: 24%; height: 18px;" colspan="2">非同类干扰项目  </th>
+              <th style="width: 40%; height: 18px;">反应类别</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="lian_xi">练习1</td>
+              <td>咬</td>
+              <td>推 </td>
+              <td>坐 </td>
+              <td>投 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td class="lian_xi">练习2</td>
+              <td>发抖</td>
+              <td>跑步 </td>
+              <td>搬 </td>
+              <td>喝 </td>
+              <td> </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td colspan="6"> </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>睡觉</td>
+              <td>洗澡</td>
+              <td>批评</td>
+              <td>盗窃</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>跪</td>
+              <td>醉</td>
+              <td>背</td>
+              <td>罚</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>蹲</td>
+              <td>跪</td>
+              <td>追</td>
+              <td>回答</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>游泳</td>
+              <td>睡觉 </td>
+              <td>埋葬</td>
+              <td>指挥</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>醉</td>
+              <td> 蹲  </td>
+              <td>泼</td>
+              <td>赏</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>洗澡</td>
+              <td> 游泳 </td>
+              <td>撞</td>
+              <td>回答</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="5">一元小计   </td>
+              <td>正确次数  /6  正确率</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>骑</td>
+              <td> 踢</td>
+              <td>爬 </td>
+              <td>泼 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>表扬</td>
+              <td>逮捕 </td>
+              <td>起床 </td>
+              <td>罚 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>剪</td>
+              <td>骑 </td>
+              <td>摔 </td>
+              <td>抢 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>看望</td>
+              <td>表扬 </td>
+              <td>生病 </td>
+              <td>咳嗽 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>逮捕</td>
+              <td>看望 </td>
+              <td>盗窃 </td>
+              <td>赏 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>踢</td>
+              <td>剪 </td>
+              <td>抢 </td>
+              <td>趴 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="5">二元小计   </td>
+              <td>正确次数  /6  正确率</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>赠送 </td>
+              <td> 给</td>
+              <td> 咳嗽</td>
+              <td>批评 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td> 给</td>
+              <td>赠送 </td>
+              <td>背 </td>
+              <td>飞 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="5">    强显性三元 (xyz) 小计   </td>
+              <td>正确次数  /2  正确率 </td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>  奖励</td>
+              <td>喂 </td>
+              <td> 生病</td>
+              <td>指挥 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>  喂</td>
+              <td>奖励 </td>
+              <td>刷 </td>
+              <td>起床 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="5">中显性三元 (xy) 小计   </td>
+              <td>正确次数  /2  正确率 </td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>泼</td>
+              <td>卖 </td>
+              <td>埋葬</td>
+              <td>指挥 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>卖</td>
+              <td>泼 </td>
+              <td>摔 </td>
+              <td>飞 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="5">  中显性三元 (xz) 小计   </td>
+              <td>正确次数  /2  正确率 </td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>询问 </td>
+              <td>教 </td>
+              <td>追 </td>
+              <td>刷 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td> 教</td>
+              <td>询问 </td>
+              <td>撞 </td>
+              <td>爬 </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="5">  弱显性三元 (xy/z) 小计   </td>
+              <td> 正确次数  /2  正确率</td>
+            </tr>
+            <tr>
+              <td colspan="5">  一元动词合计  </td>
+              <td>正确次数  /6  正确率</td>
+            </tr>
+            <tr>
+              <td colspan="5">  二元动词合计  </td>
+              <td>正确次数  /6  正确率</td>
+            </tr>
+            <tr>
+              <td colspan="5">  三元动词合计   </td>
+              <td>正确次数  /8  正确率</td>
+            </tr>
+            <tr>
+              <td colspan="5"> 总计  </td>
+              <td>正确次数  /20  正确率</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>表 M　论元结构产出评分表</h4>
+        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 6%; height: 18px;" rowspan="2">序号</th>
+              <th style="width: 6%; height: 18px;" rowspan="2">项目</th>
+              <th style="width: 24%; height: 18px;" colspan="4">参考答案论元结构 </th>
+              <th style="width: 40%; height: 18px;" rowspan="2">反应内容 </th>
+              <th style="width: 24%; height: 18px;" colspan="6" rowspan="2">圈出准确产出的成分、论元和词汇      </th>
+            </tr>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 6%; height: 18px;">x</th>
+              <th style="width: 6%; height: 18px;">V</th>
+              <th style="width: 6%; height: 18px;">y</th>
+              <th style="width: 6%; height: 18px;">z</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="lian_xi">练习1</td>
+              <td>咬</td>
+              <td>狗</td>
+              <td>在咬</td>
+              <td>猫</td>
+              <td> </td>
+              <td> </td>
+              <td>x</td>
+              <td>V</td>
+              <td> </td>
+              <td>z</td>
+              <td> 论元</td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td class="lian_xi">练习2</td>
+              <td>发抖</td>
+              <td>女人</td>
+              <td>投了</td>
+              <td>男人</td>
+              <td>票</td>
+              <td> </td>
+              <td>x</td>
+              <td>V</td>
+              <td>y</td>
+              <td>z</td>
+              <td> 论元</td>
+              <td>词汇 </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td colspan="13"> </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>睡觉</td>
+              <td>女人</td>
+              <td>睡觉了</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td>x</td>
+              <td>V</td>
+              <td> </td>
+              <td> </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>跪</td>
+              <td>男人</td>
+              <td>跪着</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td>x</td>
+              <td>V</td>
+              <td> </td>
+              <td> </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>蹲</td>
+              <td>女孩</td>
+              <td>蹲着 </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td>x</td>
+              <td>V</td>
+              <td> </td>
+              <td> </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>游泳</td>
+              <td>女人</td>
+              <td>在游泳 </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td>x</td>
+              <td>V</td>
+              <td> </td>
+              <td> </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>醉</td>
+              <td>男人</td>
+              <td>醉了 </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td>x</td>
+              <td>V</td>
+              <td> </td>
+              <td> </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>洗澡</td>
+              <td>男孩 </td>
+              <td>在洗澡</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td>x</td>
+              <td>V</td>
+              <td> </td>
+              <td> </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td colspan="6" rowspan="2">一元小计    </td>
+              <td> </td>
+              <td>/6 </td>
+              <td>/6 </td>
+              <td> </td>
+              <td> </td>
+              <td> /6</td>
+              <td>/6 </td>
+            </tr>
+            <tr>
+              <td>论元和词汇同时正确</td>
+              <td colspan="6">/6      </td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>骑</td>
+              <td>男孩</td>
+              <td>在骑 </td>
+              <td> </td>
+              <td>车 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td> </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>表扬</td>
+              <td>女人</td>
+              <td> 表扬了</td>
+              <td> </td>
+              <td>男孩 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td> </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>剪</td>
+              <td>女人</td>
+              <td>在剪</td>
+              <td> </td>
+              <td>纸 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td> </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>看望</td>
+              <td>男人</td>
+              <td>在看望 </td>
+              <td> </td>
+              <td>女人 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td> </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>逮捕</td>
+              <td>男人</td>
+              <td>逮捕了 </td>
+              <td> </td>
+              <td>女人 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td> </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>踢</td>
+              <td>女孩</td>
+              <td>踢了 </td>
+              <td> </td>
+              <td>男孩 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td> </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td colspan="6" rowspan="2">二元小计   </td>
+              <td> </td>
+              <td>/6 </td>
+              <td>/6</td>
+              <td> </td>
+              <td>/6 </td>
+              <td>/6 </td>
+              <td>/6 </td>
+            </tr>
+            <tr>
+              <td> 论元和词汇同时正确</td>
+              <td colspan="6">/6      </td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>赠送 </td>
+              <td> 女人</td>
+              <td>赠送了</td>
+              <td>男孩</td>
+              <td>礼物 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td> 给</td>
+              <td>男人 </td>
+              <td>在给 </td>
+              <td>女孩</td>
+              <td>钱 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td colspan="6" rowspan="2">    强显性三元 (xyz) 小计    </td>
+              <td> </td>
+              <td> /2</td>
+              <td>/2 </td>
+              <td> /2</td>
+              <td>/2 </td>
+              <td>/2 </td>
+              <td>/2 </td>
+            </tr>
+            <tr>
+              <td>论元和词汇同时正确 </td>
+              <td colspan="6"> /2     </td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>奖励</td>
+              <td>女人</td>
+              <td>奖励了 </td>
+              <td>男孩 </td>
+              <td> </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td> </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>奖励</td>
+              <td>女人</td>
+              <td>奖励了 </td>
+              <td>男孩 </td>
+              <td>书</td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>喂</td>
+              <td>男人</td>
+              <td>在喂 </td>
+              <td>女孩 </td>
+              <td> </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td> </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>喂</td>
+              <td>男人</td>
+              <td>在喂 </td>
+              <td>女孩 </td>
+              <td>饭</td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td colspan="6" rowspan="2">中显性三元 (xy) 小计    </td>
+              <td> </td>
+              <td> /2</td>
+              <td> /2</td>
+              <td>/2 </td>
+              <td> /2</td>
+              <td> /2</td>
+              <td>/2 </td>
+            </tr>
+            <tr>
+              <td>论元和词汇同时正确 </td>
+              <td colspan="6">  /2    </td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>泼</td>
+              <td>女人</td>
+              <td>泼了</td>
+              <td> </td>
+              <td>水 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td> </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>泼</td>
+              <td>女人</td>
+              <td>泼了</td>
+              <td>男人 </td>
+              <td>水 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>卖</td>
+              <td>男人</td>
+              <td>在卖</td>
+              <td> </td>
+              <td>西瓜 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td> </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>卖</td>
+              <td>男人</td>
+              <td>在卖</td>
+              <td>女孩 </td>
+              <td>西瓜 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td colspan="6" rowspan="2">  中显性三元 (xz) 小计    </td>
+              <td> </td>
+              <td> /2</td>
+              <td> /2</td>
+              <td> /2</td>
+              <td> /2</td>
+              <td>/2 </td>
+              <td>/2 </td>
+            </tr>
+            <tr>
+              <td>论元和词汇同时正确 </td>
+              <td colspan="6"> /2     </td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>询问</td>
+              <td>男孩 </td>
+              <td>在询问 </td>
+              <td>女人 </td>
+              <td> </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td> </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>询问</td>
+              <td>男孩 </td>
+              <td>在询问 </td>
+              <td> </td>
+              <td>事情 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td> </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>询问</td>
+              <td>男孩 </td>
+              <td>在询问 </td>
+              <td>女人 </td>
+              <td>事情 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>教</td>
+              <td>女人 </td>
+              <td>在教 </td>
+              <td>男孩 </td>
+              <td> </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td> </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>教</td>
+              <td>女人 </td>
+              <td>在教 </td>
+              <td> </td>
+              <td>字母 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td> </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>教</td>
+              <td>女人 </td>
+              <td>在教 </td>
+              <td>男孩 </td>
+              <td>字母 </td>
+              <td> </td>
+              <td>x </td>
+              <td>V </td>
+              <td>y </td>
+              <td>z </td>
+              <td>论元 </td>
+              <td>词汇 </td>
+            </tr>
+            <tr>
+              <td colspan="6" rowspan="2">  弱显性三元 (xy/z) 小计    </td>
+              <td> </td>
+              <td>/2 </td>
+              <td>/2 </td>
+              <td> /2</td>
+              <td> /2</td>
+              <td>/2 </td>
+              <td>/2 </td>
+            </tr>
+            <tr>
+              <td>论元和词汇同时正确 </td>
+              <td colspan="6">/2      </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>表 N　论元结构产出合计表</h4>
+
+        <h4>表 O　语句启动产出计分表</h4>
+
+        <h4>表 P　语句理解计分表</h4>
+
+        <h4>表 V　《动词语句分量表》计分汇总表</h4>
+
+        <h4>表 W　动词语句加工能力评估表</h4>
+
       </el-form>
       <div slot="footer" class="dialog-footer">
         <el-button @click="dialogFormVisible = false">取 消</el-button>
