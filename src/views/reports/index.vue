@@ -5329,6 +5329,134 @@
         </table>
 
         <h4>表 N　论元结构产出合计表</h4>
+        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 20%; height: 18px;"> </th>
+              <th style="width: 20%; height: 18px;" colspan="4">参考答案论元结构 </th>
+              <th style="width: 60%; height: 18px;" colspan="6">语句     </th>
+            </tr>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 20%; height: 18px;"> </th>
+              <th style="width: 5%; height: 18px;">x</th>
+              <th style="width: 5%; height: 18px;">V</th>
+              <th style="width: 5%; height: 18px;">y</th>
+              <th style="width: 5%; height: 18px;">z</th>
+              <th style="width: 10%; height: 18px;">论元完整数</th>
+              <th style="width: 10%; height: 18px;">论元完整%</th>
+              <th style="width: 10%; height: 18px;">词汇准确数</th>
+              <th style="width: 10%; height: 18px;">词汇准确率</th>
+              <th style="width: 10%; height: 18px;">论元∩词汇数</th>
+              <th style="width: 10%; height: 18px;">论元∩词汇% </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="height: 18px;">
+              <td class="lian_xi" style="height: 18px;">一元小计</td>
+              <td style="height: 18px;">/6 </td>
+              <td style="height: 18px;">/6 </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;">/6 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">/6 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;">% </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td class="lian_xi" style="height: 18px;">二元小计</td>
+              <td style="height: 18px;">/6 </td>
+              <td style="height: 18px;">/6 </td>
+              <td style="height: 18px;">/6 </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;">/6 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">/6 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;">% </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td class="lian_xi" style="height: 18px;"> 强显性三元 (xyz)</td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;">% </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td class="lian_xi" style="height: 18px;">中显性三元 (xy)</td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;">% </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td class="lian_xi" style="height: 18px;">中显性三元 (xz)</td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;">% </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td class="lian_xi" style="height: 18px;"> 弱显性三元 (xy/z)</td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">/2 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;">% </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td class="lian_xi" style="height: 18px;"> 三元小计</td>
+              <td style="height: 18px;">/8 </td>
+              <td style="height: 18px;">/8 </td>
+              <td style="height: 18px;">/8 </td>
+              <td style="height: 18px;">/8 </td>
+              <td style="height: 18px;">/8 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">/8 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;">% </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td class="lian_xi" style="height: 18px;"> 合计 ( 一元＋二元＋三元 )</td>
+              <td style="height: 18px;">/8 </td>
+              <td style="height: 18px;">/8 </td>
+              <td style="height: 18px;">/8 </td>
+              <td style="height: 18px;">/8 </td>
+              <td style="height: 18px;">/20 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">/20 </td>
+              <td style="height: 18px;">% </td>
+              <td style="height: 18px;"> </td>
+              <td style="height: 18px;">% </td>
+            </tr>
+          </tbody>
+        </table>
 
         <h4>表 O　语句启动产出计分表</h4>
 
