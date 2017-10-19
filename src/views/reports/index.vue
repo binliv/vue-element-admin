@@ -6304,6 +6304,14 @@
             </tr>
           </tbody>
         </table>
+
+        <div class="components-container" style='height:100vh'>
+          <div class='chart-container'>
+            <e-chart height='100%' width='100%' :options="dongci_bar_options"></e-chart>
+          </div>
+        </div>
+
+<div>{{series}}</div>
       </el-form>
       <div slot="footer" class="dialog-footer">
         <el-button @click="dialogFormVisible = false">取 消</el-button>
@@ -6321,7 +6329,8 @@
         <el-button type="primary" @click="dialogPvVisible = false">确 定</el-button>
       </span>
     </el-dialog>
-
+<div>{{series}}</div>
+<div>{{mystr}}</div>
   </div>
 </template>
 
@@ -6331,6 +6340,8 @@ import { fetchList, createUser, deleteUser } from '@/api/user'
 import waves from '@/directive/waves/index.js' // 水波纹指令
 import { parseTime } from '@/utils'
 
+import eChart from '@/components/Charts/eChart'
+
 export default {
   name: 'table_user',
   directives: {
@@ -6338,6 +6349,8 @@ export default {
   },
   data() {
     return {
+      series: [1, 2, 3],
+      mystr: 'a',
       list: null,
       total: null,
       listLoading: true,
@@ -6356,7 +6369,10 @@ export default {
         isAdmin: false,
         status: '1'
       },
-      sortOptions: [{ label: '按ID升序列', key: 'id,ASC' }, { label: '按ID降序', key: 'id,DESC' }],
+      sortOptions: [
+        { label: '按ID升序列', key: 'id,ASC' },
+        { label: '按ID降序', key: 'id,DESC' }
+      ],
       statusOptions: ['published', 'draft', 'deleted'],
       dialogFormVisible: false,
       dialogStatus: '',
@@ -6366,11 +6382,45 @@ export default {
       },
       dialogPvVisible: false,
       pvData: [],
-      tableKey: 0
+      tableKey: 0,
+      dongci_bar_options: {
+        title: {
+          text: '动词语句加工能力'
+        },
+        tooltip: {
+          trigger: 'axis',
+          axisPointer: {
+            type: 'shadow'
+          }
+        },
+        grid: {
+          left: '3%',
+          right: '4%',
+          bottom: '3%',
+          containLabel: true
+        },
+        xAxis: {
+          type: 'value',
+          axisLabel: {
+            formatter: '{value} %'
+          },
+          max: 100
+        },
+        yAxis: {
+          type: 'category',
+          data: ['句法结构分析及转换', '词汇插入', '论元结构', '动词理解', '动词产出']
+        },
+        series: [
+          {
+            name: '2012年',
+            type: 'bar',
+            data: [11, 22, 33, 44, 55]
+          }
+        ]
+      }
     }
   },
-  filters: {
-  },
+  filters: {},
   created() {
     this.getList()
   },
@@ -6384,6 +6434,8 @@ export default {
       })
     },
     handleFilter() {
+      this.series[2] = 5
+      this.mystr = 'b'
       this.listQuery.page = 1
       this.getList()
     },
@@ -6429,8 +6481,7 @@ export default {
           type: 'success',
           duration: 2000
         })
-      }
-      )
+      })
       const index = this.list.indexOf(row)
       this.list.splice(index, 1)
     },
@@ -6443,24 +6494,30 @@ export default {
       user.password = this.temp.password
       user.enabled = '1'
       user.role = this.temp.isAdmin ? ['admin'] : ['user']
-      createUser(user).then(response => {
-        // const data = response.data
-        this.$notify({
-          title: '成功',
-          message: '创建成功',
-          type: 'success',
-          duration: 2000
+      createUser(user)
+        .then(response => {
+          // const data = response.data
+          this.$notify({
+            title: '成功',
+            message: '创建成功',
+            type: 'success',
+            duration: 2000
+          })
         })
-      }).catch(error => {
-        this.$notify({
-          title: '失败',
-          message: '创建失败' + error.$message,
-          type: 'fail',
-          duration: 2000
+        .catch(error => {
+          this.$notify({
+            title: '失败',
+            message: '创建失败' + error.$message,
+            type: 'fail',
+            duration: 2000
+          })
         })
-      })
     },
     update() {
+      // this.series[1] = 10
+      this.dongci_bar_options.series[0].data = [2, 4, 8, 33, 88]
+      // this.mystr = 'tttttta'
+      if (this.dongci_bar_options.series[0].data.length === 5) return
       this.temp.timestamp = +this.temp.timestamp
       for (const v of this.list) {
         if (v.id === this.temp.id) {
@@ -6487,27 +6544,30 @@ export default {
       }
     },
     formatJson(filterVal, jsonData) {
-      return jsonData.map(v => filterVal.map(j => {
-        if (j === 'timestamp') {
-          return parseTime(v[j])
-        } else {
-          return v[j]
-        }
-      }))
+      return jsonData.map(v =>
+        filterVal.map(j => {
+          if (j === 'timestamp') {
+            return parseTime(v[j])
+          } else {
+            return v[j]
+          }
+        })
+      )
     }
-  }
+  },
+  components: { eChart }
 }
 </script>
 
 
 <style rel="stylesheet/scss" lang="scss">
-@import "src/styles/mixin.scss";
-$table-header-bg:rgb(141, 179, 225);
-$lian_xi:rgb(197, 217, 240);
-$sheng_diao_bu_tong:rgb(229, 184, 183);
-$sheng_mu_bu_tong:rgb(255, 229, 153);
-$yun_mu_bu_tong:rgb(168, 208, 141);
-$he_ji:rgb(0, 129, 204);
+@import 'src/styles/mixin.scss';
+$table-header-bg: rgb(141, 179, 225);
+$lian_xi: rgb(197, 217, 240);
+$sheng_diao_bu_tong: rgb(229, 184, 183);
+$sheng_mu_bu_tong: rgb(255, 229, 153);
+$yun_mu_bu_tong: rgb(168, 208, 141);
+$he_ji: rgb(0, 129, 204);
 
 .rtable-header {
   background: $table-header-bg;
@@ -6531,5 +6591,11 @@ $he_ji:rgb(0, 129, 204);
 
 .he_ji {
   background: $he_ji;
+}
+
+.chart-container {
+  position: relative;
+  width: 60%;
+  height: 400px;
 }
 </style>
