@@ -5459,13 +5459,851 @@
         </table>
 
         <h4>表 O　语句启动产出计分表</h4>
+        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 10%; height: 18px;">序号</th>
+              <th style="width: 10%; height: 18px;">句型</th>
+              <th style="width: 20%; height: 18px;">启动句</th>
+              <th style="width: 30%; height: 18px;">反应内容</th>
+              <th style="width: 10%; height: 18px;">反应类别</th>
+              <th style="width: 10%; height: 18px;"> 小计</th>
+              <th style="width: 10%; height: 18px;"> 正确率</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="lian_xi">练习1</td>
+              <td class="lian_xi"> </td>
+              <td style="text-align: left;"> 女人撞了男人。</td>
+              <td style="text-align: left;">
+                <em> 男人撞了女人。</em>
+              </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td class="lian_xi">练习2</td>
+              <td class="lian_xi"> </td>
+              <td style="text-align: left;"> 咬小狗的小猫戴着帽子。</td>
+              <td style="text-align: left;">
+                <em> 咬小猫的小狗戴着帽子。</em>
+              </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td class="lian_xi">练习3</td>
+              <td class="lian_xi"> </td>
+              <td style="text-align: left;"> 男人在指挥谁？</td>
+              <td style="text-align: left;">
+                <em> 女人在指挥谁？</em>
+              </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td style="text-align: left;" colspan="7">
+                <em> </em>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td rowspan="4">主动句</td>
+              <td style="text-align: left;"> 小猫在追小狗。</td>
+              <td style="text-align: left;">
+                <em> 小狗在追小猫。</em>
+              </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td style="text-align: left;"> 男人批评了女孩。</td>
+              <td style="text-align: left;">
+                <em> 女人批评了男孩。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td style="text-align: left;"> 男孩推了女孩。</td>
+              <td style="text-align: left;">
+                <em> 女孩推了男孩。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td style="text-align: left;"> 女人在埋葬男人。</td>
+              <td style="text-align: left;">
+                <em> 男人在埋葬女人。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td rowspan="4">把字句</td>
+              <td style="text-align: left;"> 女孩把男孩推倒了。</td>
+              <td style="text-align: left;">
+                <em> 男孩把女孩推倒了。</em>
+              </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td style="text-align: left;"> 男人把女人埋葬了。</td>
+              <td style="text-align: left;">
+                <em> 女人把男人埋葬了。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td style="text-align: left;"> 小狗把小猫追上了。</td>
+              <td style="text-align: left;">
+                <em> 小猫把小狗追上了。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td style="text-align: left;"> 女人把男孩批评了。</td>
+              <td style="text-align: left;">
+                <em> 男人把女孩批评了。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td rowspan="4">被字句</td>
+              <td style="text-align: left;">小狗被小猫追上了。</td>
+              <td style="text-align: left;">
+                <em>小猫被小狗追上了。</em>
+              </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td style="text-align: left;">女孩被男孩推倒了。</td>
+              <td style="text-align: left;">
+                <em>男孩被女孩推倒了。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td style="text-align: left;">男孩被女人批评了。</td>
+              <td style="text-align: left;">
+                <em>女孩被男人批评了。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td style="text-align: left;">男人被女人埋葬了。</td>
+              <td style="text-align: left;">
+                <em>女人被男人埋葬了。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td rowspan="4">主语疑问句</td>
+              <td style="text-align: left;">谁批评了女孩？</td>
+              <td style="text-align: left;">
+                <em>谁批评了男孩？</em>
+              </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td style="text-align: left;">谁推了男孩？</td>
+              <td style="text-align: left;">
+                <em>谁推了女孩？</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td style="text-align: left;">谁在埋葬男人？</td>
+              <td style="text-align: left;">
+                <em>谁在埋葬女人？</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td style="text-align: left;">谁在追小狗？</td>
+              <td style="text-align: left;">
+                <em>谁在追小猫？</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td rowspan="4">宾语疑问句</td>
+              <td style="text-align: left;">男人在埋葬谁？</td>
+              <td style="text-align: left;">
+                <em>女人在埋葬谁？</em>
+              </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td style="text-align: left;">女人批评了谁？</td>
+              <td style="text-align: left;">
+                <em>男人批评了谁？</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td style="text-align: left;">男孩推了谁？</td>
+              <td style="text-align: left;">
+                <em>女孩推了谁？</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td style="text-align: left;">小狗在追谁？</td>
+              <td style="text-align: left;">
+                <em>小猫在追谁？</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td rowspan="4">主语从句</td>
+              <td style="text-align: left;">批评女孩的男人戴着帽子。</td>
+              <td style="text-align: left;">
+                <em>批评男孩的女人戴着帽子。</em>
+              </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td style="text-align: left;">推男孩的女孩戴着帽子。</td>
+              <td style="text-align: left;">
+                <em>推女孩的男孩戴着帽子。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td style="text-align: left;">追小狗的小猫戴着帽子。</td>
+              <td style="text-align: left;">
+                <em>追小猫的小狗戴着帽子。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td style="text-align: left;">埋葬男人的女人戴着帽子。</td>
+              <td style="text-align: left;">
+                <em>埋葬女人的男人戴着帽子。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td rowspan="4">宾语从句</td>
+              <td style="text-align: left;">小猫追的小狗戴着帽子。</td>
+              <td style="text-align: left;">
+                <em>小狗追的小猫戴着帽子。</em>
+              </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td style="text-align: left;">女人批评的男孩戴着帽子。</td>
+              <td style="text-align: left;">
+                <em>男人批评的女孩戴着帽子。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>27</td>
+              <td style="text-align: left;">男人埋葬的女人戴着帽子。</td>
+              <td style="text-align: left;">
+                <em>女人埋葬的男人戴着帽子。</em>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>28</td>
+              <td style="text-align: left;">男孩推的女孩戴着帽子。</td>
+              <td style="text-align: left;">
+                <em>女孩推的男孩戴着帽子。</em>
+              </td>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
 
         <h4>表 P　语句理解计分表</h4>
+        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 10%; height: 18px;">序号</th>
+              <th style="width: 10%; height: 18px;">句型</th>
+              <th style="width: 30%; height: 18px;">测试句</th>
+              <th style="width: 10%; height: 18px;">正确答案</th>
+              <th style="width: 10%; height: 18px;">被试反应</th>
+              <th style="width: 10%; height: 18px;">反应类别</th>
+              <th style="width: 10%; height: 18px;"> 小计</th>
+              <th style="width: 10%; height: 18px;"> 正确率</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="lian_xi">练习1</td>
+              <td class="lian_xi"> </td>
+              <td>女人撞了男人。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td class="lian_xi">练习2</td>
+              <td class="lian_xi"> </td>
+              <td>咬小猫的小狗戴着帽子。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td class="lian_xi">练习3</td>
+              <td class="lian_xi"> </td>
+              <td>男人在指挥谁？</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr style="height: 18px;">
+              <td colspan="8"> </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td rowspan="4">主动句</td>
+              <td>小猫在追小狗。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>男人批评了女孩。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>女孩推了男孩。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>男人在埋葬女人。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td rowspan="4">把字句</td>
+              <td>女孩把男孩推倒了。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>女人把男人埋葬了。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>小狗把小猫追上了。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>男人把女孩批评了。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td rowspan="4">被字句</td>
+              <td>小猫被小狗追上了。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>女孩被男孩推倒了。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>男孩被女人批评了。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>女人被男人埋葬了。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td rowspan="4">主语疑问句</td>
+              <td>谁批评了男孩？</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>谁推了男孩？</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>谁在埋葬女人？</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>谁在追小狗？</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td rowspan="4">宾语疑问句</td>
+              <td>男人在埋葬谁？</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>男人批评了谁？</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>女孩推了谁？</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>小狗在追谁？</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td rowspan="4">主语从句</td>
+              <td>批评男孩的女人戴着帽子。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td>推女孩的男孩戴着帽子。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td>追小狗的小猫戴着帽子。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td>埋葬男人的女人戴着帽子。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td rowspan="4">宾语从句</td>
+              <td>小狗追的小猫戴着帽子。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+              <td rowspan="4">/4</td>
+              <td rowspan="4">%</td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td>女人批评的男孩戴着帽子。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>27</td>
+              <td>男人埋葬的女人戴着帽子。</td>
+              <td>1</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>28</td>
+              <td>女孩推的男孩戴着帽子。</td>
+              <td>2</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
 
         <h4>表 V　《动词语句分量表》计分汇总表</h4>
+        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 30%;" colspan="3">动词语句加工能力</th>
+              <th style="width: 20%;" colspan="2">动词加工能力</th>
+              <th style="width: 50%;" colspan="3">语法加工能力</th>
+            </tr>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 20%;" colspan="2"> 测验名称</th>
+              <th style="width: 12%;">计分项目 </th>
+              <th style="width: 10%;">动词产出</th>
+              <th style="width: 10%;">动词理解</th>
+              <th style="width: 16%;">论元结构</th>
+              <th style="width: 12%;">词汇插入</th>
+              <th style="width: 20%;">句法结构分析及转换</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2" rowspan="3">动词命名</td>
+              <td>一元动词正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>二元动词正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>三元动词正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="2" rowspan="3">动词理解</td>
+              <td>一元动词正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>二元动词正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>三元动词正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td colspan="2" rowspan="6">论元结构产出</td>
+              <td>一元动词论元正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>二元动词论元正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>三元动词论元正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>一元动词论元正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>二元动词论元正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>三元动词论元正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td rowspan="7">语句产出启动</td>
+              <td rowspan="3">典型语序</td>
+              <td>主动句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>主语疑问句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>宾语从句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td rowspan="4">非典型语序</td>
+              <td>把字句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>被字句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>宾语疑问句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>主语从句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td rowspan="7">语句理解</td>
+              <td rowspan="3">典型语序</td>
+              <td>主动句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>主语疑问句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>宾语从句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td rowspan="4">非典型语序</td>
+              <td>把字句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>被字句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>宾语疑问句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>主语从句正确率</td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+          </tbody>
+        </table>
 
         <h4>表 W　动词语句加工能力评估表</h4>
-
+        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+          <thead>
+            <tr class="rtable-header" style="height: 18px;">
+              <th style="width: 13%;" colspan="2"> 动词语句加工能力 </th>
+              <th style="width: 10%;"> 正确率</th>
+              <th style="width: 54%;"> </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 13%;" rowspan="2">动词   </td>
+              <td style="width: 10%;">动词产出</td>
+              <td style="width: 10%;">%</td>
+              <td style="width: 54%;"> </td>
+            </tr>
+            <tr>
+              <td style="width: 10%;">动词理解</td>
+              <td style="width: 10%;">%</td>
+              <td style="width: 54%;"> </td>
+            </tr>
+            <tr>
+              <td style="width: 13%;" rowspan="3">语法加工能力   </td>
+              <td style="width: 10%;">论元结构</td>
+              <td style="width: 10%;">%</td>
+              <td style="width: 54%;"> </td>
+            </tr>
+            <tr>
+              <td style="width: 10%;">词汇插入</td>
+              <td style="width: 10%;">%</td>
+              <td style="width: 54%;"> </td>
+            </tr>
+            <tr>
+              <td style="width: 10%;">句法结构分析及转换</td>
+              <td style="width: 10%;">%</td>
+              <td style="width: 54%;"> </td>
+            </tr>
+          </tbody>
+        </table>
       </el-form>
       <div slot="footer" class="dialog-footer">
         <el-button @click="dialogFormVisible = false">取 消</el-button>
