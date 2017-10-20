@@ -10,7 +10,6 @@
       </el-select>
 
       <el-button class="filter-item" type="primary" v-waves icon="search" @click="handleFilter">搜索</el-button>
-      <el-button class="filter-item" style="margin-left: 10px;" @click="handleCreate" type="primary" icon="edit">添加</el-button>
     </div>
 
     <el-table :key='tableKey' :data="list" v-loading="listLoading" element-loading-text="给我一点时间" border fit highlight-current-row style="width: 100%">
@@ -21,36 +20,27 @@
         </template>
       </el-table-column>
 
-      <el-table-column width="180px" align="center" label="用户名">
+      <el-table-column width="180px" align="center" label="被测人">
         <template scope="scope">
-          <span>{{scope.row.name}}</span>
+          <el-button size="small" @click="showReport(scope.row)">{{scope.row.testee}}</el-button>
         </template>
       </el-table-column>
 
-      <el-table-column min-width="300px" label="邮件">
+      <el-table-column min-width="300px" label="测试人">
         <template scope="scope">
-          <el-button size="small" @click="handleUpdate(scope.row)">{{scope.row.email}}</el-button>
+          <span>{{scope.row.tester}}</span>
         </template>
       </el-table-column>
 
-      <el-table-column width="110px" align="center" label="角色">
+      <el-table-column width="110px" align="center" label="日期">
         <template scope="scope">
-          <span>{{scope.row.role}}</span>
+          <span>{{scope.row.time}}</span>
         </template>
       </el-table-column>
 
-      <el-table-column width="110px" align="center" label="状态">
+      <el-table-column width="110px" align="center" label="查看">
         <template scope="scope">
-          <span>{{scope.row.enabled==1?"启用":"停用"}}</span>
-        </template>
-      </el-table-column>
-
-      <el-table-column align="center" label="操作" width="150">
-        <template scope="scope">
-          <el-button v-if="false" size="small" @click="handleUpdate(scope.row)">修改
-          </el-button>
-          <el-button v-if="scope.row.status!='deleted'" size="small" type="danger" @click="handleDelete(scope.row)">删除
-          </el-button>
+          <el-button size="small" @click="showReport(scope.row)">{{scope.row.testee}}</el-button>
         </template>
       </el-table-column>
 
@@ -82,7 +72,7 @@
             </tr>
             <tr style="height: 28px;">
               <td style="text-align: center;  ">姓名</td>
-              <td style="text-align: center;  " colspan="4">&nbsp;</td>
+              <td style="text-align: center;  " colspan="4">{{temp.report.bingli.name}}</td>
               <td style="text-align: center;  ">性别</td>
               <td style="text-align: center;  ">男</td>
               <td style="text-align: center;  ">利手</td>
@@ -6295,7 +6285,6 @@
             <e-chart id="chart2" height='200px' width='100%' :options="dongci_bar_options"></e-chart>
         </div>
 
-<div>{{series}}</div>
       </el-form>
       <div slot="footer" class="dialog-footer">
         <el-button @click="dialogFormVisible = false">取 消</el-button>
@@ -6319,7 +6308,7 @@
 </template>
 
 <script>
-import { fetchList, createUser, deleteUser } from '@/api/user'
+import { fetchList } from '@/api/report'
 
 import waves from '@/directive/waves/index.js' // 水波纹指令
 import { parseTime } from '@/utils'
@@ -6348,10 +6337,7 @@ export default {
       },
       temp: {
         id: undefined,
-        name: '',
-        email: '',
-        isAdmin: false,
-        status: '1'
+        report: { bingli: {}}
       },
       sortOptions: [
         { label: '按ID升序列', key: 'id,ASC' },
@@ -6461,8 +6447,15 @@ export default {
     getList() {
       this.listLoading = true
       fetchList(this.listQuery).then(response => {
-        this.list = response.data.items
-        this.total = response.data.total
+        var reportList = []
+        response.data.content.forEach(function(element) {
+          var report = element
+          report.report = JSON.parse(report.report)
+          reportList.push(report)
+        }, this)
+        this.list = reportList
+        // this.list = response.data.content
+        this.total = response.data.totalElements
         this.listLoading = false
       })
     },
@@ -6496,55 +6489,11 @@ export default {
       })
       row.status = status
     },
-    handleCreate() {
-      this.resetTemp()
-      this.dialogStatus = 'create'
-      this.dialogFormVisible = true
-    },
-    handleUpdate(row) {
+    showReport(row) {
       this.temp = Object.assign({}, row)
-      this.dialogStatus = 'update'
+      // this.temp.report = JSON.parse(this.temp.report)
+      // TODO get/set report detail
       this.dialogFormVisible = true
-    },
-    handleDelete(row) {
-      deleteUser(row.id).then(response => {
-        this.$notify({
-          title: '成功',
-          message: '删除成功',
-          type: 'success',
-          duration: 2000
-        })
-      })
-      const index = this.list.indexOf(row)
-      this.list.splice(index, 1)
-    },
-    handleCreateUser() {
-      this.temp.id = undefined
-      this.dialogFormVisible = false
-      var user = {}
-      user.name = this.temp.name
-      user.email = this.temp.email
-      user.password = this.temp.password
-      user.enabled = '1'
-      user.role = this.temp.isAdmin ? ['admin'] : ['user']
-      createUser(user)
-        .then(response => {
-          // const data = response.data
-          this.$notify({
-            title: '成功',
-            message: '创建成功',
-            type: 'success',
-            duration: 2000
-          })
-        })
-        .catch(error => {
-          this.$notify({
-            title: '失败',
-            message: '创建失败' + error.$message,
-            type: 'fail',
-            duration: 2000
-          })
-        })
     },
     update() {
       // this.series[1] = 10
