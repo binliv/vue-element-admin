@@ -4242,100 +4242,91 @@
         </table>
 
         <h4>表 Z　语言认知能力评估表</h4>
-        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+        <div style="width: 40%; display: inline-block; margin-bottom: 35px;">
+          <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
-            <tr class="rtable-header" style="height: 18px;">
-              <th style="width: 13%;"> 语言加工能力</th>
-              <th style="width: 10%;"> </th>
-              <th style="width: 10%;"> 原始得分</th>
-              <th style="width: 10%;"> 正确率</th>
-              <th style="width: 54%;"> </th>
-            </tr>
+          <tr class="rtable-header" style="height: 18px;">
+          <th style="width: 13%;"> 语言加工能力</th>
+          <th style="width: 10%;"> </th>
+          <th style="width: 10%;"> 原始得分</th>
+          <th style="width: 10%;"> 正确率</th>
+          </tr>
           </thead>
           <tbody>
-            <tr>
-              <td style="width: 13%;" rowspan="3">语音分析能力   </td>
-              <td style="width: 10%;"> 语音解码</td>
-              <td style="width: 10%;"> /46</td>
-              <td style="width: 10%;">% </td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;"> 声调解码</td>
-              <td style="width: 10%;"> /26</td>
-              <td style="width: 10%;"> %</td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;">听觉输入到语音输出 </td>
-              <td style="width: 10%;">/40 </td>
-              <td style="width: 10%;">% </td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 13%;" rowspan="3">词汇加工能力   </td>
-              <td style="width: 10%;">听觉词汇理解 </td>
-              <td style="width: 10%;">/70 </td>
-              <td style="width: 10%;"> %</td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;"> 语音词汇产出</td>
-              <td style="width: 10%;">/74</td>
-              <td style="width: 10%;">% </td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;">低频词提取 </td>
-              <td style="width: 10%;">/15 </td>
-              <td style="width: 10%;">% </td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 13%;" rowspan="5">语义加工能力  </td>
-              <td style="width: 10%;">名词范畴分类</td>
-              <td style="width: 10%;">/78</td>
-              <td style="width: 10%;">%</td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;">名词生命度</td>
-              <td style="width: 10%;">/52</td>
-              <td style="width: 10%;">%</td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;">名词动词范畴分离</td>
-              <td style="width: 10%;" colspan="2">/26： /31</td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;">语义关联 </td>
-              <td style="width: 10%;">/ 16</td>
-              <td style="width: 10%;">% </td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;">动词论元结构 </td>
-              <td style="width: 10%;">/16 </td>
-              <td style="width: 10%;">% </td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 13%;" rowspan="2">认知能力 </td>
-              <td style="width: 10%;">视觉感知物体能力 </td>
-              <td style="width: 10%;"> </td>
-              <td style="width: 10%;">% </td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;">听觉短时记忆</td>
-              <td style="width: 10%;">/24</td>
-              <td style="width: 10%;">%</td>
-              <td style="width: 54%;"> </td>
-            </tr>
+          <tr>
+          <td rowspan="3">语音分析能力   </td>
+          <td> 语音解码</td>
+          <td> /46</td>
+          <td>% </td>
+          </tr>
+          <tr>
+          <td> 声调解码</td>
+          <td> /26</td>
+          <td> %</td>
+          </tr>
+          <tr>
+          <td>听觉输入到语音输出 </td>
+          <td>/40 </td>
+          <td>% </td>
+          </tr>
+          <tr>
+          <td rowspan="3">词汇加工能力   </td>
+          <td>听觉词汇理解 </td>
+          <td>/70 </td>
+          <td> %</td>
+          </tr>
+          <tr>
+          <td> 语音词汇产出</td>
+          <td>/74</td>
+          <td>% </td>
+          </tr>
+          <tr>
+          <td>低频词提取 </td>
+          <td>/15 </td>
+          <td>% </td>
+          </tr>
+          <tr>
+          <td rowspan="5">语义加工能力  </td>
+          <td>名词范畴分类</td>
+          <td>/78</td>
+          <td>%</td>
+          </tr>
+          <tr>
+          <td>名词生命度</td>
+          <td>/52</td>
+          <td>%</td>
+          </tr>
+          <tr>
+          <td>名词动词范畴分离</td>
+          <td colspan="2">/26： /31</td>
+          </tr>
+          <tr>
+          <td>语义关联 </td>
+          <td>/ 16</td>
+          <td>% </td>
+          </tr>
+          <tr>
+          <td>动词论元结构 </td>
+          <td>/16 </td>
+          <td>% </td>
+          </tr>
+          <tr>
+          <td rowspan="2">认知能力 </td>
+          <td>视觉感知物体能力 </td>
+          <td> </td>
+          <td>% </td>
+          </tr>
+          <tr>
+          <td>听觉短时记忆</td>
+          <td>/24</td>
+          <td>%</td>
+          </tr>
           </tbody>
-        </table>
+          </table>
+        </div>
+        <div style='width: 50%; height:300px; display: inline-block;'>
+            <e-chart height='400px' width='100%' :options="renzhi_bar_options"></e-chart>
+        </div>
 
         <h4>表 K　动词命名评分表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
@@ -6266,49 +6257,42 @@
         </table>
 
         <h4>表 W　动词语句加工能力评估表</h4>
-        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
-          <thead>
-            <tr class="rtable-header" style="height: 18px;">
-              <th style="width: 13%;" colspan="2"> 动词语句加工能力 </th>
-              <th style="width: 10%;"> 正确率</th>
-              <th style="width: 54%;"> </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style="width: 13%;" rowspan="2">动词   </td>
-              <td style="width: 10%;">动词产出</td>
-              <td style="width: 10%;">%</td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;">动词理解</td>
-              <td style="width: 10%;">%</td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 13%;" rowspan="3">语法加工能力   </td>
-              <td style="width: 10%;">论元结构</td>
-              <td style="width: 10%;">%</td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;">词汇插入</td>
-              <td style="width: 10%;">%</td>
-              <td style="width: 54%;"> </td>
-            </tr>
-            <tr>
-              <td style="width: 10%;">句法结构分析及转换</td>
-              <td style="width: 10%;">%</td>
-              <td style="width: 54%;"> </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <div class="components-container" style='height:100vh'>
-          <div class='chart-container'>
-            <e-chart height='100%' width='100%' :options="dongci_bar_options"></e-chart>
-          </div>
+        <div style="width: 40%; display: inline-block; margin-bottom: 20px;">
+          <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+            <thead>
+              <tr class="rtable-header" style="height: 18px;">
+                <th style="width: 13%;" colspan="2"> 动词语句加工能力 </th>
+                <th style="width: 10%;"> 正确率</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="width: 13%;" rowspan="2">动词   </td>
+                <td style="width: 10%;">动词产出</td>
+                <td style="width: 10%;">%</td>
+              </tr>
+              <tr>
+                <td style="width: 10%;">动词理解</td>
+                <td style="width: 10%;">%</td>
+              </tr>
+              <tr>
+                <td style="width: 13%;" rowspan="3">语法加工能力   </td>
+                <td style="width: 10%;">论元结构</td>
+                <td style="width: 10%;">%</td>
+              </tr>
+              <tr>
+                <td style="width: 10%;">词汇插入</td>
+                <td style="width: 10%;">%</td>
+              </tr>
+              <tr>
+                <td style="width: 10%;">句法结构分析及转换</td>
+                <td style="width: 10%;">%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div style='width: 50%; height:300px; display: inline-block;'>
+            <e-chart id="chart2" height='200px' width='100%' :options="dongci_bar_options"></e-chart>
         </div>
 
 <div>{{series}}</div>
@@ -6385,7 +6369,7 @@ export default {
       tableKey: 0,
       dongci_bar_options: {
         title: {
-          text: '动词语句加工能力'
+          text: ''
         },
         tooltip: {
           trigger: 'axis',
@@ -6412,9 +6396,58 @@ export default {
         },
         series: [
           {
-            name: '2012年',
+            name: '',
             type: 'bar',
             data: [11, 22, 33, 44, 55]
+          }
+        ]
+      },
+      renzhi_bar_options: {
+        title: {
+          text: ''
+        },
+        tooltip: {
+          trigger: 'axis',
+          axisPointer: {
+            type: 'shadow'
+          }
+        },
+        grid: {
+          left: '3%',
+          right: '4%',
+          bottom: '3%',
+          containLabel: true
+        },
+        xAxis: {
+          type: 'value',
+          axisLabel: {
+            formatter: '{value} %'
+          },
+          max: 100
+        },
+        yAxis: {
+          type: 'category',
+          data: [
+            '听觉短时记忆',
+            '视觉感知物体能力',
+            '动词论元结构',
+            '语义关联',
+            '名词动词范畴分离',
+            '名词生命度',
+            '名词范畴分类',
+            '低频词提取',
+            '语音词汇产出',
+            '听觉词汇理解',
+            '听觉输入到语音输出',
+            '声调解码',
+            '语音解码'
+          ]
+        },
+        series: [
+          {
+            name: '',
+            type: 'bar',
+            data: [11, 22, 33, 44, 55, 66, 77, 88, 99, 10, 11, 12, 13]
           }
         ]
       }
@@ -6596,6 +6629,5 @@ $he_ji: rgb(0, 129, 204);
 .chart-container {
   position: relative;
   width: 60%;
-  height: 400px;
 }
 </style>
