@@ -1,7 +1,7 @@
 <template>
   <div class="app-container calendar-list-container">
     <div class="filter-container">
-      <el-input @keyup.enter.native="handleFilter" style="width: 200px;" class="filter-item" placeholder="用户名" v-model="listQuery.name">
+      <el-input @keyup.enter.native="handleFilter" style="width: 200px;" class="filter-item" placeholder="被测人" v-model="listQuery.testee">
       </el-input>
 
       <el-select @change='handleFilter' style="width: 120px" class="filter-item" v-model="listQuery.sort" placeholder="排序">
@@ -26,21 +26,21 @@
         </template>
       </el-table-column>
 
-      <el-table-column min-width="300px" label="测试人">
+      <el-table-column width="180px" label="测试人">
         <template scope="scope">
           <span>{{scope.row.tester}}</span>
         </template>
       </el-table-column>
 
-      <el-table-column width="110px" align="center" label="日期">
+      <el-table-column min-width="200px" align="center" label="日期">
         <template scope="scope">
-          <span>{{scope.row.time}}</span>
+          <span>{{new Date(scope.row.miliTime)}}</span>
         </template>
       </el-table-column>
 
-      <el-table-column width="110px" align="center" label="查看">
+      <el-table-column width="110px" align="center" label="操作">
         <template scope="scope">
-          <el-button size="small" @click="showReport(scope.row)">{{scope.row.testee}}</el-button>
+          <el-button size="small" @click="showReport(scope.row)">查看</el-button>
         </template>
       </el-table-column>
 
@@ -6302,8 +6302,6 @@
         <el-button type="primary" @click="dialogPvVisible = false">确 定</el-button>
       </span>
     </el-dialog>
-<div>{{series}}</div>
-<div>{{mystr}}</div>
   </div>
 </template>
 
@@ -6323,7 +6321,6 @@ export default {
   data() {
     return {
       series: [1, 2, 3],
-      mystr: 'a',
       list: null,
       total: null,
       listLoading: true,
@@ -6454,14 +6451,12 @@ export default {
           reportList.push(report)
         }, this)
         this.list = reportList
-        // this.list = response.data.content
         this.total = response.data.totalElements
         this.listLoading = false
       })
     },
     handleFilter() {
       this.series[2] = 5
-      this.mystr = 'b'
       this.listQuery.page = 1
       this.getList()
     },
@@ -6498,7 +6493,6 @@ export default {
     update() {
       // this.series[1] = 10
       this.dongci_bar_options.series[0].data = [2, 4, 8, 33, 88]
-      // this.mystr = 'tttttta'
       if (this.dongci_bar_options.series[0].data.length === 5) return
       this.temp.timestamp = +this.temp.timestamp
       for (const v of this.list) {
