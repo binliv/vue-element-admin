@@ -20,21 +20,13 @@ export const constantRouterMap = [
     { path: '/authredirect', component: _import('login/authredirect'), hidden: true },
     { path: '/404', component: _import('errorPage/404'), hidden: true },
     { path: '/401', component: _import('errorPage/401'), hidden: true },
-  // {
-  //   path: '/',
-  //   component: Layout,
-  //   redirect: '/dashboard',
-  //   name: '首页',
-  //   hidden: true,
-  //   children: [{ path: 'dashboard', component: _import('dashboard/index') }]
-  // },
   {
-    path: '',
+    path: '/',
     component: Layout,
-    redirect: '/user/index',
-    icon: 'people',
-    noDropdown: true,
-    children: [{ path: 'user/index', component: _import('user/index'), name: '用户' }]
+    redirect: '/report/list',
+    name: '首页',
+    hidden: true
+    // children: [{ path: 'dashboard', component: _import('dashboard/index') }]
   }
 ]
 
@@ -46,7 +38,7 @@ export default new Router({
 
 export const asyncRouterMap = [
   {
-    path: '/reports',
+    path: '/report',
     component: Layout,
     redirect: '/reports/list',
     icon: 'excel',
@@ -56,6 +48,15 @@ export const asyncRouterMap = [
     ]
   },
   {
+    path: '/user',
+    component: Layout,
+    redirect: '/user/index',
+    icon: 'people',
+    meta: { role: ['admin'] },
+    noDropdown: true,
+    children: [{ path: 'user/index', component: _import('user/index'), name: '用户', meta: { role: ['admin'] }}]
+  },
+  {
     path: '/permission',
     component: Layout,
     redirect: '/permission/index',
@@ -63,8 +64,8 @@ export const asyncRouterMap = [
     icon: 'lock',
     meta: { role: ['admin'] },
     noDropdown: true,
-    children: [{ path: 'index', component: _import('permission/index'), name: '权限测试页', meta: { role: ['admin'] }}],
-    hidden: true
+    children: [{ path: 'index', component: _import('permission/index'), name: '权限测试页', meta: { role: ['admin'] }}]
+    // hidden: true
   },
 
   { path: '*', redirect: '/404', hidden: true }
