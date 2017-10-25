@@ -34,7 +34,7 @@
 
       <el-table-column min-width="200px" align="center" label="日期">
         <template scope="scope">
-          <span>{{new Date(scope.row.miliTime)}}</span>
+          <span>{{new Date(scope.row.miliTime)| parseTime('{y}-{m}-{d} {h}:{i}')}}</span>
         </template>
       </el-table-column>
 
@@ -6293,15 +6293,6 @@
       </div>
     </el-dialog>
 
-    <el-dialog title="阅读数统计" :visible.sync="dialogPvVisible" size="small">
-      <el-table :data="pvData" border fit highlight-current-row style="width: 100%">
-        <el-table-column prop="key" label="渠道"> </el-table-column>
-        <el-table-column prop="pv" label="pv"> </el-table-column>
-      </el-table>
-      <span slot="footer" class="dialog-footer">
-        <el-button type="primary" @click="dialogPvVisible = false">确 定</el-button>
-      </span>
-    </el-dialog>
   </div>
 </template>
 
@@ -6309,7 +6300,7 @@
 import { fetchList } from '@/api/report'
 
 import waves from '@/directive/waves/index.js' // 水波纹指令
-import { parseTime } from '@/utils'
+// import { parseTime } from '@/utils'
 
 import eChart from '@/components/Charts/eChart'
 
@@ -6347,8 +6338,6 @@ export default {
         update: '编辑',
         create: '创建'
       },
-      dialogPvVisible: false,
-      pvData: [],
       tableKey: 0,
       dongci_bar_options: {
         title: {
@@ -6518,17 +6507,6 @@ export default {
         isAdmin: false,
         status: '1'
       }
-    },
-    formatJson(filterVal, jsonData) {
-      return jsonData.map(v =>
-        filterVal.map(j => {
-          if (j === 'timestamp') {
-            return parseTime(v[j])
-          } else {
-            return v[j]
-          }
-        })
-      )
     }
   },
   components: { eChart }

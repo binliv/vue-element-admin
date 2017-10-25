@@ -64,8 +64,8 @@ export const asyncRouterMap = [
     icon: 'lock',
     meta: { role: ['admin'] },
     noDropdown: true,
-    children: [{ path: 'index', component: _import('permission/index'), name: '权限测试页', meta: { role: ['admin'] }}]
-    // hidden: true
+    children: [{ path: 'index', component: _import('permission/index'), name: '权限测试页', meta: { role: ['admin'] }}],
+    hidden: true
   },
 
   { path: '*', redirect: '/404', hidden: true }
