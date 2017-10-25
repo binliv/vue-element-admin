@@ -63,18 +63,22 @@
     </div>
 
     <el-dialog :title="textMap[dialogStatus]" :visible.sync="dialogFormVisible">
-      <el-form class="small-space" :model="temp" label-position="left" label-width="70px" style='width: 400px; margin-left:50px;'>
+      <el-form class="small-space" :model="temp" :rules="newUserRules" ref="temp"  label-position="left" label-width="80px" style='width: 400px; margin-left:50px;'>
 
-        <el-form-item label="用户名">
-          <el-input v-model="temp.name"></el-input>
+        <el-form-item label="用户名" prop="name">
+          <el-input name="name" v-model="temp.name"></el-input>
         </el-form-item>
 
-        <el-form-item label="电子邮件">
+        <el-form-item label="电子邮件" prop="email">
           <el-input v-model="temp.email"></el-input>
         </el-form-item>
 
-        <el-form-item label="密码">
-          <el-input type="password" v-model="temp.password"></el-input>
+        <el-form-item label="密码" prop="password">
+          <el-input name="password" type="password" v-model="temp.password"></el-input>
+        </el-form-item>
+
+        <el-form-item label="重复密码"prop="password2">
+          <el-input type="password" v-model="temp.password2"></el-input>
         </el-form-item>
 
         <el-form-item label="管理员">
@@ -104,6 +108,7 @@
 
 <script>
 import { fetchList, createUser, deleteUser } from '@/api/user'
+import { isvalidUsername } from '@/utils/validate'
 
 import waves from '@/directive/waves/index.js' // 水波纹指令
 import { parseTime } from '@/utils'
@@ -114,6 +119,31 @@ export default {
     waves
   },
   data() {
+    const validateUsername = (rule, value, callback) => {
+      if (!isvalidUsername(value)) {
+        callback(new Error('请输入正确的用户名'))
+      } else {
+        callback()
+      }
+    }
+    const validatePassword = (rule, value, callback) => {
+      if (!value || value.length < 5) {
+        callback(new Error('密码不能小于5位'))
+      } else {
+        callback()
+      }
+    }
+    const validatePassword2 = (rule, value, callback) => {
+      if (!value || value.length < 5) {
+        callback(new Error('密码不能小于5位'))
+      } else {
+        if (this.temp.password !== value) {
+          callback(new Error('两次密码输入不一致。'))
+        }
+        callback()
+      }
+    }
+
     return {
       list: null,
       total: null,
@@ -133,7 +163,21 @@ export default {
         isAdmin: false,
         status: '1'
       },
-      sortOptions: [{ label: '按ID升序列', key: 'id,ASC' }, { label: '按ID降序', key: 'id,DESC' }],
+      newUserRules: {
+        name: [
+          { required: true, trigger: 'blur', validator: validateUsername }
+        ],
+        password: [
+          { required: true, trigger: 'blur', validator: validatePassword }
+        ],
+        password2: [
+          { required: true, trigger: 'blur', validator: validatePassword2 }
+        ]
+      },
+      sortOptions: [
+        { label: '按ID升序列', key: 'id,ASC' },
+        { label: '按ID降序', key: 'id,DESC' }
+      ],
       statusOptions: ['published', 'draft', 'deleted'],
       dialogFormVisible: false,
       dialogStatus: '',
@@ -146,8 +190,7 @@ export default {
       tableKey: 0
     }
   },
-  filters: {
-  },
+  filters: {},
   created() {
     this.getList()
   },
@@ -206,35 +249,43 @@ export default {
           type: 'success',
           duration: 2000
         })
-      }
-      )
+      })
       const index = this.list.indexOf(row)
       this.list.splice(index, 1)
     },
     handleCreateUser() {
-      this.temp.id = undefined
-      this.dialogFormVisible = false
-      var user = {}
-      user.name = this.temp.name
-      user.email = this.temp.email
-      user.password = this.temp.password
-      user.enabled = '1'
-      user.role = this.temp.isAdmin ? ['admin'] : ['user']
-      createUser(user).then(response => {
-        // const data = response.data
-        this.$notify({
-          title: '成功',
-          message: '创建成功',
-          type: 'success',
-          duration: 2000
-        })
-      }).catch(error => {
-        this.$notify({
-          title: '失败',
-          message: '创建失败' + error.$message,
-          type: 'fail',
-          duration: 2000
-        })
+      this.$refs['temp'].validate(valid => {
+        if (valid) {
+          this.temp.id = undefined
+          this.dialogFormVisible = false
+          var user = {}
+          user.name = this.temp.name
+          user.email = this.temp.email
+          user.password = this.temp.password
+          user.enabled = '1'
+          user.role = this.temp.isAdmin ? ['admin'] : ['user']
+          createUser(user)
+            .then(response => {
+              // const data = response.data
+              this.$notify({
+                title: '成功',
+                message: '创建成功',
+                type: 'success',
+                duration: 2000
+              })
+            })
+            .catch(error => {
+              this.$notify({
+                title: '失败',
+                message: '创建失败' + error.$message,
+                type: 'fail',
+                duration: 2000
+              })
+            })
+        } else {
+          console.log('error submit!!')
+          return false
+        }
       })
     },
     update() {
@@ -264,13 +315,15 @@ export default {
       }
     },
     formatJson(filterVal, jsonData) {
-      return jsonData.map(v => filterVal.map(j => {
-        if (j === 'timestamp') {
-          return parseTime(v[j])
-        } else {
-          return v[j]
-        }
-      }))
+      return jsonData.map(v =>
+        filterVal.map(j => {
+          if (j === 'timestamp') {
+            return parseTime(v[j])
+          } else {
+            return v[j]
+          }
+        })
+      )
     }
   }
 }
