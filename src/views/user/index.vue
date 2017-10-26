@@ -35,7 +35,7 @@
 
       <el-table-column width="110px" align="center" label="角色">
         <template scope="scope">
-          <span>{{scope.row.role}}</span>
+          <span>{{scope.row.role | array2String}}</span>
         </template>
       </el-table-column>
 

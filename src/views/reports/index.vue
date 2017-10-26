@@ -134,7 +134,7 @@
       </tr>
       <tr style="height: 24px;">
       <td style="text-align: center; height: 42px;" rowspan="3">&nbsp;并发症</td>
-      <td style="text-align: center; height: 24px;" colspan="2">癫痫&nbsp;</td>
+      <td style="text-align: center; height: 24px;" colspan="2"><el-checkbox v-model="temp.report.bingli.bingfazheng"></el-checkbox>癫痫&nbsp;</td>
       <td style="text-align: center; height: 24px;" colspan="2">颅脑损伤&nbsp;</td>
       <td style="text-align: center; height: 24px;" colspan="2">&nbsp;心脏病&nbsp;</td>
       <td style="text-align: center; height: 24px;" colspan="2">&nbsp;高血压&nbsp;</td>
