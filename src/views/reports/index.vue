@@ -54,170 +54,174 @@
     <el-dialog top="5%" title="测试报告" :visible.sync="dialogFormVisible" size="large" style="top: 0px;">
       <el-form class="small-space" :model="temp" label-position="left" label-width="70px" style='width: 90%; margin-left:50px;color: black;'>
 
-        <table style="width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
-          <tbody>
-            <tr style="font-size: 20px; height: 28px; border: none;height: 38px;">
-              <td style="text-align: center; width: 8.3333%;  border: none;">&nbsp;</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">&nbsp;</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">&nbsp;</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">&nbsp;</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">&nbsp;</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">病</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">例</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">&nbsp;</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">&nbsp;</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">&nbsp;</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">&nbsp;</td>
-              <td style="text-align: center; width: 8.3333%;  border: none;">&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center;  ">姓名</td>
-              <td style="text-align: center;  " colspan="4">{{temp.report.bingli.name}}</td>
-              <td style="text-align: center;  ">性别</td>
-              <td style="text-align: center;  ">男</td>
-              <td style="text-align: center;  ">利手</td>
-              <td style="text-align: center;  " colspan="4">&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; ">民族</td>
-              <td style="text-align: center; " colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-              <td style="text-align: center; ">&nbsp;日常口语</td>
-              <td style="text-align: center; " colspan="2">&nbsp;&nbsp;</td>
-              <td style="text-align: center; " colspan="2">&nbsp;&nbsp;母语方言</td>
-              <td style="text-align: center; " colspan="2">&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; " colspan="2">&nbsp;施测时间&nbsp;</td>
-              <td style="text-align: center; " colspan="4">年&nbsp; &nbsp;月&nbsp; &nbsp;日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-              <td style="text-align: center; " colspan="2">出生日期&nbsp;&nbsp;</td>
-              <td style="text-align: center; " colspan="4">年 月 日&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; ">&nbsp;教育程度</td>
-              <td style="text-align: center; " colspan="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-              <td style="text-align: center; " colspan="2">当前/此前职业&nbsp;&nbsp;</td>
-              <td style="text-align: center; " colspan="3">&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; " colspan="3">&nbsp;是否熟练使用普通话&nbsp;&nbsp;</td>
-              <td style="text-align: center; " colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-              <td style="text-align: center; ">婚姻状况&nbsp;</td>
-              <td style="text-align: center; " colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; ">&nbsp;家庭住址</td>
-              <td style="text-align: center; " colspan="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; ">&nbsp;手机 / 电话</td>
-              <td style="text-align: center; " colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-              <td style="text-align: center; " colspan="2">&nbsp;&nbsp;电子邮箱</td>
-              <td style="text-align: center; " colspan="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; ">&nbsp;临床诊断</td>
-              <td style="text-align: center; " colspan="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; ">&nbsp;偏瘫与否</td>
-              <td style="text-align: center; " colspan="4">&nbsp;</td>
-              <td style="text-align: center; ">偏瘫体侧&nbsp;&nbsp;</td>
-              <td style="text-align: center; " colspan="2">&nbsp;</td>
-              <td style="text-align: center; " colspan="2">偏瘫严重程度&nbsp;&nbsp;</td>
-              <td style="text-align: center; " colspan="2">&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; ">&nbsp;发病日期</td>
-              <td style="text-align: center; " colspan="4">&nbsp;</td>
-              <td style="text-align: center; ">&nbsp;病变部位</td>
-              <td style="text-align: center; " colspan="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 24px;">
-              <td style="text-align: center;  height: 42px;" rowspan="2">&nbsp;并发症</td>
-              <td style="text-align: center;  height: 24px;" colspan="2">癫痫&nbsp;</td>
-              <td style="text-align: center;  height: 24px;" colspan="2">颅脑损伤&nbsp;</td>
-              <td style="text-align: center;  height: 24px;" colspan="2">&nbsp;心脏病&nbsp;</td>
-              <td style="text-align: center;  height: 24px;" colspan="2">&nbsp;高血压&nbsp;</td>
-              <td style="text-align: center;  height: 24px;" colspan="3">视觉缺陷&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; " colspan="2">&nbsp;抑郁&nbsp;</td>
-              <td style="text-align: center; " colspan="2">助听器&nbsp;&nbsp;</td>
-              <td style="text-align: center; " colspan="2">&nbsp;酗酒*&nbsp;</td>
-              <td style="text-align: center; ">其他&nbsp;</td>
-              <td style="text-align: center; " colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; ">&nbsp;目前用药</td>
-              <td style="text-align: center; " colspan="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; ">听力筛查</td>
-              <td style="text-align: center; ">&nbsp;</td>
-              <td style="text-align: center; ">筛查日期</td>
-              <td style="text-align: center; " colspan="2">&nbsp;</td>
-              <td style="text-align: center; ">视力筛查</td>
-              <td style="text-align: center; ">&nbsp;</td>
-              <td style="text-align: center; ">筛查日期</td>
-              <td style="text-align: center; " colspan="4">&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; " colspan="2">&nbsp;&nbsp;故事叙述录音</td>
-              <td style="text-align: center; " colspan="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; " colspan="2">流利度类型</td>
-              <td style="text-align: center; " colspan="2">流畅性</td>
-              <td style="text-align: center; " colspan="2">非流畅性</td>
-              <td style="text-align: center; " colspan="2">失语症类型</td>
-              <td style="text-align: center; " colspan="4">&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; " colspan="2">有无以下体内人<br />工植入物（MRI<br />安全）</td>
-              <td style="text-align: center; " colspan="10">有（心脏起搏器□、内支架□、血管夹□、人工瓣膜□、静脉滤器□、<br />内固定器□、人工关节□、义齿□、不锈钢丝□、金属节育环□、其他<br />铁磁性物质□）；无□</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; " colspan="2" rowspan="2">西方失语症成套测验（WAB）分数</td>
-              <td style="text-align: center; " colspan="2">自发言语</td>
-              <td style="text-align: center; " colspan="2">听理解</td>
-              <td style="text-align: center; " colspan="2">复述</td>
-              <td style="text-align: center; " colspan="2">命名</td>
-              <td style="text-align: center; " colspan="2">AQ失语商</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; " colspan="2">&nbsp;</td>
-              <td style="text-align: center; " colspan="2">&nbsp;</td>
-              <td style="text-align: center; " colspan="2">&nbsp;</td>
-              <td style="text-align: center; " colspan="2">&nbsp;</td>
-              <td style="text-align: center; " colspan="2">&nbsp;</td>
-            </tr>
-            <tr style="height: 28px;">
-              <td style="text-align: center; ">联系人</td>
-              <td style="text-align: center; " colspan="2">&nbsp;</td>
-              <td style="text-align: center; ">与患者关系</td>
-              <td style="text-align: center; " colspan="2">&nbsp;</td>
-              <td style="text-align: center; " colspan="2">联系电话</td>
-              <td style="text-align: center; " colspan="4">&nbsp;</td>
-            </tr>
-          </tbody>
-
-        </table>
-        <p>*本次发病前，平均每日饮酒量超过 2 瓶啤酒 /1 两白酒；或每周至少 1 次，每次饮酒量超过 5 瓶啤酒 /3 两白酒</p>
-
-        <table style="width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
-          <tr>
-            <td style="text-align: center; width: 20%;">施测者签名</td>
-            <td style="text-align: center; width: 30%;">&nbsp;</td>
-            <td style="text-align: center; width: 20%;">资格证书编号</td>
-            <td style="text-align: center; width: 30%;">&nbsp;</td>
-          </tr>
-          <tr>
-            <td style="text-align: center; width: 20%;">联系电话</td>
-            <td style="text-align: center; width: 30%;">&nbsp;</td>
-            <td style="text-align: center; width: 20%;">电子邮箱</td>
-            <td style="text-align: center; width: 30%;">&nbsp;</td>
-          </tr>
-        </table>
+    <table style="width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+      <tbody>
+      <tr style="font-size: 20px; height: 38px; border: none;">
+      <td style="text-align: center; width: 8.3333%; border: none;">&nbsp;</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">&nbsp;</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">&nbsp;</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">&nbsp;</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">&nbsp;</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">病</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">例</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">&nbsp;</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">&nbsp;</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">&nbsp;</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">&nbsp;</td>
+      <td style="text-align: center; width: 8.3333%; border: none;">&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;">姓名</td>
+      <td style="text-align: center;" colspan="4">{{temp.report.bingli.name}}</td>
+      <td style="text-align: center;">性别</td>
+      <td style="text-align: center;">男</td>
+      <td style="text-align: center;">利手</td>
+      <td style="text-align: center;" colspan="4">&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;">民族</td>
+      <td style="text-align: center;" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;">&nbsp;日常口语</td>
+      <td style="text-align: center;" colspan="2">&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2">&nbsp;&nbsp;母语方言</td>
+      <td style="text-align: center;" colspan="2">&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="2">&nbsp;施测时间&nbsp;</td>
+      <td style="text-align: center;" colspan="4">年&nbsp; &nbsp;月&nbsp; &nbsp;日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2">出生日期&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="4">年 月 日&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;">&nbsp;教育程度</td>
+      <td style="text-align: center;" colspan="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2">当前/此前职业&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="3">&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="3">&nbsp;是否熟练使用普通话&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;">婚姻状况&nbsp;</td>
+      <td style="text-align: center;" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;">&nbsp;家庭住址</td>
+      <td style="text-align: center;" colspan="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;">&nbsp;手机 / 电话</td>
+      <td style="text-align: center;" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2">&nbsp;&nbsp;电子邮箱</td>
+      <td style="text-align: center;" colspan="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;">&nbsp;临床诊断</td>
+      <td style="text-align: center;" colspan="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;">&nbsp;偏瘫与否</td>
+      <td style="text-align: center;" colspan="4">&nbsp;</td>
+      <td style="text-align: center;">偏瘫体侧&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">偏瘫严重程度&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2">&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;">&nbsp;发病日期</td>
+      <td style="text-align: center;" colspan="4">&nbsp;</td>
+      <td style="text-align: center;">&nbsp;病变部位</td>
+      <td style="text-align: center;" colspan="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 24px;">
+      <td style="text-align: center; height: 42px;" rowspan="3">&nbsp;并发症</td>
+      <td style="text-align: center; height: 24px;" colspan="2">癫痫&nbsp;</td>
+      <td style="text-align: center; height: 24px;" colspan="2">颅脑损伤&nbsp;</td>
+      <td style="text-align: center; height: 24px;" colspan="2">&nbsp;心脏病&nbsp;</td>
+      <td style="text-align: center; height: 24px;" colspan="2">&nbsp;高血压&nbsp;</td>
+      <td style="text-align: center; height: 24px;" colspan="3">视觉缺陷&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="2">&nbsp;抑郁&nbsp;</td>
+      <td style="text-align: center;" colspan="2">助听器&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2">&nbsp;酗酒*&nbsp;</td>
+      <td style="text-align: center;">其他&nbsp;</td>
+      <td style="text-align: center;" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="11">*本次发病前，平均每日饮酒量超过 2 瓶啤酒 /1 两白酒；或每周至少 1 次，每次饮酒量超过 5 瓶啤酒 /3 两白酒</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;">&nbsp;目前用药</td>
+      <td style="text-align: center;" colspan="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;">听力筛查</td>
+      <td style="text-align: center;">&nbsp;</td>
+      <td style="text-align: center;">筛查日期</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;">视力筛查</td>
+      <td style="text-align: center;">&nbsp;</td>
+      <td style="text-align: center;">筛查日期</td>
+      <td style="text-align: center;" colspan="4">&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="2">&nbsp;&nbsp;故事叙述录音</td>
+      <td style="text-align: center;" colspan="4">是/否</td>
+      <td style="text-align: center;" colspan="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="2">流利度类型</td>
+      <td style="text-align: center;" colspan="2">流畅性</td>
+      <td style="text-align: center;" colspan="2">非流畅性</td>
+      <td style="text-align: center;" colspan="2">失语症类型</td>
+      <td style="text-align: center;" colspan="4">&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="2">有无以下体内人<br />工植入物（MRI<br />安全）</td>
+      <td style="text-align: center;" colspan="10">有（心脏起搏器□、内支架□、血管夹□、人工瓣膜□、静脉滤器□、<br />内固定器□、人工关节□、义齿□、不锈钢丝□、金属节育环□、其他<br />铁磁性物质□）；无□</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="2" rowspan="2">西方失语症成套测验（WAB）分数</td>
+      <td style="text-align: center;" colspan="2">自发言语</td>
+      <td style="text-align: center;" colspan="2">听理解</td>
+      <td style="text-align: center;" colspan="2">复述</td>
+      <td style="text-align: center;" colspan="2">命名</td>
+      <td style="text-align: center;" colspan="2">AQ失语商</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="2">联系人</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;">与患者关系</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">联系电话</td>
+      <td style="text-align: center;" colspan="3">&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="2">施测者姓名</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;">施测者签名</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">资格证书号</td>
+      <td style="text-align: center;" colspan="3">&nbsp;</td>
+      </tr>
+      <tr style="height: 28px;">
+      <td style="text-align: center;" colspan="2">联系电话</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">E-mail</td>
+      <td style="text-align: center;" colspan="3">&nbsp;</td>
+      </tr>
+      </tbody>
+      </table>
+<p>&nbsp;</p>
 
         <h4>表 A　听觉辨识评分表</h4>
 
