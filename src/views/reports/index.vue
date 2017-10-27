@@ -72,113 +72,125 @@
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;">姓名</td>
-      <td style="text-align: center;" colspan="4">{{temp.report.bingli.name}}</td>
+      <td style="text-align: center;" colspan="4">{{temp.info.name}}</td>
       <td style="text-align: center;">性别</td>
-      <td style="text-align: center;">男</td>
+      <td style="text-align: center;">{{gendar_texts[temp.info.gendar]}}</td>
       <td style="text-align: center;">利手</td>
-      <td style="text-align: center;" colspan="4">&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{handedness_texts[temp.info.handedness]}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;">民族</td>
-      <td style="text-align: center;" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{temp.info.minzu}}</td>
       <td style="text-align: center;">&nbsp;日常口语</td>
-      <td style="text-align: center;" colspan="2">&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.kouyu}}</td>
       <td style="text-align: center;" colspan="2">&nbsp;&nbsp;母语方言</td>
-      <td style="text-align: center;" colspan="2">&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.muyu}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="2">&nbsp;施测时间&nbsp;</td>
-      <td style="text-align: center;" colspan="4">年&nbsp; &nbsp;月&nbsp; &nbsp;日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-      <td style="text-align: center;" colspan="2">出生日期&nbsp;&nbsp;</td>
-      <td style="text-align: center;" colspan="4">年 月 日&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{temp.info.testTime}}</td>
+      <td style="text-align: center;" colspan="2">出生日期</td>
+      <td style="text-align: center;" colspan="4">{{temp.info.birthday}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;">&nbsp;教育程度</td>
-      <td style="text-align: center;" colspan="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="6">{{education_texts[temp.info.education]}}</td>
       <td style="text-align: center;" colspan="2">当前/此前职业&nbsp;&nbsp;</td>
-      <td style="text-align: center;" colspan="3">&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="3">{{temp.info.occupy}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="3">&nbsp;是否熟练使用普通话&nbsp;&nbsp;</td>
-      <td style="text-align: center;" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{yn_texts[temp.info.putonghua]}}</td>
       <td style="text-align: center;">婚姻状况&nbsp;</td>
-      <td style="text-align: center;" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{marriage_texts[temp.info.married]}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;">&nbsp;家庭住址</td>
-      <td style="text-align: center;" colspan="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="11">{{temp.info.address}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;">&nbsp;手机 / 电话</td>
-      <td style="text-align: center;" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{temp.info.mobile}}</td>
       <td style="text-align: center;" colspan="2">&nbsp;&nbsp;电子邮箱</td>
-      <td style="text-align: center;" colspan="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="5">{{temp.info.email}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;">&nbsp;临床诊断</td>
-      <td style="text-align: center;" colspan="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="11">{{((zd) => { return (zd.naogeng===1?'脑梗死  &nbsp;&nbsp;&nbsp; ':'') + (zd.naochuxue===1?'脑出血   ':'') + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其他：  ' + zd.others})(temp.info.zhenduan)}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;">&nbsp;偏瘫与否</td>
-      <td style="text-align: center;" colspan="4">&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{yn_texts[temp.info.piantan]}}</td>
       <td style="text-align: center;">偏瘫体侧&nbsp;&nbsp;</td>
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">{{piantan_texts[temp.info.piantanSide]}}</td>
       <td style="text-align: center;" colspan="2">偏瘫严重程度&nbsp;&nbsp;</td>
-      <td style="text-align: center;" colspan="2">&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.piantanDes}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;">&nbsp;发病日期</td>
-      <td style="text-align: center;" colspan="4">&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{temp.info.piantanTime}}</td>
       <td style="text-align: center;">&nbsp;病变部位</td>
-      <td style="text-align: center;" colspan="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="6">{{temp.info.piantanPart}}</td>
       </tr>
       <tr style="height: 24px;">
       <td style="text-align: center; height: 42px;" rowspan="3">&nbsp;并发症</td>
-      <td style="text-align: center; height: 24px;" colspan="2"><el-checkbox v-model="temp.report.bingli.bingfazheng"></el-checkbox>癫痫&nbsp;</td>
-      <td style="text-align: center; height: 24px;" colspan="2">颅脑损伤&nbsp;</td>
-      <td style="text-align: center; height: 24px;" colspan="2">&nbsp;心脏病&nbsp;</td>
-      <td style="text-align: center; height: 24px;" colspan="2">&nbsp;高血压&nbsp;</td>
-      <td style="text-align: center; height: 24px;" colspan="3">视觉缺陷&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center; height: 24px;" colspan="2"><input type="checkbox" :checked="temp.info.bingfazheng.dianxin===1" >癫痫&nbsp;</td>
+      <td style="text-align: center; height: 24px;" colspan="2"><input type="checkbox" :checked="temp.info.bingfazheng.lusun===1" >颅脑损伤&nbsp;</td>
+      <td style="text-align: center; height: 24px;" colspan="2"><input type="checkbox" :checked="temp.info.bingfazheng.xinzang===1" >心脏病&nbsp;</td>
+      <td style="text-align: center; height: 24px;" colspan="2"><input type="checkbox" :checked="temp.info.bingfazheng.gaoxueya===1" >高血压&nbsp;</td>
+      <td style="text-align: center; height: 24px;" colspan="3"><input type="checkbox" :checked="temp.info.bingfazheng.shijue===1" >视觉缺陷&nbsp;&nbsp;&nbsp;</td>
       </tr>
       <tr style="height: 28px;">
-      <td style="text-align: center;" colspan="2">&nbsp;抑郁&nbsp;</td>
-      <td style="text-align: center;" colspan="2">助听器&nbsp;&nbsp;</td>
-      <td style="text-align: center;" colspan="2">&nbsp;酗酒*&nbsp;</td>
+      <td style="text-align: center;" colspan="2"><input type="checkbox" :checked="temp.info.bingfazheng.yiyu===1" >抑郁&nbsp;</td>
+      <td style="text-align: center;" colspan="2"><input type="checkbox" :checked="temp.info.bingfazheng.zhuting===1" >助听器&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="2"><input type="checkbox" :checked="temp.info.bingfazheng.xujiu===1" >酗酒*</td>
       <td style="text-align: center;">其他&nbsp;</td>
-      <td style="text-align: center;" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{temp.info.bingfazheng.other}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="11">*本次发病前，平均每日饮酒量超过 2 瓶啤酒 /1 两白酒；或每周至少 1 次，每次饮酒量超过 5 瓶啤酒 /3 两白酒</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;">&nbsp;目前用药</td>
-      <td style="text-align: center;" colspan="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="11">{{temp.info.medicine}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;">听力筛查</td>
-      <td style="text-align: center;">&nbsp;</td>
+      <td style="text-align: center;">{{yn_texts[temp.info.earTest]}}</td>
       <td style="text-align: center;">筛查日期</td>
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.earTestTime}}</td>
       <td style="text-align: center;">视力筛查</td>
-      <td style="text-align: center;">&nbsp;</td>
+      <td style="text-align: center;">{{yn_texts[temp.info.eyeTest]}}</td>
       <td style="text-align: center;">筛查日期</td>
-      <td style="text-align: center;" colspan="4">&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{temp.info.eyeTestTime}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="2">&nbsp;&nbsp;故事叙述录音</td>
-      <td style="text-align: center;" colspan="4">是/否</td>
-      <td style="text-align: center;" colspan="6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{yn_texts[temp.info.storyRecord]}}</td>
+      <td style="text-align: center;" colspan="6">{{temp.info.recordSavePlace}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="2">流利度类型</td>
-      <td style="text-align: center;" colspan="2">流畅性</td>
-      <td style="text-align: center;" colspan="2">非流畅性</td>
+      <td style="text-align: center;" colspan="2"><input type="checkbox" :checked="temp.info.liulidu===1" >流畅性</td>
+      <td style="text-align: center;" colspan="2"><input type="checkbox" :checked="temp.info.liulidu===0" >非流畅性</td>
       <td style="text-align: center;" colspan="2">失语症类型</td>
-      <td style="text-align: center;" colspan="4">&nbsp;</td>
+      <td style="text-align: center;" colspan="4">{{temp.info.shiyuType}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="2">有无以下体内人<br />工植入物（MRI<br />安全）</td>
-      <td style="text-align: center;" colspan="10">有（心脏起搏器□、内支架□、血管夹□、人工瓣膜□、静脉滤器□、<br />内固定器□、人工关节□、义齿□、不锈钢丝□、金属节育环□、其他<br />铁磁性物质□）；无□</td>
+      <td style="text-align: center;" colspan="10">
+      有（心脏起搏器<input type="checkbox" :checked="temp.info.zhiruwu.xinzang===1" >、
+      内支架<input type="checkbox" :checked="temp.info.zhiruwu.zhijia===1" >、
+      血管夹<input type="checkbox" :checked="temp.info.zhiruwu.xueguan===1" >、
+      人工瓣膜<input type="checkbox" :checked="temp.info.zhiruwu.banmo===1" >、
+      静脉滤器<input type="checkbox" :checked="temp.info.zhiruwu.jingmai===1" >、<br />
+      内固定器<input type="checkbox" :checked="temp.info.zhiruwu.guding===1" >、
+      人工关节<input type="checkbox" :checked="temp.info.zhiruwu.guanjie===1" >、
+      义齿<input type="checkbox" :checked="temp.info.zhiruwu.yichi===1" >、
+      不锈钢丝<input type="checkbox" :checked="temp.info.zhiruwu.gangsi===1" >、
+      金属节育环<input type="checkbox" :checked="temp.info.zhiruwu.jieyu===1" >、
+      其他铁磁性物质<input type="checkbox" :checked="temp.info.zhiruwu.cixing===1" >
+       ）；无<input type="checkbox" :checked="temp.info.zhiruwu.no===1" ></td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="2" rowspan="2">西方失语症成套测验（WAB）分数</td>
@@ -189,35 +201,35 @@
       <td style="text-align: center;" colspan="2">AQ失语商</td>
       </tr>
       <tr style="height: 28px;">
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.scores.zifa}}</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.scores.ting}}</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.scores.fushu}}</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.scores.mingming}}</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.scores.aq}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="2">联系人</td>
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.contact}}</td>
       <td style="text-align: center;">与患者关系</td>
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.relationship}}&nbsp;</td>
       <td style="text-align: center;" colspan="2">联系电话</td>
-      <td style="text-align: center;" colspan="3">&nbsp;</td>
+      <td style="text-align: center;" colspan="3">{{temp.info.cNo}}&nbsp;</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="2">施测者姓名</td>
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.tester}}&nbsp;</td>
       <td style="text-align: center;">施测者签名</td>
       <td style="text-align: center;" colspan="2">&nbsp;</td>
       <td style="text-align: center;" colspan="2">资格证书号</td>
-      <td style="text-align: center;" colspan="3">&nbsp;</td>
+      <td style="text-align: center;" colspan="3">{{temp.info.certNo}}&nbsp;</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="2">联系电话</td>
-      <td style="text-align: center;" colspan="2">&nbsp;</td>
+      <td style="text-align: center;" colspan="2">{{temp.info.tpNo}}&nbsp;</td>
       <td style="text-align: center;">&nbsp;</td>
       <td style="text-align: center;" colspan="2">&nbsp;</td>
       <td style="text-align: center;" colspan="2">E-mail</td>
-      <td style="text-align: center;" colspan="3">&nbsp;</td>
+      <td style="text-align: center;" colspan="3">{{temp.info.tEmail}}</td>
       </tr>
       </tbody>
       </table>
@@ -6328,9 +6340,289 @@ export default {
         sort: 'id,ASC'
       },
       temp: {
-        id: undefined,
-        report: { bingli: {}}
+        tester: '',
+        testee: '',
+        time: '',
+        cases: {
+          namedTest: {
+            duizhengmingming: {
+              ani: { asureCorrectCount: 0, asureCount: 0, correctCount: 0 },
+              body: { asureCorrectCount: 0, asureCount: 0, correctCount: 0 },
+              cloth: { asureCorrectCount: 0, asureCount: 0, correctCount: 0 },
+              color: { asureCorrectCount: 0, asureCount: 0, correctCount: 0 },
+              fruit: { asureCorrectCount: 0, asureCount: 0, correctCount: 0 },
+              low: { asureCorrectCount: 0, asureCount: 0, correctCount: 0 },
+              results: [
+                {
+                  assureReact: '1',
+                  assureReactType: '+',
+                  react: '+',
+                  reactType: '+'
+                }
+              ],
+              tool: { asureCorrectCount: 0, asureCount: 0, correctCount: 0 },
+              vi: { asureCorrectCount: 0, asureCount: 0, correctCount: 0 },
+              vt: { asureCorrectCount: 0, asureCount: 0, correctCount: 0 }
+            },
+            huizong: {
+              dcly: [0, 0, 0, 0],
+              dj: [0, 0],
+              dpc: [0, 0],
+              mcfl: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              mdb: [0, 0, 0, 0, 0, 0, 0, 0],
+              sdjm: [0, 0, 0],
+              sj: [],
+              smd: [0, 0, 0, 0, 0, 0, 0, 0],
+              tjch: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              yych: [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              yygl: [0, 0],
+              yyio: [0, 0, 0, 0],
+              yyjm: [0, 0, 0, 0, 0, 0, 0]
+            },
+            jiacifushu: { results: ['+'], total: 0 },
+            pinggu: {
+              dcly: { correct: 0, rate: 0 },
+              dj: { correct: 0, rate: 0 },
+              dpc: { correct: 0, rate: 0 },
+              mcfl: { correct: 0, rate: 0 },
+              mdb: { correct: 0, rate: 0 },
+              sdjm: { correct: 0, rate: 0 },
+              sj: { correct: 0, rate: 0 },
+              smd: { correct: 0, rate: 0 },
+              tjch: { correct: 0, rate: 0 },
+              yych: { correct: 0, rate: 0 },
+              yygl: { correct: 0, rate: 0 },
+              yyio: { correct: 0, rate: 0 },
+              yyjm: { correct: 0, rate: 0 }
+            },
+            shengdiaolijie: {
+              results: [{ react: '1', reactType: '+' }],
+              total: 0
+            },
+            tingjuebianshi: {
+              results: [{ react: '+', reactType: '+' }],
+              same: 0,
+              shengdiao: 0,
+              shengmu: 0,
+              total: 0,
+              yunmu: 0
+            },
+            tingjuecihui: {
+              jiaci: 0,
+              results: [{ react: '+', reactType: '+' }],
+              total: 0,
+              zhenci: 0
+            },
+            tingjuelijie: {
+              ani: 0,
+              body: 0,
+              cloth: 0,
+              color: 0,
+              fruit: 0,
+              low: 0,
+              results: ['+'],
+              tool: 0,
+              vi: 0,
+              vt: 0
+            },
+            yuyiguanlian: {
+              ani: 0,
+              results: [{ react: '1', reactType: '+' }],
+              tool: 0,
+              total: 0
+            },
+            zhencifushu: { results: ['+'], total: 0 }
+          },
+          verbTest: {
+            dongcilijie: {
+              one: { correct: 0, rate: 0 },
+              three: { correct: 0, rate: 0 },
+              three1: { correct: 0, rate: 0 },
+              three2: { correct: 0, rate: 0 },
+              three3: { correct: 0, rate: 0 },
+              three4: { correct: 0, rate: 0 },
+              total: { correct: 0, rate: 0 },
+              tow: { correct: 0, rate: 0 }
+            },
+            dongcimingming: {
+              one: { correct: 0, rate: 0 },
+              three: { correct: 0, rate: 0 },
+              three1: { correct: 0, rate: 0 },
+              three2: { correct: 0, rate: 0 },
+              three3: { correct: 0, rate: 0 },
+              three4: { correct: 0, rate: 0 },
+              total: { correct: 0, rate: 0 },
+              tow: { correct: 0, rate: 0 }
+            },
+            huizong: {
+              chcr: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              dccc: [0, 0, 0],
+              dclj: [0, 0, 0],
+              jfjg: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              lyjg: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+            },
+            lunyuanjiegou: {
+              one: {
+                V: 0,
+                both: 0,
+                cihui: 0,
+                lunyuan: 0,
+                react: '',
+                x: 0,
+                y: 0,
+                z: 0
+              },
+              three1: {
+                V: 0,
+                both: 0,
+                cihui: 0,
+                lunyuan: 0,
+                react: '',
+                x: 0,
+                y: 0,
+                z: 0
+              },
+              three2: {
+                V: 0,
+                both: 0,
+                cihui: 0,
+                lunyuan: 0,
+                react: '',
+                x: 0,
+                y: 0,
+                z: 0
+              },
+              three3: {
+                V: 0,
+                both: 0,
+                cihui: 0,
+                lunyuan: 0,
+                react: '',
+                x: 0,
+                y: 0,
+                z: 0
+              },
+              three4: {
+                V: 0,
+                both: 0,
+                cihui: 0,
+                lunyuan: 0,
+                react: '',
+                x: 0,
+                y: 0,
+                z: 0
+              },
+              two: {
+                V: 0,
+                both: 0,
+                cihui: 0,
+                lunyuan: 0,
+                react: '',
+                x: 0,
+                y: 0,
+                z: 0
+              }
+            },
+            pinggu: {
+              chcr: { correct: 0, rate: 0 },
+              dccc: { correct: 0, rate: 0 },
+              dclj: { correct: 0, rate: 0 },
+              jfjg: { correct: 0, rate: 0 },
+              lyjg: { correct: 0, rate: 0 }
+            },
+            yujulijie: {
+              bazi: { correct: 0, rate: 0 },
+              beizi: { correct: 0, rate: 0 },
+              binyu: { correct: 0, rate: 0 },
+              binyuyiwen: { correct: 0, rate: 0 },
+              zhudong: { correct: 0, rate: 0 },
+              zhuyu: { correct: 0, rate: 0 },
+              zhuyuyiwen: { correct: 0, rate: 0 }
+            },
+            yujuqidong: {
+              bazi: { correct: 0, rate: 0 },
+              beizi: { correct: 0, rate: 0 },
+              binyu: { correct: 0, rate: 0 },
+              binyuyiwen: { correct: 0, rate: 0 },
+              zhudong: { correct: 0, rate: 0 },
+              zhuyu: { correct: 0, rate: 0 },
+              zhuyuyiwen: { correct: 0, rate: 0 }
+            }
+          }
+        },
+        info: {
+          address: '',
+          bingfazheng: {
+            dianxin: 0,
+            gaoxueya: 0,
+            lusun: 0,
+            others: '',
+            shijue: 0,
+            xinzang: 0,
+            xujiu: 0,
+            yiyu: 0,
+            zhuting: 0
+          },
+          birthday: '',
+          cNo: '',
+          certNo: '',
+          contact: '',
+          earTest: 0,
+          earTestTime: '',
+          education: 0,
+          email: '',
+          eyeTest: 0,
+          eyeTestTime: '',
+          gendar: 0,
+          handedness: 0,
+          kouyu: '',
+          liulidu: 0,
+          married: 0,
+          medicine: '',
+          minzu: '',
+          mobile: '',
+          muyu: '',
+          name: '',
+          occupy: '',
+          piantan: 0,
+          piantanDes: '',
+          piantanPart: '',
+          piantanSide: 0,
+          piantanTime: '',
+          putonghua: 0,
+          recordSavePlace: '',
+          relationship: '',
+          scores: { aq: 0, fushu: 0, mingming: 0, ting: 0, zifa: 0 },
+          shiyuType: '',
+          storyRecord: 0,
+          tEmail: '',
+          testTime: '',
+          tester: '',
+          tpNo: '',
+          zhenduan: { naochuxue: 0, naogeng: 0, others: '' },
+          zhiruwu: {
+            banmo: 0,
+            cixing: 0,
+            gangsi: 0,
+            guanjie: 0,
+            guding: 0,
+            jieyu: 0,
+            jingmai: 0,
+            no: 0,
+            xinzang: 0,
+            xueguan: 0,
+            yichi: 0,
+            zhijia: 0
+          }
+        },
+        miliTime: 1509074114876
       },
+      yn_texts: ['否', '是'],
+      gendar_texts: ['男', '女'],
+      handedness_texts: ['左利手', '右利手'],
+      education_texts: ['中学以下', '中学', '大学', '大学以上'],
+      marriage_texts: ['单身', '已婚', '丧偶', '离异'],
+      piantan_texts: ['左侧', '右侧', '双侧'],
       sortOptions: [
         { label: '按ID升序列', key: 'id,ASC' },
         { label: '按ID降序', key: 'id,DESC' }
@@ -6439,9 +6731,9 @@ export default {
       fetchList(this.listQuery).then(response => {
         var reportList = []
         response.data.content.forEach(function(element) {
-          var report = element
-          report.report = JSON.parse(report.report)
-          reportList.push(report)
+          element.cases = JSON.parse(element.cases)
+          element.info = JSON.parse(element.info)
+          reportList.push(element)
         }, this)
         this.list = reportList
         this.total = response.data.totalElements
@@ -6511,6 +6803,9 @@ export default {
         isAdmin: false,
         status: '1'
       }
+    },
+    undoBingFaZheng(type) {
+      console.log('bingfazheng clicked: ' + type)
     }
   },
   components: { eChart }
