@@ -250,23 +250,23 @@
           <tr>
             <td class="lian_xi">练习1</td>
             <td>xī / xǐ</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;">{{temp.cases.namedTest.tingjuebianshi.results[0].react}}</td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;">{{temp.cases.namedTest.tingjuebianshi.results[0].reactType}}</td>
           </tr>
           <tr>
             <td class="lian_xi">练习2</td>
-            <td>xī / xǐ</td>
-            <td>&nbsp;</td>
-            <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td>ké / ké</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[1]">{{temp.cases.namedTest.tingjuebianshi.results[1].react}}</span></td>
+            <td style="font-size: 28px;">+</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[1]">{{temp.cases.namedTest.tingjuebianshi.results[1].reactType}}</span></td>
           </tr>
           <tr>
             <td class="lian_xi">练习3</td>
-            <td>xī / xǐ</td>
-            <td>&nbsp;</td>
+            <td>zuì / tuì</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[2]">{{temp.cases.namedTest.tingjuebianshi.results[2].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[2]">{{temp.cases.namedTest.tingjuebianshi.results[2].reactType}}</span></td>
           </tr>
           <tr>
             <td style="font-size: 28px;" colspan="5">&nbsp;</td>
@@ -274,178 +274,178 @@
           <tr>
             <td>1</td>
             <td>bó / bó</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[3]">{{temp.cases.namedTest.tingjuebianshi.results[3].react}}</span></td>
             <td style="font-size: 28px;">+</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[3]">{{temp.cases.namedTest.tingjuebianshi.results[3].reactType}}</span></td>
           </tr>
           <tr class="sheng_mu_bu_tong">
             <td>2</td>
             <td>kā / hā</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[4]">{{temp.cases.namedTest.tingjuebianshi.results[4].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[4]">{{temp.cases.namedTest.tingjuebianshi.results[4].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>3</td>
             <td>tóu / tòu</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[5]">{{temp.cases.namedTest.tingjuebianshi.results[5].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[5]">{{temp.cases.namedTest.tingjuebianshi.results[5].reactType}}</span></td>
           </tr>
           <tr>
             <td>4</td>
             <td>cā / cā</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[6]">{{temp.cases.namedTest.tingjuebianshi.results[6].react}}</span></td>
             <td style="font-size: 28px;">+</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[6]">{{temp.cases.namedTest.tingjuebianshi.results[6].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>5</td>
             <td>mēn / mén</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[7]">{{temp.cases.namedTest.tingjuebianshi.results[7].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[7]">{{temp.cases.namedTest.tingjuebianshi.results[7].reactType}}</span></td>
           </tr>
           <tr class="sheng_mu_bu_tong">
             <td>6</td>
             <td>pí / dí</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[8]">{{temp.cases.namedTest.tingjuebianshi.results[8].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[8]">{{temp.cases.namedTest.tingjuebianshi.results[8].reactType}}</span></td>
           </tr>
           <tr class="yun_mu_bu_tong">
             <td>7</td>
             <td>hé / hú</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[9]">{{temp.cases.namedTest.tingjuebianshi.results[9].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[9]">{{temp.cases.namedTest.tingjuebianshi.results[9].reactType}}</span></td>
           </tr>
           <tr>
             <td>8</td>
             <td>yóu / yóu</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[10]">{{temp.cases.namedTest.tingjuebianshi.results[10].react}}</span></td>
             <td style="font-size: 28px;">+</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[10]">{{temp.cases.namedTest.tingjuebianshi.results[10].reactType}}</span></td>
           </tr>
           <tr class="yun_mu_bu_tong">
             <td>9</td>
             <td>duī / diū</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[11]">{{temp.cases.namedTest.tingjuebianshi.results[11].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[11]">{{temp.cases.namedTest.tingjuebianshi.results[11].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>10</td>
             <td>wāi / wài</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[12]">{{temp.cases.namedTest.tingjuebianshi.results[12].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[12]">{{temp.cases.namedTest.tingjuebianshi.results[12].reactType}}</span></td>
           </tr>
           <tr>
             <td>11</td>
             <td>tiě / tiě</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[13]">{{temp.cases.namedTest.tingjuebianshi.results[13].react}}</span></td>
             <td style="font-size: 28px;">+</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[13]">{{temp.cases.namedTest.tingjuebianshi.results[13].reactType}}</span></td>
           </tr>
           <tr class="yun_mu_bu_tong">
             <td>12</td>
             <td>niǎo / niǔ</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[14]">{{temp.cases.namedTest.tingjuebianshi.results[14].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[14]">{{temp.cases.namedTest.tingjuebianshi.results[14].reactType}}</span></td>
           </tr>
           <tr class="sheng_mu_bu_tong">
             <td>13</td>
             <td>kuò / ruò</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[15]">{{temp.cases.namedTest.tingjuebianshi.results[15].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[15]">{{temp.cases.namedTest.tingjuebianshi.results[15].reactType}}</span></td>
           </tr>
           <tr>
             <td>14</td>
             <td>gǔ / gǔ</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[16]">{{temp.cases.namedTest.tingjuebianshi.results[16].react}}</span></td>
             <td style="font-size: 28px;">+</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[16]">{{temp.cases.namedTest.tingjuebianshi.results[16].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>15</td>
             <td>jiā / jiǎ</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[17]">{{temp.cases.namedTest.tingjuebianshi.results[17].react}}</span></td>
             <td style="font-size: 28px;">+</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[17]">{{temp.cases.namedTest.tingjuebianshi.results[17].reactType}}</span></td>
           </tr>
           <tr>
             <td>16</td>
             <td>zhuā / zhuā</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[18]">{{temp.cases.namedTest.tingjuebianshi.results[18].react}}</span></td>
             <td style="font-size: 28px;">+</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[18]">{{temp.cases.namedTest.tingjuebianshi.results[18].reactType}}</span></td>
           </tr>
           <tr class="yun_mu_bu_tong">
             <td>17</td>
             <td>bò / bì</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[19]">{{temp.cases.namedTest.tingjuebianshi.results[19].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[19]">{{temp.cases.namedTest.tingjuebianshi.results[19].reactType}}</span></td>
           </tr>
           <tr class="sheng_mu_bu_tong">
             <td>18</td>
             <td>jǔ / xǔ</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[20]">{{temp.cases.namedTest.tingjuebianshi.results[20].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[20]">{{temp.cases.namedTest.tingjuebianshi.results[20].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>19</td>
             <td>yuǎn / yuàn</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[21]">{{temp.cases.namedTest.tingjuebianshi.results[21].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[21]">{{temp.cases.namedTest.tingjuebianshi.results[21].reactType}}</span></td>
           </tr>
           <tr>
             <td>20</td>
             <td>sì / sì</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[22]">{{temp.cases.namedTest.tingjuebianshi.results[22].react}}</span></td>
             <td style="font-size: 28px;">+</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[22]">{{temp.cases.namedTest.tingjuebianshi.results[22].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>21</td>
             <td>shú / shǔ</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[23]">{{temp.cases.namedTest.tingjuebianshi.results[23].react}}</span></td>
             <td style="font-size: 28px;">-</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[23]">{{temp.cases.namedTest.tingjuebianshi.results[23].reactType}}</span></td>
           </tr>
           <tr>
             <td>22</td>
             <td>luè / luè</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[24]">{{temp.cases.namedTest.tingjuebianshi.results[24].react}}</span></td>
             <td style="font-size: 28px;">+</td>
-            <td>&nbsp;</td>
+            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[24]">{{temp.cases.namedTest.tingjuebianshi.results[24].reactType}}</span></td>
           </tr>
           <tr>
             <td rowspan="4">正确反应小计</td>
             <td>相同</td>
-            <td colspan="3">/8</td>
+            <td colspan="3">{{temp.cases.namedTest.tingjuebianshi.same}}/8</td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>声调不同</td>
-            <td colspan="3">/6</td>
+            <td colspan="3">{{temp.cases.namedTest.tingjuebianshi.shengdiao}}/6</td>
           </tr>
           <tr class="sheng_mu_bu_tong">
             <td>声母不同</td>
-            <td colspan="3">/4</td>
+            <td colspan="3">{{temp.cases.namedTest.tingjuebianshi.shengmu}}/4</td>
           </tr>
           <tr class="yun_mu_bu_tong">
             <td>韵母不同</td>
-            <td colspan="3">/4</td>
+            <td colspan="3">{{temp.cases.namedTest.tingjuebianshi.yunmu}}/4</td>
           </tr>
           <tr class="he_ji">
             <td colspan="2">合计</td>
-            <td colspan="3">/22</td>
-          </tr>
+            <td colspan="3">{{temp.cases.namedTest.tingjuebianshi.total}}/22</td>
+          </tr/>
         </table>
 
         <h4>表 B　声调理解评分表</h4>
@@ -460,110 +460,17 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td class="lian_xi">练习1</td>
-              <td>狗</td>
-              <td>钩</td>
-              <td>钩</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td class="lian_xi">练习2</td>
-              <td>米</td>
-              <td>蜜</td>
-              <td>米</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="font-size: 28px;" colspan="5">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>竹</td>
-              <td>猪</td>
-              <td>猪</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>马</td>
-              <td>妈</td>
-              <td>马</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>笔</td>
-              <td>鼻</td>
-              <td>鼻</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>猫</td>
-              <td>帽</td>
-              <td>帽</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>炉</td>
-              <td>鹿</td>
-              <td>炉</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>鸭</td>
-              <td>牙</td>
-              <td>牙</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>鼠</td>
-              <td>树</td>
-              <td>鼠</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>8</td>
-              <td>花</td>
-              <td>画</td>
-              <td>花</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td>眼</td>
-              <td>烟</td>
-              <td>烟</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>兔</td>
-              <td>土</td>
-              <td>兔</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>11</td>
-              <td>河</td>
-              <td>鹤</td>
-              <td>鹤</td>
-              <td style="font-size: 28px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td>12</td>
-              <td>虎</td>
-              <td>湖</td>
-              <td>虎</td>
-              <td style="font-size: 28px;">&nbsp;</td>
+    <!-- // ['练习1', '狗', '钩', '钩', ''], // 0,1,2,3, reactType, reactIndex -->
+            <tr :key='item[0]' v-for="item in temp.cases.namedTest.shengdiaolijie.mergedData">
+              <td>{{item[0]}}</td>
+              <td><input v-if="item[5]==0" type="checkbox" :checked="true" >{{item[1]}}</td>
+              <td><input v-if="item[5]==1" type="checkbox" :checked="true" >{{item[2]}}</td>
+              <td>{{item[3]}}</td>
+              <td style="font-size: 28px;">{{item[4]}}</td>
             </tr>
             <tr class="he_ji">
               <td colspan="2">合计</td>
-              <td colspan="3">/22</td>
+              <td colspan="3">{{temp.cases.namedTest.shengdiaolijie.total}}/22</td>
             </tr>
           </tbody>
         </table>
@@ -580,146 +487,24 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td class="lian_xi" style="width: 17.1996%;">练习1</td>
-              <td style="width: 10.1433%;">&nbsp;地 / 点</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">+</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
+            <tr :key='item[0]' v-for="item in temp.cases.namedTest.tingjuecihui.mergedData">
+              <td>{{item[0]}}</td>
+              <td>{{item[1]}}</td>
+              <td>{{item[2]}}</td>
+              <td>{{item[3]}}</td>
+              <td >{{item[4]}}</td>
             </tr>
             <tr>
-              <td class="lian_xi" style="width: 17.1996%;">练习2</td>
-              <td style="width: 10.1433%;">&nbsp;祛 / 候</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">-</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
+              <td colspan="2">假词正确小计</td>
+              <td colspan="3">{{temp.cases.namedTest.tingjuecihui.jiaci}}/8</td>
             </tr>
             <tr>
-              <td style="font-size: 28px; width: 99.4487%;" colspan="5">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">1</td>
-              <td style="width: 10.1433%;">铁 / 日&nbsp;</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">-</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">2</td>
-              <td style="width: 10.1433%;">蝴 / 蝶</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">+</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">3</td>
-              <td style="width: 10.1433%;">过 / 开</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">-</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">4</td>
-              <td style="width: 10.1433%;">蚂 / 蟥</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">+</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">5</td>
-              <td style="width: 10.1433%;">菊 / 花</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">+</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">6</td>
-              <td style="width: 10.1433%;">合 / 眯</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">-</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">7</td>
-              <td style="width: 10.1433%;">清 / 朵</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">-</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">8</td>
-              <td style="width: 10.1433%;">樟 / 木</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">+</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">9</td>
-              <td style="width: 10.1433%;">啤 / 然</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">-</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">10</td>
-              <td style="width: 10.1433%;">手 / 工</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">+</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">11</td>
-              <td style="width: 10.1433%;">白 / 水</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">+</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">12</td>
-              <td style="width: 10.1433%;">倭 / 见</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">-</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">13</td>
-              <td style="width: 10.1433%;">海 / 湾</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">+</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">14</td>
-              <td style="width: 10.1433%;">沮 / 骈</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">-</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">15</td>
-              <td style="width: 10.1433%;">礁 / 氓</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">-</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;">16</td>
-              <td style="width: 10.1433%;">马 / 驹</td>
-              <td style="width: 18.6329%;">&nbsp;</td>
-              <td style="font-size: 28px; width: 26.6814%;">+</td>
-              <td style="width: 26.7916%;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;" colspan="2">假词正确小计</td>
-              <td style="width: 18.6329%;" colspan="3">/8</td>
-            </tr>
-            <tr>
-              <td style="width: 17.1996%;" colspan="2">真词正确小计</td>
-              <td style="width: 18.6329%;" colspan="3">/8</td>
+              <td colspan="2">真词正确小计</td>
+              <td colspan="3">{{temp.cases.namedTest.tingjuecihui.zhenci}}/8</td>
             </tr>
             <tr class="he_ji">
-              <td style="width: 27.3429%;" colspan="2">正确反应合计</td>
-              <td style="width: 72.1058%;" colspan="3">/16</td>
+              <td colspan="2">正确反应合计</td>
+              <td colspan="3">{{temp.cases.namedTest.tingjuecihui.total}}/16</td>
             </tr>
           </tbody>
         </table>
@@ -740,12 +525,12 @@
             <tr>
               <td class="lian_xi">练习1</td>
               <td> 刀</td>
-              <td> </td>
-              <td> </td>
-              <td> 切  </td>
-              <td>猫 </td>
-              <td> 刀</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[0]">{{temp.cases.namedTest.duizhengmingming.results[0].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[0]">{{temp.cases.namedTest.duizhengmingming.results[0].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[0] && temp.cases.namedTest.duizhengmingming.results[0].assureReact==0" type="checkbox" :checked="true" >切</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[0] && temp.cases.namedTest.duizhengmingming.results[0].assureReact==1" type="checkbox" :checked="true" >猫</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[0] && temp.cases.namedTest.duizhengmingming.results[0].assureReact==2" type="checkbox" :checked="true" >刀</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[0]">{{temp.cases.namedTest.duizhengmingming.results[0].assureReactType}}</span></td>
             </tr>
             <tr style="height: 18px;">
               <td colspan="8"> </td>
@@ -753,627 +538,627 @@
             <tr>
               <td>1</td>
               <td>青蛙</td>
-              <td> </td>
-              <td> </td>
-              <td>池塘</td>
-              <td>青蛙</td>
-              <td>惊讶</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[1]">{{temp.cases.namedTest.duizhengmingming.results[1].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[1]">{{temp.cases.namedTest.duizhengmingming.results[1].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[1] && temp.cases.namedTest.duizhengmingming.results[1].assureReact==0" type="checkbox" :checked="true" >池塘</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[1] && temp.cases.namedTest.duizhengmingming.results[1].assureReact==1" type="checkbox" :checked="true" >青蛙</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[1] && temp.cases.namedTest.duizhengmingming.results[1].assureReact==2" type="checkbox" :checked="true" >惊讶</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[1]">{{temp.cases.namedTest.duizhengmingming.results[1].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>2</td>
               <td>骆驼</td>
-              <td> </td>
-              <td> </td>
-              <td>骆驼</td>
-              <td>萝卜</td>
-              <td>沙漠</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[2]">{{temp.cases.namedTest.duizhengmingming.results[2].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[2]">{{temp.cases.namedTest.duizhengmingming.results[2].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[2] && temp.cases.namedTest.duizhengmingming.results[2].assureReact==0" type="checkbox" :checked="true" >骆驼</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[2] && temp.cases.namedTest.duizhengmingming.results[2].assureReact==1" type="checkbox" :checked="true" >萝卜</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[2] && temp.cases.namedTest.duizhengmingming.results[2].assureReact==2" type="checkbox" :checked="true" >沙漠</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[2]">{{temp.cases.namedTest.duizhengmingming.results[2].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>3</td>
               <td>大象</td>
-              <td> </td>
-              <td> </td>
-              <td>家乡</td>
-              <td>蚂蚁</td>
-              <td>大象</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[3]">{{temp.cases.namedTest.duizhengmingming.results[3].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[3]">{{temp.cases.namedTest.duizhengmingming.results[3].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[3] && temp.cases.namedTest.duizhengmingming.results[3].assureReact==0" type="checkbox" :checked="true" >家乡</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[3] && temp.cases.namedTest.duizhengmingming.results[3].assureReact==1" type="checkbox" :checked="true" >蚂蚁</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[3] && temp.cases.namedTest.duizhengmingming.results[3].assureReact==2" type="checkbox" :checked="true" >大象</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[3]">{{temp.cases.namedTest.duizhengmingming.results[3].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>4</td>
               <td>熊</td>
-              <td> </td>
-              <td> </td>
-              <td>桶</td>
-              <td>熊</td>
-              <td>笨</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[4]">{{temp.cases.namedTest.duizhengmingming.results[4].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[4]">{{temp.cases.namedTest.duizhengmingming.results[4].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[4] && temp.cases.namedTest.duizhengmingming.results[4].assureReact==0" type="checkbox" :checked="true" >桶</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[4] && temp.cases.namedTest.duizhengmingming.results[4].assureReact==1" type="checkbox" :checked="true" >熊</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[4] && temp.cases.namedTest.duizhengmingming.results[4].assureReact==2" type="checkbox" :checked="true" >笨</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[4]">{{temp.cases.namedTest.duizhengmingming.results[4].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>5</td>
               <td>兔子 </td>
-              <td> </td>
-              <td> </td>
-              <td>胡子</td>
-              <td>狼</td>
-              <td>兔子 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[5]">{{temp.cases.namedTest.duizhengmingming.results[5].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[5]">{{temp.cases.namedTest.duizhengmingming.results[5].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[5] && temp.cases.namedTest.duizhengmingming.results[5].assureReact==0" type="checkbox" :checked="true" >胡子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[5] && temp.cases.namedTest.duizhengmingming.results[5].assureReact==1" type="checkbox" :checked="true" >狼</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[5] && temp.cases.namedTest.duizhengmingming.results[5].assureReact==2" type="checkbox" :checked="true" >兔子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[5]">{{temp.cases.namedTest.duizhengmingming.results[5].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>6</td>
               <td>蛇 </td>
-              <td> </td>
-              <td> </td>
-              <td>绳子</td>
-              <td>沙</td>
-              <td>蛇 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[6]">{{temp.cases.namedTest.duizhengmingming.results[6].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[6]">{{temp.cases.namedTest.duizhengmingming.results[6].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[6] && temp.cases.namedTest.duizhengmingming.results[6].assureReact==0" type="checkbox" :checked="true" >绳子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[6] && temp.cases.namedTest.duizhengmingming.results[6].assureReact==1" type="checkbox" :checked="true" >沙</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[6] && temp.cases.namedTest.duizhengmingming.results[6].assureReact==2" type="checkbox" :checked="true" >蛇</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[6]">{{temp.cases.namedTest.duizhengmingming.results[6].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>7</td>
               <td>老虎</td>
-              <td> </td>
-              <td> </td>
-              <td>老虎</td>
-              <td>来回</td>
-              <td>恐怖</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[7]">{{temp.cases.namedTest.duizhengmingming.results[7].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[7]">{{temp.cases.namedTest.duizhengmingming.results[7].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[7] && temp.cases.namedTest.duizhengmingming.results[7].assureReact==0" type="checkbox" :checked="true" >老虎</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[7] && temp.cases.namedTest.duizhengmingming.results[7].assureReact==1" type="checkbox" :checked="true" >来回</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[7] && temp.cases.namedTest.duizhengmingming.results[7].assureReact==2" type="checkbox" :checked="true" >恐怖</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[7]">{{temp.cases.namedTest.duizhengmingming.results[7].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>8</td>
               <td>松鼠</td>
-              <td> </td>
-              <td> </td>
-              <td>从属</td>
-              <td>松鼠</td>
-              <td>狮子</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[8]">{{temp.cases.namedTest.duizhengmingming.results[8].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[8]">{{temp.cases.namedTest.duizhengmingming.results[8].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[8] && temp.cases.namedTest.duizhengmingming.results[8].assureReact==0" type="checkbox" :checked="true" >从属</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[8] && temp.cases.namedTest.duizhengmingming.results[8].assureReact==1" type="checkbox" :checked="true" >松鼠</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[8] && temp.cases.namedTest.duizhengmingming.results[8].assureReact==2" type="checkbox" :checked="true" >狮子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[8]">{{temp.cases.namedTest.duizhengmingming.results[8].assureReactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">动物小计 </td>
-              <td colspan="2"> /8</td>
-              <td colspan="4">                正确率 =　 正确确认数（）/ 需确认数（）</td>
+              <td colspan="2">{{temp.cases.namedTest.duizhengmingming.ani.correctCount}} /8</td>
+              <td colspan="4">正确率 =　{{temp.cases.namedTest.duizhengmingming.ani.asureCorrectCount/temp.cases.namedTest.duizhengmingming.ani.asureCount===0?1:temp.cases.namedTest.duizhengmingming.ani.asureCount}}% 正确确认数（{{temp.cases.namedTest.duizhengmingming.ani.asureCorrectCount}}）/ 需确认数（{{temp.cases.namedTest.duizhengmingming.ani.asureCount}}）</td>
             </tr>
             <tr>
               <td>9</td>
               <td>帽子</td>
-              <td> </td>
-              <td> </td>
-              <td>贸易</td>
-              <td>帽子</td>
-              <td>头顶</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[9]">{{temp.cases.namedTest.duizhengmingming.results[9].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[9]">{{temp.cases.namedTest.duizhengmingming.results[9].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[9] && temp.cases.namedTest.duizhengmingming.results[9].assureReact==0" type="checkbox" :checked="true" >贸易</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[9] && temp.cases.namedTest.duizhengmingming.results[9].assureReact==1" type="checkbox" :checked="true" >帽子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[9] && temp.cases.namedTest.duizhengmingming.results[9].assureReact==2" type="checkbox" :checked="true" >头顶</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[9]">{{temp.cases.namedTest.duizhengmingming.results[9].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>10</td>
               <td>手套 </td>
-              <td> </td>
-              <td> </td>
-              <td>手套</td>
-              <td>外套</td>
-              <td>上头</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[10]">{{temp.cases.namedTest.duizhengmingming.results[10].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[10]">{{temp.cases.namedTest.duizhengmingming.results[10].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[10] && temp.cases.namedTest.duizhengmingming.results[10].assureReact==0" type="checkbox" :checked="true" >手套</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[10] && temp.cases.namedTest.duizhengmingming.results[10].assureReact==1" type="checkbox" :checked="true" >外套</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[10] && temp.cases.namedTest.duizhengmingming.results[10].assureReact==2" type="checkbox" :checked="true" >上头</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[10]">{{temp.cases.namedTest.duizhengmingming.results[10].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>11</td>
               <td>裤子</td>
-              <td> </td>
-              <td> </td>
-              <td>父子</td>
-              <td>上衣</td>
-              <td>裤子</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[11]">{{temp.cases.namedTest.duizhengmingming.results[11].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[11]">{{temp.cases.namedTest.duizhengmingming.results[11].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[11] && temp.cases.namedTest.duizhengmingming.results[11].assureReact==0" type="checkbox" :checked="true" >父子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[11] && temp.cases.namedTest.duizhengmingming.results[11].assureReact==1" type="checkbox" :checked="true" >上衣</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[11] && temp.cases.namedTest.duizhengmingming.results[11].assureReact==2" type="checkbox" :checked="true" >裤子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[11]">{{temp.cases.namedTest.duizhengmingming.results[11].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>12</td>
               <td>鞋</td>
-              <td> </td>
-              <td> </td>
-              <td>走路</td>
-              <td>星</td>
-              <td>鞋</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[12]">{{temp.cases.namedTest.duizhengmingming.results[12].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[12]">{{temp.cases.namedTest.duizhengmingming.results[12].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[12] && temp.cases.namedTest.duizhengmingming.results[12].assureReact==0" type="checkbox" :checked="true" >走路</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[12] && temp.cases.namedTest.duizhengmingming.results[12].assureReact==1" type="checkbox" :checked="true" >星</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[12] && temp.cases.namedTest.duizhengmingming.results[12].assureReact==2" type="checkbox" :checked="true" >鞋</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[12]">{{temp.cases.namedTest.duizhengmingming.results[12].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>13</td>
               <td>衬衫 </td>
-              <td> </td>
-              <td> </td>
-              <td>大衣</td>
-              <td>衬衫</td>
-              <td>人参</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[13]">{{temp.cases.namedTest.duizhengmingming.results[13].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[13]">{{temp.cases.namedTest.duizhengmingming.results[13].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[13] && temp.cases.namedTest.duizhengmingming.results[13].assureReact==0" type="checkbox" :checked="true" >大衣</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[13] && temp.cases.namedTest.duizhengmingming.results[13].assureReact==1" type="checkbox" :checked="true" >衬衫</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[13] && temp.cases.namedTest.duizhengmingming.results[13].assureReact==2" type="checkbox" :checked="true" >人参</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[13]">{{temp.cases.namedTest.duizhengmingming.results[13].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>14</td>
               <td>裙子</td>
-              <td> </td>
-              <td> </td>
-              <td>裙子</td>
-              <td>西装</td>
-              <td>君子</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[14]">{{temp.cases.namedTest.duizhengmingming.results[14].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[14]">{{temp.cases.namedTest.duizhengmingming.results[14].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[14] && temp.cases.namedTest.duizhengmingming.results[14].assureReact==0" type="checkbox" :checked="true" >裙子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[14] && temp.cases.namedTest.duizhengmingming.results[14].assureReact==1" type="checkbox" :checked="true" >西装</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[14] && temp.cases.namedTest.duizhengmingming.results[14].assureReact==2" type="checkbox" :checked="true" >君子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[14]">{{temp.cases.namedTest.duizhengmingming.results[14].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>15</td>
               <td>袜子</td>
-              <td> </td>
-              <td> </td>
-              <td>袜子</td>
-              <td>袖子</td>
-              <td>鸭子</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[15]">{{temp.cases.namedTest.duizhengmingming.results[15].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[15]">{{temp.cases.namedTest.duizhengmingming.results[15].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[15] && temp.cases.namedTest.duizhengmingming.results[15].assureReact==0" type="checkbox" :checked="true" >袜子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[15] && temp.cases.namedTest.duizhengmingming.results[15].assureReact==1" type="checkbox" :checked="true" >袖子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[15] && temp.cases.namedTest.duizhengmingming.results[15].assureReact==2" type="checkbox" :checked="true" >鸭子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[15]">{{temp.cases.namedTest.duizhengmingming.results[15].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>16</td>
               <td>腰带</td>
-              <td> </td>
-              <td> </td>
-              <td>绑</td>
-              <td>朝代</td>
-              <td>腰带</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[16]">{{temp.cases.namedTest.duizhengmingming.results[16].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[16]">{{temp.cases.namedTest.duizhengmingming.results[16].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[16] && temp.cases.namedTest.duizhengmingming.results[16].assureReact==0" type="checkbox" :checked="true" >绑</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[16] && temp.cases.namedTest.duizhengmingming.results[16].assureReact==1" type="checkbox" :checked="true" >朝代</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[16] && temp.cases.namedTest.duizhengmingming.results[16].assureReact==2" type="checkbox" :checked="true" >腰带</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[16]">{{temp.cases.namedTest.duizhengmingming.results[16].assureReactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">服装小计</td>
-              <td colspan="2">/8</td>
-              <td colspan="4">           正确率 =　 正确确认数（）/ 需确认数（） </td>
+              <td colspan="2">{{temp.cases.namedTest.duizhengmingming.cloth.correctCount}} /8</td>
+              <td colspan="4">正确率 =　{{temp.cases.namedTest.duizhengmingming.cloth.asureCorrectCount/temp.cases.namedTest.duizhengmingming.cloth.asureCount===0?1:temp.cases.namedTest.duizhengmingming.cloth.asureCount}}% 正确确认数（{{temp.cases.namedTest.duizhengmingming.cloth.asureCorrectCount}}）/ 需确认数（{{temp.cases.namedTest.duizhengmingming.cloth.asureCount}}）</td>
             </tr>
             <tr>
               <td>17</td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>下巴 </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[17]">{{temp.cases.namedTest.duizhengmingming.results[17].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[17]">{{temp.cases.namedTest.duizhengmingming.results[17].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[17] && temp.cases.namedTest.duizhengmingming.results[17].assureReact==0" type="checkbox" :checked="true" >指甲</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[17] && temp.cases.namedTest.duizhengmingming.results[17].assureReact==1" type="checkbox" :checked="true" >加压</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[17] && temp.cases.namedTest.duizhengmingming.results[17].assureReact==2" type="checkbox" :checked="true" >下巴</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[17]">{{temp.cases.namedTest.duizhengmingming.results[17].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>18</td>
               <td>膝盖</td>
-              <td> </td>
-              <td> </td>
-              <td>膝盖</td>
-              <td>手腕</td>
-              <td>衣袋</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[18]">{{temp.cases.namedTest.duizhengmingming.results[18].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[18]">{{temp.cases.namedTest.duizhengmingming.results[18].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[18] && temp.cases.namedTest.duizhengmingming.results[18].assureReact==0" type="checkbox" :checked="true" >膝盖</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[18] && temp.cases.namedTest.duizhengmingming.results[18].assureReact==1" type="checkbox" :checked="true" >手腕</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[18] && temp.cases.namedTest.duizhengmingming.results[18].assureReact==2" type="checkbox" :checked="true" >衣袋</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[18]">{{temp.cases.namedTest.duizhengmingming.results[18].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>19</td>
               <td>耳朵</td>
-              <td> </td>
-              <td> </td>
-              <td>花朵</td>
-              <td>鼻子</td>
-              <td>耳朵</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[19]">{{temp.cases.namedTest.duizhengmingming.results[19].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[19]">{{temp.cases.namedTest.duizhengmingming.results[19].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[19] && temp.cases.namedTest.duizhengmingming.results[19].assureReact==0" type="checkbox" :checked="true" >花朵</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[19] && temp.cases.namedTest.duizhengmingming.results[19].assureReact==1" type="checkbox" :checked="true" >鼻子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[19] && temp.cases.namedTest.duizhengmingming.results[19].assureReact==2" type="checkbox" :checked="true" >耳朵</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[19]">{{temp.cases.namedTest.duizhengmingming.results[19].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>20</td>
               <td>眉毛</td>
-              <td> </td>
-              <td> </td>
-              <td>额头</td>
-              <td>眉毛</td>
-              <td>肥皂</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[20]">{{temp.cases.namedTest.duizhengmingming.results[20].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[20]">{{temp.cases.namedTest.duizhengmingming.results[20].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[20] && temp.cases.namedTest.duizhengmingming.results[20].assureReact==0" type="checkbox" :checked="true" >额头</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[20] && temp.cases.namedTest.duizhengmingming.results[20].assureReact==1" type="checkbox" :checked="true" >眉毛</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[20] && temp.cases.namedTest.duizhengmingming.results[20].assureReact==2" type="checkbox" :checked="true" >肥皂</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[20]">{{temp.cases.namedTest.duizhengmingming.results[20].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>21</td>
               <td>舌头</td>
-              <td> </td>
-              <td> </td>
-              <td>舌头</td>
-              <td>味道</td>
-              <td>渗透</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[21]">{{temp.cases.namedTest.duizhengmingming.results[21].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[21]">{{temp.cases.namedTest.duizhengmingming.results[21].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[21] && temp.cases.namedTest.duizhengmingming.results[21].assureReact==0" type="checkbox" :checked="true" >舌头</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[21] && temp.cases.namedTest.duizhengmingming.results[21].assureReact==1" type="checkbox" :checked="true" >味道</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[21] && temp.cases.namedTest.duizhengmingming.results[21].assureReact==2" type="checkbox" :checked="true" >渗透</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[21]">{{temp.cases.namedTest.duizhengmingming.results[21].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>22</td>
               <td>脖子</td>
-              <td> </td>
-              <td> </td>
-              <td>嘴唇</td>
-              <td>桌子</td>
-              <td>脖子</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[22]">{{temp.cases.namedTest.duizhengmingming.results[22].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[22]">{{temp.cases.namedTest.duizhengmingming.results[22].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[22] && temp.cases.namedTest.duizhengmingming.results[22].assureReact==0" type="checkbox" :checked="true" >嘴唇</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[22] && temp.cases.namedTest.duizhengmingming.results[22].assureReact==1" type="checkbox" :checked="true" >桌子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[22] && temp.cases.namedTest.duizhengmingming.results[22].assureReact==2" type="checkbox" :checked="true" >脖子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[22]">{{temp.cases.namedTest.duizhengmingming.results[22].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>23</td>
               <td>牙齿</td>
-              <td> </td>
-              <td> </td>
-              <td>牙齿</td>
-              <td>咬</td>
-              <td>架子</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[23]">{{temp.cases.namedTest.duizhengmingming.results[23].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[23]">{{temp.cases.namedTest.duizhengmingming.results[23].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[23] && temp.cases.namedTest.duizhengmingming.results[23].assureReact==0" type="checkbox" :checked="true" >牙齿</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[23] && temp.cases.namedTest.duizhengmingming.results[23].assureReact==1" type="checkbox" :checked="true" >咬</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[23] && temp.cases.namedTest.duizhengmingming.results[23].assureReact==2" type="checkbox" :checked="true" >架子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[23]">{{temp.cases.namedTest.duizhengmingming.results[23].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>24</td>
               <td>肩膀</td>
-              <td> </td>
-              <td> </td>
-              <td>胳膊</td>
-              <td>肩膀</td>
-              <td>连忙</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[24]">{{temp.cases.namedTest.duizhengmingming.results[24].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[24]">{{temp.cases.namedTest.duizhengmingming.results[24].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[24] && temp.cases.namedTest.duizhengmingming.results[24].assureReact==0" type="checkbox" :checked="true" >胳膊</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[24] && temp.cases.namedTest.duizhengmingming.results[24].assureReact==1" type="checkbox" :checked="true" >肩膀</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[24] && temp.cases.namedTest.duizhengmingming.results[24].assureReact==2" type="checkbox" :checked="true" >连忙</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[24]">{{temp.cases.namedTest.duizhengmingming.results[24].assureReactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2"> 身体小计</td>
-              <td colspan="2">/8</td>
-              <td colspan="4">            正确率 =　 正确确认数（）/ 需确认数（）</td>
+              <td colspan="2">{{temp.cases.namedTest.duizhengmingming.body.correctCount}} /8</td>
+              <td colspan="4">正确率 =　{{temp.cases.namedTest.duizhengmingming.body.asureCorrectCount/temp.cases.namedTest.duizhengmingming.body.asureCount===0?1:temp.cases.namedTest.duizhengmingming.body.asureCount}}% 正确确认数（{{temp.cases.namedTest.duizhengmingming.body.asureCorrectCount}}）/ 需确认数（{{temp.cases.namedTest.duizhengmingming.body.asureCount}}）</td>
             </tr>
             <tr>
               <td>25</td>
               <td>苹果</td>
-              <td> </td>
-              <td> </td>
-              <td>后果 </td>
-              <td>饥饿</td>
-              <td>苹果</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[25]">{{temp.cases.namedTest.duizhengmingming.results[25].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[25]">{{temp.cases.namedTest.duizhengmingming.results[25].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[25] && temp.cases.namedTest.duizhengmingming.results[25].assureReact==0" type="checkbox" :checked="true" >后果 </td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[25] && temp.cases.namedTest.duizhengmingming.results[25].assureReact==1" type="checkbox" :checked="true" >饥饿</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[25] && temp.cases.namedTest.duizhengmingming.results[25].assureReact==2" type="checkbox" :checked="true" >苹果</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[25]">{{temp.cases.namedTest.duizhengmingming.results[25].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>26</td>
               <td>玉米</td>
-              <td> </td>
-              <td> </td>
-              <td>聚集 </td>
-              <td>玉米</td>
-              <td>小麦</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[26]">{{temp.cases.namedTest.duizhengmingming.results[26].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[26]">{{temp.cases.namedTest.duizhengmingming.results[26].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[26] && temp.cases.namedTest.duizhengmingming.results[26].assureReact==0" type="checkbox" :checked="true" >聚集 </td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[26] && temp.cases.namedTest.duizhengmingming.results[26].assureReact==1" type="checkbox" :checked="true" >玉米</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[26] && temp.cases.namedTest.duizhengmingming.results[26].assureReact==2" type="checkbox" :checked="true" >小麦</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[26]">{{temp.cases.namedTest.duizhengmingming.results[26].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>27</td>
               <td>葡萄</td>
-              <td> </td>
-              <td> </td>
-              <td>无效 </td>
-              <td>水果</td>
-              <td>葡萄</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[27]">{{temp.cases.namedTest.duizhengmingming.results[27].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[27]">{{temp.cases.namedTest.duizhengmingming.results[27].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[27] && temp.cases.namedTest.duizhengmingming.results[27].assureReact==0" type="checkbox" :checked="true" >无效 </td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[27] && temp.cases.namedTest.duizhengmingming.results[27].assureReact==1" type="checkbox" :checked="true" >水果</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[27] && temp.cases.namedTest.duizhengmingming.results[27].assureReact==2" type="checkbox" :checked="true" >葡萄</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[27]">{{temp.cases.namedTest.duizhengmingming.results[27].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>28</td>
               <td>辣椒</td>
-              <td> </td>
-              <td> </td>
-              <td>辣椒 </td>
-              <td>发酵</td>
-              <td>萝卜</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[28]">{{temp.cases.namedTest.duizhengmingming.results[28].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[28]">{{temp.cases.namedTest.duizhengmingming.results[28].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[28] && temp.cases.namedTest.duizhengmingming.results[28].assureReact==0" type="checkbox" :checked="true" >辣椒 </td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[28] && temp.cases.namedTest.duizhengmingming.results[28].assureReact==1" type="checkbox" :checked="true" >发酵</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[28] && temp.cases.namedTest.duizhengmingming.results[28].assureReact==2" type="checkbox" :checked="true" >萝卜</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[28]">{{temp.cases.namedTest.duizhengmingming.results[28].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>29</td>
               <td>西瓜</td>
-              <td> </td>
-              <td> </td>
-              <td>依法</td>
-              <td>西瓜</td>
-              <td>桃</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[29]">{{temp.cases.namedTest.duizhengmingming.results[29].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[29]">{{temp.cases.namedTest.duizhengmingming.results[29].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[29] && temp.cases.namedTest.duizhengmingming.results[29].assureReact==0" type="checkbox" :checked="true" >依法</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[29] && temp.cases.namedTest.duizhengmingming.results[29].assureReact==1" type="checkbox" :checked="true" >西瓜</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[29] && temp.cases.namedTest.duizhengmingming.results[29].assureReact==2" type="checkbox" :checked="true" >桃</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[29]">{{temp.cases.namedTest.duizhengmingming.results[29].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>30</td>
               <td>白菜</td>
-              <td> </td>
-              <td> </td>
-              <td>外在</td>
-              <td>萝卜</td>
-              <td>白菜</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[30]">{{temp.cases.namedTest.duizhengmingming.results[30].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[30]">{{temp.cases.namedTest.duizhengmingming.results[30].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[30] && temp.cases.namedTest.duizhengmingming.results[30].assureReact==0" type="checkbox" :checked="true" >外在</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[30] && temp.cases.namedTest.duizhengmingming.results[30].assureReact==1" type="checkbox" :checked="true" >萝卜</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[30] && temp.cases.namedTest.duizhengmingming.results[30].assureReact==2" type="checkbox" :checked="true" >白菜</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[30]">{{temp.cases.namedTest.duizhengmingming.results[30].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>31</td>
               <td>梨</td>
-              <td> </td>
-              <td> </td>
-              <td>桃</td>
-              <td>梨  </td>
-              <td>席</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[31]">{{temp.cases.namedTest.duizhengmingming.results[31].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[31]">{{temp.cases.namedTest.duizhengmingming.results[31].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[31] && temp.cases.namedTest.duizhengmingming.results[31].assureReact==0" type="checkbox" :checked="true" >桃</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[31] && temp.cases.namedTest.duizhengmingming.results[31].assureReact==1" type="checkbox" :checked="true" >梨  </td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[31] && temp.cases.namedTest.duizhengmingming.results[31].assureReact==2" type="checkbox" :checked="true" >席</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[31]">{{temp.cases.namedTest.duizhengmingming.results[31].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>32</td>
               <td>花生</td>
-              <td> </td>
-              <td> </td>
-              <td>花生</td>
-              <td>发疯</td>
-              <td>大豆</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[32]">{{temp.cases.namedTest.duizhengmingming.results[32].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[32]">{{temp.cases.namedTest.duizhengmingming.results[32].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[32] && temp.cases.namedTest.duizhengmingming.results[32].assureReact==0" type="checkbox" :checked="true" >花生</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[32] && temp.cases.namedTest.duizhengmingming.results[32].assureReact==1" type="checkbox" :checked="true" >发疯</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[32] && temp.cases.namedTest.duizhengmingming.results[32].assureReact==2" type="checkbox" :checked="true" >大豆</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[32]">{{temp.cases.namedTest.duizhengmingming.results[32].assureReactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">  果蔬小计</td>
-              <td colspan="2">/8  </td>
-              <td colspan="4">            正确率 =　 正确确认数（）/ 需确认数（）    </td>
+              <td colspan="2">{{temp.cases.namedTest.duizhengmingming.fruit.correctCount}} /8</td>
+              <td colspan="4">正确率 =　{{temp.cases.namedTest.duizhengmingming.fruit.asureCorrectCount/temp.cases.namedTest.duizhengmingming.fruit.asureCount===0?1:temp.cases.namedTest.duizhengmingming.fruit.asureCount}}% 正确确认数（{{temp.cases.namedTest.duizhengmingming.fruit.asureCorrectCount}}）/ 需确认数（{{temp.cases.namedTest.duizhengmingming.fruit.asureCount}}）</td>
             </tr>
             <tr>
               <td>33</td>
               <td>手表 </td>
-              <td> </td>
-              <td> </td>
-              <td> 钟头</td>
-              <td>吼叫</td>
-              <td>手表 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[33]">{{temp.cases.namedTest.duizhengmingming.results[33].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[33]">{{temp.cases.namedTest.duizhengmingming.results[33].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[33] && temp.cases.namedTest.duizhengmingming.results[33].assureReact==0" type="checkbox" :checked="true" >钟头</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[33] && temp.cases.namedTest.duizhengmingming.results[33].assureReact==1" type="checkbox" :checked="true" >吼叫</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[33] && temp.cases.namedTest.duizhengmingming.results[33].assureReact==2" type="checkbox" :checked="true" >手表 </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[33]">{{temp.cases.namedTest.duizhengmingming.results[33].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>34</td>
               <td>眼镜</td>
-              <td> </td>
-              <td> </td>
-              <td> 前景 </td>
-              <td>眼镜</td>
-              <td>镜头</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[34]">{{temp.cases.namedTest.duizhengmingming.results[34].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[34]">{{temp.cases.namedTest.duizhengmingming.results[34].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[34] && temp.cases.namedTest.duizhengmingming.results[34].assureReact==0" type="checkbox" :checked="true" >前景</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[34] && temp.cases.namedTest.duizhengmingming.results[34].assureReact==1" type="checkbox" :checked="true" >眼镜</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[34] && temp.cases.namedTest.duizhengmingming.results[34].assureReact==2" type="checkbox" :checked="true" >镜头</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[34]">{{temp.cases.namedTest.duizhengmingming.results[34].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>35</td>
               <td>筷子</td>
-              <td> </td>
-              <td> </td>
-              <td> 筷子 </td>
-              <td>牌子</td>
-              <td>棍子</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[35]">{{temp.cases.namedTest.duizhengmingming.results[35].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[35]">{{temp.cases.namedTest.duizhengmingming.results[35].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[35] && temp.cases.namedTest.duizhengmingming.results[35].assureReact==0" type="checkbox" :checked="true" >筷子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[35] && temp.cases.namedTest.duizhengmingming.results[35].assureReact==1" type="checkbox" :checked="true" >牌子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[35] && temp.cases.namedTest.duizhengmingming.results[35].assureReact==2" type="checkbox" :checked="true" >棍子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[35]">{{temp.cases.namedTest.duizhengmingming.results[35].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>36</td>
               <td>被子</td>
-              <td> </td>
-              <td> </td>
-              <td> 枕头 </td>
-              <td>杯子</td>
-              <td>被子</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[36]">{{temp.cases.namedTest.duizhengmingming.results[36].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[36]">{{temp.cases.namedTest.duizhengmingming.results[36].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[36] && temp.cases.namedTest.duizhengmingming.results[36].assureReact==0" type="checkbox" :checked="true" >枕头</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[36] && temp.cases.namedTest.duizhengmingming.results[36].assureReact==1" type="checkbox" :checked="true" >杯子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[36] && temp.cases.namedTest.duizhengmingming.results[36].assureReact==2" type="checkbox" :checked="true" >被子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[36]">{{temp.cases.namedTest.duizhengmingming.results[36].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>37</td>
               <td>毛巾</td>
-              <td> </td>
-              <td> </td>
-              <td> 瓶子 </td>
-              <td>毛巾</td>
-              <td>脑筋</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[37]">{{temp.cases.namedTest.duizhengmingming.results[37].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[37]">{{temp.cases.namedTest.duizhengmingming.results[37].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[37] && temp.cases.namedTest.duizhengmingming.results[37].assureReact==0" type="checkbox" :checked="true" >瓶子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[37] && temp.cases.namedTest.duizhengmingming.results[37].assureReact==1" type="checkbox" :checked="true" >毛巾</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[37] && temp.cases.namedTest.duizhengmingming.results[37].assureReact==2" type="checkbox" :checked="true" >脑筋</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[37]">{{temp.cases.namedTest.duizhengmingming.results[37].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>38</td>
               <td>锅</td>
-              <td> </td>
-              <td> </td>
-              <td> 锅</td>
-              <td>炒</td>
-              <td>窝</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[38]">{{temp.cases.namedTest.duizhengmingming.results[38].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[38]">{{temp.cases.namedTest.duizhengmingming.results[38].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[38] && temp.cases.namedTest.duizhengmingming.results[38].assureReact==0" type="checkbox" :checked="true" >锅</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[38] && temp.cases.namedTest.duizhengmingming.results[38].assureReact==1" type="checkbox" :checked="true" >炒</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[38] && temp.cases.namedTest.duizhengmingming.results[38].assureReact==2" type="checkbox" :checked="true" >窝</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[38]">{{temp.cases.namedTest.duizhengmingming.results[38].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>39</td>
               <td>钥匙</td>
-              <td> </td>
-              <td> </td>
-              <td> 架子</td>
-              <td>好似</td>
-              <td>钥匙</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[39]">{{temp.cases.namedTest.duizhengmingming.results[39].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[39]">{{temp.cases.namedTest.duizhengmingming.results[39].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[39] && temp.cases.namedTest.duizhengmingming.results[39].assureReact==0" type="checkbox" :checked="true" >架子</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[39] && temp.cases.namedTest.duizhengmingming.results[39].assureReact==1" type="checkbox" :checked="true" >好似</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[39] && temp.cases.namedTest.duizhengmingming.results[39].assureReact==2" type="checkbox" :checked="true" >钥匙</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[39]">{{temp.cases.namedTest.duizhengmingming.results[39].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>40</td>
               <td> 桶</td>
-              <td> </td>
-              <td> </td>
-              <td> 涌</td>
-              <td>桶 </td>
-              <td>瓶子</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[40]">{{temp.cases.namedTest.duizhengmingming.results[40].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[40]">{{temp.cases.namedTest.duizhengmingming.results[40].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[40] && temp.cases.namedTest.duizhengmingming.results[40].assureReact==0" type="checkbox" :checked="true" >涌</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[40] && temp.cases.namedTest.duizhengmingming.results[40].assureReact==1" type="checkbox" :checked="true" >桶 </td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[40] && temp.cases.namedTest.duizhengmingming.results[40].assureReact==2" type="checkbox" :checked="true" >瓶子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[40]">{{temp.cases.namedTest.duizhengmingming.results[40].assureReactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">  工具小计</td>
-              <td colspan="2">/8  </td>
-              <td colspan="4">        正确率 =　 正确确认数（）/ 需确认数（）</td>
+              <td colspan="2">{{temp.cases.namedTest.duizhengmingming.tool.correctCount}} /8</td>
+              <td colspan="4">正确率 =　{{temp.cases.namedTest.duizhengmingming.tool.asureCorrectCount/temp.cases.namedTest.duizhengmingming.tool.asureCount===0?1:temp.cases.namedTest.duizhengmingming.tool.asureCount}}% 正确确认数（{{temp.cases.namedTest.duizhengmingming.tool.asureCorrectCount}}）/ 需确认数（{{temp.cases.namedTest.duizhengmingming.tool.asureCount}}）</td>
             </tr>
             <tr>
               <td>41</td>
               <td>红</td>
-              <td> </td>
-              <td> </td>
-              <td>重</td>
-              <td>红</td>
-              <td>白</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[41]">{{temp.cases.namedTest.duizhengmingming.results[41].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[41]">{{temp.cases.namedTest.duizhengmingming.results[41].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[41] && temp.cases.namedTest.duizhengmingming.results[41].assureReact==0" type="checkbox" :checked="true" >重</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[41] && temp.cases.namedTest.duizhengmingming.results[41].assureReact==1" type="checkbox" :checked="true" >红</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[41] && temp.cases.namedTest.duizhengmingming.results[41].assureReact==2" type="checkbox" :checked="true" >白</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[41]">{{temp.cases.namedTest.duizhengmingming.results[41].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>42</td>
               <td>绿</td>
-              <td> </td>
-              <td> </td>
-              <td>灰</td>
-              <td>具</td>
-              <td>绿</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[42]">{{temp.cases.namedTest.duizhengmingming.results[42].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[42]">{{temp.cases.namedTest.duizhengmingming.results[42].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[42] && temp.cases.namedTest.duizhengmingming.results[42].assureReact==0" type="checkbox" :checked="true" >灰</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[42] && temp.cases.namedTest.duizhengmingming.results[42].assureReact==1" type="checkbox" :checked="true" >具</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[42] && temp.cases.namedTest.duizhengmingming.results[42].assureReact==2" type="checkbox" :checked="true" >绿</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[42]">{{temp.cases.namedTest.duizhengmingming.results[42].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>43</td>
               <td>黄</td>
-              <td> </td>
-              <td> </td>
-              <td>黄</td>
-              <td>王</td>
-              <td>黑</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[43]">{{temp.cases.namedTest.duizhengmingming.results[43].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[43]">{{temp.cases.namedTest.duizhengmingming.results[43].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[43] && temp.cases.namedTest.duizhengmingming.results[43].assureReact==0" type="checkbox" :checked="true" >黄</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[43] && temp.cases.namedTest.duizhengmingming.results[43].assureReact==1" type="checkbox" :checked="true" >王</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[43] && temp.cases.namedTest.duizhengmingming.results[43].assureReact==2" type="checkbox" :checked="true" >黑</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[43]">{{temp.cases.namedTest.duizhengmingming.results[43].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>44</td>
               <td>粉红</td>
-              <td> </td>
-              <td> </td>
-              <td>蔚蓝</td>
-              <td>门洞</td>
-              <td>粉红</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[44]">{{temp.cases.namedTest.duizhengmingming.results[44].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[44]">{{temp.cases.namedTest.duizhengmingming.results[44].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[44] && temp.cases.namedTest.duizhengmingming.results[44].assureReact==0" type="checkbox" :checked="true" >蔚蓝</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[44] && temp.cases.namedTest.duizhengmingming.results[44].assureReact==1" type="checkbox" :checked="true" >门洞</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[44] && temp.cases.namedTest.duizhengmingming.results[44].assureReact==2" type="checkbox" :checked="true" >粉红</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[44]">{{temp.cases.namedTest.duizhengmingming.results[44].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>45</td>
               <td>白</td>
-              <td> </td>
-              <td> </td>
-              <td>红</td>
-              <td>白</td>
-              <td>台</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[45]">{{temp.cases.namedTest.duizhengmingming.results[45].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[45]">{{temp.cases.namedTest.duizhengmingming.results[45].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[45] && temp.cases.namedTest.duizhengmingming.results[45].assureReact==0" type="checkbox" :checked="true" >红</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[45] && temp.cases.namedTest.duizhengmingming.results[45].assureReact==1" type="checkbox" :checked="true" >白</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[45] && temp.cases.namedTest.duizhengmingming.results[45].assureReact==2" type="checkbox" :checked="true" >台</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[45]">{{temp.cases.namedTest.duizhengmingming.results[45].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>46</td>
               <td>蓝</td>
-              <td> </td>
-              <td> </td>
-              <td>蓝</td>
-              <td>弹 </td>
-              <td>紫</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[46]">{{temp.cases.namedTest.duizhengmingming.results[46].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[46]">{{temp.cases.namedTest.duizhengmingming.results[46].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[46] && temp.cases.namedTest.duizhengmingming.results[46].assureReact==0" type="checkbox" :checked="true" >蓝</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[46] && temp.cases.namedTest.duizhengmingming.results[46].assureReact==1" type="checkbox" :checked="true" >弹 </td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[46] && temp.cases.namedTest.duizhengmingming.results[46].assureReact==2" type="checkbox" :checked="true" >紫</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[46]">{{temp.cases.namedTest.duizhengmingming.results[46].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>47</td>
               <td>黑</td>
-              <td> </td>
-              <td> </td>
-              <td>白</td>
-              <td>黑 </td>
-              <td>飞</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[47]">{{temp.cases.namedTest.duizhengmingming.results[47].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[47]">{{temp.cases.namedTest.duizhengmingming.results[47].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[47] && temp.cases.namedTest.duizhengmingming.results[47].assureReact==0" type="checkbox" :checked="true" >白</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[47] && temp.cases.namedTest.duizhengmingming.results[47].assureReact==1" type="checkbox" :checked="true" >黑 </td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[47] && temp.cases.namedTest.duizhengmingming.results[47].assureReact==2" type="checkbox" :checked="true" >飞</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[47]">{{temp.cases.namedTest.duizhengmingming.results[47].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>48</td>
               <td>紫</td>
-              <td> </td>
-              <td> </td>
-              <td>紫</td>
-              <td>蓝 </td>
-              <td>止</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[48]">{{temp.cases.namedTest.duizhengmingming.results[48].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[48]">{{temp.cases.namedTest.duizhengmingming.results[48].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[48] && temp.cases.namedTest.duizhengmingming.results[48].assureReact==0" type="checkbox" :checked="true" >紫</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[48] && temp.cases.namedTest.duizhengmingming.results[48].assureReact==1" type="checkbox" :checked="true" >蓝 </td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[48] && temp.cases.namedTest.duizhengmingming.results[48].assureReact==2" type="checkbox" :checked="true" >止</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[48]">{{temp.cases.namedTest.duizhengmingming.results[48].assureReactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">颜色小计 </td>
-              <td colspan="2">/8  </td>
-              <td colspan="4">    正确率 =　 正确确认数（）/ 需确认数（）</td>
+              <td colspan="2">{{temp.cases.namedTest.duizhengmingming.color.correctCount}} /8</td>
+              <td colspan="4">正确率 =　{{temp.cases.namedTest.duizhengmingming.color.asureCorrectCount/temp.cases.namedTest.duizhengmingming.color.asureCount===0?1:temp.cases.namedTest.duizhengmingming.color.asureCount}}% 正确确认数（{{temp.cases.namedTest.duizhengmingming.color.asureCorrectCount}}）/ 需确认数（{{temp.cases.namedTest.duizhengmingming.color.asureCount}}）</td>
             </tr>
             <tr>
               <td>49</td>
               <td>熨斗</td>
-              <td> </td>
-              <td> </td>
-              <td>干洗</td>
-              <td>群殴</td>
-              <td>熨斗</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[49]">{{temp.cases.namedTest.duizhengmingming.results[49].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[49]">{{temp.cases.namedTest.duizhengmingming.results[49].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[49] && temp.cases.namedTest.duizhengmingming.results[49].assureReact==0" type="checkbox" :checked="true" >干洗</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[49] && temp.cases.namedTest.duizhengmingming.results[49].assureReact==1" type="checkbox" :checked="true" >群殴</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[49] && temp.cases.namedTest.duizhengmingming.results[49].assureReact==2" type="checkbox" :checked="true" >熨斗</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[49]">{{temp.cases.namedTest.duizhengmingming.results[49].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>50</td>
               <td>积木</td>
-              <td> </td>
-              <td> </td>
-              <td>祈福</td>
-              <td>积木</td>
-              <td>陀螺</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[50]">{{temp.cases.namedTest.duizhengmingming.results[50].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[50]">{{temp.cases.namedTest.duizhengmingming.results[50].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[50] && temp.cases.namedTest.duizhengmingming.results[50].assureReact==0" type="checkbox" :checked="true" >祈福</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[50] && temp.cases.namedTest.duizhengmingming.results[50].assureReact==1" type="checkbox" :checked="true" >积木</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[50] && temp.cases.namedTest.duizhengmingming.results[50].assureReact==2" type="checkbox" :checked="true" >陀螺</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[50]">{{temp.cases.namedTest.duizhengmingming.results[50].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>51</td>
               <td>拖把</td>
-              <td> </td>
-              <td> </td>
-              <td>拖把</td>
-              <td>婆妈</td>
-              <td>洒扫</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[51]">{{temp.cases.namedTest.duizhengmingming.results[51].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[51]">{{temp.cases.namedTest.duizhengmingming.results[51].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[51] && temp.cases.namedTest.duizhengmingming.results[51].assureReact==0" type="checkbox" :checked="true" >拖把</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[51] && temp.cases.namedTest.duizhengmingming.results[51].assureReact==1" type="checkbox" :checked="true" >婆妈</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[51] && temp.cases.namedTest.duizhengmingming.results[51].assureReact==2" type="checkbox" :checked="true" >洒扫</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[51]">{{temp.cases.namedTest.duizhengmingming.results[51].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>52</td>
               <td>古筝</td>
-              <td> </td>
-              <td> </td>
-              <td>武圣</td>
-              <td>古筝</td>
-              <td>弹拨</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[52]">{{temp.cases.namedTest.duizhengmingming.results[52].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[52]">{{temp.cases.namedTest.duizhengmingming.results[52].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[52] && temp.cases.namedTest.duizhengmingming.results[52].assureReact==0" type="checkbox" :checked="true" >武圣</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[52] && temp.cases.namedTest.duizhengmingming.results[52].assureReact==1" type="checkbox" :checked="true" >古筝</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[52] && temp.cases.namedTest.duizhengmingming.results[52].assureReact==2" type="checkbox" :checked="true" >弹拨</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[52]">{{temp.cases.namedTest.duizhengmingming.results[52].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>53</td>
               <td>掸子</td>
-              <td> </td>
-              <td> </td>
-              <td>拂尘</td>
-              <td>甘孜</td>
-              <td>掸子</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[53]">{{temp.cases.namedTest.duizhengmingming.results[53].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[53]">{{temp.cases.namedTest.duizhengmingming.results[53].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[53] && temp.cases.namedTest.duizhengmingming.results[53].assureReact==0" type="checkbox" :checked="true" >拂尘</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[53] && temp.cases.namedTest.duizhengmingming.results[53].assureReact==1" type="checkbox" :checked="true" >甘孜</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[53] && temp.cases.namedTest.duizhengmingming.results[53].assureReact==2" type="checkbox" :checked="true" >掸子</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[53]">{{temp.cases.namedTest.duizhengmingming.results[53].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>54</td>
               <td>飞镖</td>
-              <td> </td>
-              <td> </td>
-              <td>北漂</td>
-              <td>飞镖</td>
-              <td>弩箭</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[54]">{{temp.cases.namedTest.duizhengmingming.results[54].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[54]">{{temp.cases.namedTest.duizhengmingming.results[54].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[54] && temp.cases.namedTest.duizhengmingming.results[54].assureReact==0" type="checkbox" :checked="true" >北漂</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[54] && temp.cases.namedTest.duizhengmingming.results[54].assureReact==1" type="checkbox" :checked="true" >飞镖</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[54] && temp.cases.namedTest.duizhengmingming.results[54].assureReact==2" type="checkbox" :checked="true" >弩箭</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[54]">{{temp.cases.namedTest.duizhengmingming.results[54].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>55</td>
               <td>高跷</td>
-              <td> </td>
-              <td> </td>
-              <td> 高跷</td>
-              <td>旱船</td>
-              <td>浩渺 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[55]">{{temp.cases.namedTest.duizhengmingming.results[55].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[55]">{{temp.cases.namedTest.duizhengmingming.results[55].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[55] && temp.cases.namedTest.duizhengmingming.results[55].assureReact==0" type="checkbox" :checked="true" >高跷</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[55] && temp.cases.namedTest.duizhengmingming.results[55].assureReact==1" type="checkbox" :checked="true" >旱船</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[55] && temp.cases.namedTest.duizhengmingming.results[55].assureReact==2" type="checkbox" :checked="true" >浩渺 </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[55]">{{temp.cases.namedTest.duizhengmingming.results[55].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>56</td>
               <td>滑板</td>
-              <td> </td>
-              <td> </td>
-              <td>挂毯</td>
-              <td>滑板</td>
-              <td>溜冰</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[56]">{{temp.cases.namedTest.duizhengmingming.results[56].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[56]">{{temp.cases.namedTest.duizhengmingming.results[56].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[56] && temp.cases.namedTest.duizhengmingming.results[56].assureReact==0" type="checkbox" :checked="true" >挂毯</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[56] && temp.cases.namedTest.duizhengmingming.results[56].assureReact==1" type="checkbox" :checked="true" >滑板</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[56] && temp.cases.namedTest.duizhengmingming.results[56].assureReact==2" type="checkbox" :checked="true" >溜冰</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[56]">{{temp.cases.namedTest.duizhengmingming.results[56].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>57</td>
               <td>窗花</td>
-              <td> </td>
-              <td> </td>
-              <td>春联</td>
-              <td>光华</td>
-              <td>窗花</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[57]">{{temp.cases.namedTest.duizhengmingming.results[57].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[57]">{{temp.cases.namedTest.duizhengmingming.results[57].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[57] && temp.cases.namedTest.duizhengmingming.results[57].assureReact==0" type="checkbox" :checked="true" >春联</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[57] && temp.cases.namedTest.duizhengmingming.results[57].assureReact==1" type="checkbox" :checked="true" >光华</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[57] && temp.cases.namedTest.duizhengmingming.results[57].assureReact==2" type="checkbox" :checked="true" >窗花</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[57]">{{temp.cases.namedTest.duizhengmingming.results[57].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>58</td>
               <td>浴缸</td>
-              <td> </td>
-              <td> </td>
-              <td>浴缸</td>
-              <td>铝厂</td>
-              <td>泡澡</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[58]">{{temp.cases.namedTest.duizhengmingming.results[58].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[58]">{{temp.cases.namedTest.duizhengmingming.results[58].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[58] && temp.cases.namedTest.duizhengmingming.results[58].assureReact==0" type="checkbox" :checked="true" >浴缸</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[58] && temp.cases.namedTest.duizhengmingming.results[58].assureReact==1" type="checkbox" :checked="true" >铝厂</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[58] && temp.cases.namedTest.duizhengmingming.results[58].assureReact==2" type="checkbox" :checked="true" >泡澡</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[58]">{{temp.cases.namedTest.duizhengmingming.results[58].assureReactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">低频名词小计</td>
-              <td colspan="2">/10</td>
-              <td colspan="4">正确率 =　 正确确认数（）/ 需确认数（）</td>
+              <td colspan="2">{{temp.cases.namedTest.duizhengmingming.low.correctCount}} /10</td>
+              <td colspan="4">正确率 =　{{temp.cases.namedTest.duizhengmingming.low.asureCorrectCount/temp.cases.namedTest.duizhengmingming.low.asureCount===0?1:temp.cases.namedTest.duizhengmingming.low.asureCount}}% 正确确认数（{{temp.cases.namedTest.duizhengmingming.low.asureCorrectCount}}）/ 需确认数（{{temp.cases.namedTest.duizhengmingming.low.asureCount}}）</td>
             </tr>
             <tr>
               <td>练习2</td>
               <td>推</td>
-              <td> </td>
-              <td> </td>
-              <td>举</td>
-              <td>吹</td>
-              <td>推</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[59]">{{temp.cases.namedTest.duizhengmingming.results[59].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[59]">{{temp.cases.namedTest.duizhengmingming.results[59].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[59] && temp.cases.namedTest.duizhengmingming.results[59].assureReact==0" type="checkbox" :checked="true" >举</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[59] && temp.cases.namedTest.duizhengmingming.results[59].assureReact==1" type="checkbox" :checked="true" >吹</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[59] && temp.cases.namedTest.duizhengmingming.results[59].assureReact==2" type="checkbox" :checked="true" >推</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[59]">{{temp.cases.namedTest.duizhengmingming.results[59].assureReactType}}</span></td>
             </tr>
             <tr style="height: 18px;">
               <td colspan="8"> </td>
@@ -1381,172 +1166,172 @@
             <tr>
               <td>59</td>
               <td> 摔</td>
-              <td> </td>
-              <td> </td>
-              <td>摔</td>
-              <td>税</td>
-              <td>滑</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[60]">{{temp.cases.namedTest.duizhengmingming.results[60].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[60]">{{temp.cases.namedTest.duizhengmingming.results[60].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[60] && temp.cases.namedTest.duizhengmingming.results[60].assureReact==0" type="checkbox" :checked="true" >摔</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[60] && temp.cases.namedTest.duizhengmingming.results[60].assureReact==1" type="checkbox" :checked="true" >税</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[60] && temp.cases.namedTest.duizhengmingming.results[60].assureReact==2" type="checkbox" :checked="true" >滑</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[60]">{{temp.cases.namedTest.duizhengmingming.results[60].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>60</td>
               <td>睡觉</td>
-              <td> </td>
-              <td> </td>
-              <td>清醒</td>
-              <td>数据</td>
-              <td>睡觉</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[61]">{{temp.cases.namedTest.duizhengmingming.results[61].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[61]">{{temp.cases.namedTest.duizhengmingming.results[61].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[61] && temp.cases.namedTest.duizhengmingming.results[61].assureReact==0" type="checkbox" :checked="true" >清醒</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[61] && temp.cases.namedTest.duizhengmingming.results[61].assureReact==1" type="checkbox" :checked="true" >数据</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[61] && temp.cases.namedTest.duizhengmingming.results[61].assureReact==2" type="checkbox" :checked="true" >睡觉</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[61]">{{temp.cases.namedTest.duizhengmingming.results[61].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>61</td>
               <td>醉</td>
-              <td> </td>
-              <td> </td>
-              <td>浸</td>
-              <td>醉</td>
-              <td>脆 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[62]">{{temp.cases.namedTest.duizhengmingming.results[62].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[62]">{{temp.cases.namedTest.duizhengmingming.results[62].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[62] && temp.cases.namedTest.duizhengmingming.results[62].assureReact==0" type="checkbox" :checked="true" >浸</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[62] && temp.cases.namedTest.duizhengmingming.results[62].assureReact==1" type="checkbox" :checked="true" >醉</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[62] && temp.cases.namedTest.duizhengmingming.results[62].assureReact==2" type="checkbox" :checked="true" >脆</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[62]">{{temp.cases.namedTest.duizhengmingming.results[62].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>62</td>
               <td>洗澡 </td>
-              <td> </td>
-              <td> </td>
-              <td>洗澡</td>
-              <td>起草</td>
-              <td>清洁</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[63]">{{temp.cases.namedTest.duizhengmingming.results[63].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[63]">{{temp.cases.namedTest.duizhengmingming.results[63].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[63] && temp.cases.namedTest.duizhengmingming.results[63].assureReact==0" type="checkbox" :checked="true" >洗澡</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[63] && temp.cases.namedTest.duizhengmingming.results[63].assureReact==1" type="checkbox" :checked="true" >起草</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[63] && temp.cases.namedTest.duizhengmingming.results[63].assureReact==2" type="checkbox" :checked="true" >清洁</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[63]">{{temp.cases.namedTest.duizhengmingming.results[63].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>63</td>
               <td>跪 </td>
-              <td> </td>
-              <td> </td>
-              <td>卧</td>
-              <td>跪</td>
-              <td>挥 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[64]">{{temp.cases.namedTest.duizhengmingming.results[64].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[64]">{{temp.cases.namedTest.duizhengmingming.results[64].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[64] && temp.cases.namedTest.duizhengmingming.results[64].assureReact==0" type="checkbox" :checked="true" >卧</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[64] && temp.cases.namedTest.duizhengmingming.results[64].assureReact==1" type="checkbox" :checked="true" >跪</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[64] && temp.cases.namedTest.duizhengmingming.results[64].assureReact==2" type="checkbox" :checked="true" >挥</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[64]">{{temp.cases.namedTest.duizhengmingming.results[64].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>64</td>
               <td>游泳 </td>
-              <td> </td>
-              <td> </td>
-              <td>沟通</td>
-              <td>体操</td>
-              <td>游泳</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[65]">{{temp.cases.namedTest.duizhengmingming.results[65].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[65]">{{temp.cases.namedTest.duizhengmingming.results[65].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[65] && temp.cases.namedTest.duizhengmingming.results[65].assureReact==0" type="checkbox" :checked="true" >沟通</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[65] && temp.cases.namedTest.duizhengmingming.results[65].assureReact==1" type="checkbox" :checked="true" >体操</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[65] && temp.cases.namedTest.duizhengmingming.results[65].assureReact==2" type="checkbox" :checked="true" >游泳</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[65]">{{temp.cases.namedTest.duizhengmingming.results[65].assureReactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">不及物动词小计</td>
-              <td colspan="2">/6</td>
-              <td colspan="4">正确率 =　 正确确认数（）/ 需确认数（）</td>
+              <td colspan="2">{{temp.cases.namedTest.duizhengmingming.vi.correctCount}} /6</td>
+              <td colspan="4">正确率 =　{{temp.cases.namedTest.duizhengmingming.vi.asureCorrectCount/temp.cases.namedTest.duizhengmingming.vi.asureCount===0?1:temp.cases.namedTest.duizhengmingming.vi.asureCount}}% 正确确认数（{{temp.cases.namedTest.duizhengmingming.vi.asureCorrectCount}}）/ 需确认数（{{temp.cases.namedTest.duizhengmingming.vi.asureCount}}）</td>
             </tr>
             <tr>
               <td>65</td>
               <td>剪 </td>
-              <td> </td>
-              <td> </td>
-              <td>粘</td>
-              <td>叠 </td>
-              <td>剪</td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[66]">{{temp.cases.namedTest.duizhengmingming.results[66].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[66]">{{temp.cases.namedTest.duizhengmingming.results[66].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[66] && temp.cases.namedTest.duizhengmingming.results[66].assureReact==0" type="checkbox" :checked="true" >粘</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[66] && temp.cases.namedTest.duizhengmingming.results[66].assureReact==1" type="checkbox" :checked="true" >叠</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[66] && temp.cases.namedTest.duizhengmingming.results[66].assureReact==2" type="checkbox" :checked="true" >剪</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[66]">{{temp.cases.namedTest.duizhengmingming.results[66].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>66</td>
               <td>看望 </td>
-              <td> </td>
-              <td> </td>
-              <td>赶忙</td>
-              <td>看望</td>
-              <td>礼物 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[67]">{{temp.cases.namedTest.duizhengmingming.results[67].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[67]">{{temp.cases.namedTest.duizhengmingming.results[67].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[67] && temp.cases.namedTest.duizhengmingming.results[67].assureReact==0" type="checkbox" :checked="true" >赶忙</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[67] && temp.cases.namedTest.duizhengmingming.results[67].assureReact==1" type="checkbox" :checked="true" >看望</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[67] && temp.cases.namedTest.duizhengmingming.results[67].assureReact==2" type="checkbox" :checked="true" >礼物</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[67]">{{temp.cases.namedTest.duizhengmingming.results[67].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>67</td>
               <td>逮捕 </td>
-              <td> </td>
-              <td> </td>
-              <td>地板</td>
-              <td>罪犯</td>
-              <td>逮捕 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[68]">{{temp.cases.namedTest.duizhengmingming.results[68].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[68]">{{temp.cases.namedTest.duizhengmingming.results[68].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[68] && temp.cases.namedTest.duizhengmingming.results[68].assureReact==0" type="checkbox" :checked="true" >地板</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[68] && temp.cases.namedTest.duizhengmingming.results[68].assureReact==1" type="checkbox" :checked="true" >罪犯</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[68] && temp.cases.namedTest.duizhengmingming.results[68].assureReact==2" type="checkbox" :checked="true" >逮捕</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[68]">{{temp.cases.namedTest.duizhengmingming.results[68].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>68</td>
               <td>骑 </td>
-              <td> </td>
-              <td> </td>
-              <td>骑</td>
-              <td>轮</td>
-              <td>秋 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[69]">{{temp.cases.namedTest.duizhengmingming.results[69].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[69]">{{temp.cases.namedTest.duizhengmingming.results[69].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[69] && temp.cases.namedTest.duizhengmingming.results[69].assureReact==0" type="checkbox" :checked="true" >骑</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[69] && temp.cases.namedTest.duizhengmingming.results[69].assureReact==1" type="checkbox" :checked="true" >轮</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[69] && temp.cases.namedTest.duizhengmingming.results[69].assureReact==2" type="checkbox" :checked="true" >秋</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[69]">{{temp.cases.namedTest.duizhengmingming.results[69].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>69</td>
               <td>踢 </td>
-              <td> </td>
-              <td> </td>
-              <td>扔</td>
-              <td>踢</td>
-              <td>兔 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[70]">{{temp.cases.namedTest.duizhengmingming.results[70].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[70]">{{temp.cases.namedTest.duizhengmingming.results[70].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[70] && temp.cases.namedTest.duizhengmingming.results[70].assureReact==0" type="checkbox" :checked="true" >扔</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[70] && temp.cases.namedTest.duizhengmingming.results[70].assureReact==1" type="checkbox" :checked="true" >踢</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[70] && temp.cases.namedTest.duizhengmingming.results[70].assureReact==2" type="checkbox" :checked="true" >兔</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[70]">{{temp.cases.namedTest.duizhengmingming.results[70].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>70</td>
               <td>表扬 </td>
-              <td> </td>
-              <td> </td>
-              <td>表扬</td>
-              <td>祝贺</td>
-              <td>消亡 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[71]">{{temp.cases.namedTest.duizhengmingming.results[71].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[71]">{{temp.cases.namedTest.duizhengmingming.results[71].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[71] && temp.cases.namedTest.duizhengmingming.results[71].assureReact==0" type="checkbox" :checked="true" >表扬</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[71] && temp.cases.namedTest.duizhengmingming.results[71].assureReact==1" type="checkbox" :checked="true" >祝贺</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[71] && temp.cases.namedTest.duizhengmingming.results[71].assureReact==2" type="checkbox" :checked="true" >消亡</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[71]">{{temp.cases.namedTest.duizhengmingming.results[71].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>71</td>
               <td>奖励 </td>
-              <td> </td>
-              <td> </td>
-              <td>剧烈</td>
-              <td>惩罚</td>
-              <td>奖励 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[72]">{{temp.cases.namedTest.duizhengmingming.results[72].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[72]">{{temp.cases.namedTest.duizhengmingming.results[72].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[72] && temp.cases.namedTest.duizhengmingming.results[72].assureReact==0" type="checkbox" :checked="true" >剧烈</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[72] && temp.cases.namedTest.duizhengmingming.results[72].assureReact==1" type="checkbox" :checked="true" >惩罚</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[72] && temp.cases.namedTest.duizhengmingming.results[72].assureReact==2" type="checkbox" :checked="true" >奖励</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[72]">{{temp.cases.namedTest.duizhengmingming.results[72].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>72</td>
               <td>喂 </td>
-              <td> </td>
-              <td> </td>
-              <td>喂</td>
-              <td>费</td>
-              <td>菜 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[73]">{{temp.cases.namedTest.duizhengmingming.results[73].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[73]">{{temp.cases.namedTest.duizhengmingming.results[73].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[73] && temp.cases.namedTest.duizhengmingming.results[73].assureReact==0" type="checkbox" :checked="true" >喂</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[73] && temp.cases.namedTest.duizhengmingming.results[73].assureReact==1" type="checkbox" :checked="true" >费</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[73] && temp.cases.namedTest.duizhengmingming.results[73].assureReact==2" type="checkbox" :checked="true" >菜</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[73]">{{temp.cases.namedTest.duizhengmingming.results[73].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>73</td>
               <td>泼 </td>
-              <td> </td>
-              <td> </td>
-              <td>撇</td>
-              <td>泼</td>
-              <td>趴 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[74]">{{temp.cases.namedTest.duizhengmingming.results[74].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[74]">{{temp.cases.namedTest.duizhengmingming.results[74].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[74] && temp.cases.namedTest.duizhengmingming.results[74].assureReact==0" type="checkbox" :checked="true" >撇</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[74] && temp.cases.namedTest.duizhengmingming.results[74].assureReact==1" type="checkbox" :checked="true" >泼</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[74] && temp.cases.namedTest.duizhengmingming.results[74].assureReact==2" type="checkbox" :checked="true" >趴</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[74]">{{temp.cases.namedTest.duizhengmingming.results[74].assureReactType}}</span></td>
             </tr>
             <tr>
               <td>74</td>
               <td>询问 </td>
-              <td> </td>
-              <td> </td>
-              <td>询问</td>
-              <td>信任</td>
-              <td>答案 </td>
-              <td> </td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[75]">{{temp.cases.namedTest.duizhengmingming.results[75].react}}</span></td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[75]">{{temp.cases.namedTest.duizhengmingming.results[75].reactType}}</span></td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[75] && temp.cases.namedTest.duizhengmingming.results[75].assureReact==0" type="checkbox" :checked="true" >询问</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[75] && temp.cases.namedTest.duizhengmingming.results[75].assureReact==1" type="checkbox" :checked="true" >信任</td>
+              <td><input v-if="temp.cases.namedTest.duizhengmingming.results[75] && temp.cases.namedTest.duizhengmingming.results[75].assureReact==2" type="checkbox" :checked="true" >答案</td>
+              <td><span v-if="temp.cases.namedTest.duizhengmingming.results[75]">{{temp.cases.namedTest.duizhengmingming.results[75].assureReactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">及物动词小计</td>
-              <td colspan="2">/10</td>
-              <td colspan="4">正确率 =　 正确确认数（）/ 需确认数（）</td>
+              <td colspan="2">{{temp.cases.namedTest.duizhengmingming.vt.correctCount}} /10</td>
+              <td colspan="4">正确率 =　{{temp.cases.namedTest.duizhengmingming.vt.asureCorrectCount/temp.cases.namedTest.duizhengmingming.vt.asureCount===0?1:temp.cases.namedTest.duizhengmingming.vt.asureCount}}% 正确确认数（{{temp.cases.namedTest.duizhengmingming.vt.asureCorrectCount}}）/ 需确认数（{{temp.cases.namedTest.duizhengmingming.vt.asureCount}}）</td>
             </tr>
           </tbody>
         </table>
@@ -3050,158 +2835,158 @@
               </tr>
             </thead>
             <tbody>
-              <tr style="height: 36px;">
-                <td class="lian_xi" style="width: 17%; height: 36px;">练习1</td>
-                <td style="width: 18%; height: 36px;">&nbsp;老鼠</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td class="lian_xi" style=" ">练习1</td>
+                <td style=" ">&nbsp;老鼠</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[0]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="height: 36px;" colspan="3">&nbsp;</td>
+              <tr style="">
+                <td style="" colspan="3">&nbsp;</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">1</td>
-                <td style="width: 18%; height: 36px;">&nbsp;兔子</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">1</td>
+                <td style=" ">&nbsp;兔子</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[1]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">2</td>
-                <td style="width: 18%; height: 36px;">&nbsp;蛇</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">2</td>
+                <td style=" ">&nbsp;蛇</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[2]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">3</td>
-                <td style="width: 18%; height: 36px;">&nbsp;青蛙</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">3</td>
+                <td style=" ">&nbsp;青蛙</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[3]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">4</td>
-                <td style="width: 18%; height: 36px;">&nbsp;大象</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">4</td>
+                <td style=" ">&nbsp;大象</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[4]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">5</td>
-                <td style="width: 18%; height: 36px;">&nbsp;骆驼</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 18px;">
-                <td style="width: 35%; height: 18px;" colspan="2">动物小计</td>
-                <td style="width: 160.709%; height: 36px;">/5</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">6</td>
-                <td style="width: 18%; height: 36px;">&nbsp;鞋</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">7</td>
-                <td style="width: 18%; height: 36px;">&nbsp;裙子</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">8</td>
-                <td style="width: 18%; height: 36px;">&nbsp;裤子</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">9</td>
-                <td style="width: 18%; height: 36px;">&nbsp;袜子</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">10</td>
-                <td style="width: 18%; height: 36px;">&nbsp;帽子</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">5</td>
+                <td style=" ">&nbsp;骆驼</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[5]}}</td>
               </tr>
               <tr style="height: 18px;">
-                <td style="width: 35%; height: 18px;" colspan="2">服装小计</td>
-                <td style="width: 160.709%; height: 36px;">/5</td>
+                <td style=" height: 18px;" colspan="2">动物小计</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.ani}}/5</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">11</td>
-                <td style="width: 18%; height: 36px;">&nbsp;下巴</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">6</td>
+                <td style=" ">&nbsp;鞋</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[6]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">12</td>
-                <td style="width: 18%; height: 36px;">&nbsp;肩膀</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">7</td>
+                <td style=" ">&nbsp;裙子</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[7]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">13</td>
-                <td style="width: 18%; height: 36px;">&nbsp;舌头</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">8</td>
+                <td style=" ">&nbsp;裤子</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[8]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">14</td>
-                <td style="width: 18%; height: 36px;">&nbsp;耳朵</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">9</td>
+                <td style=" ">&nbsp;袜子</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[9]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">15</td>
-                <td style="width: 18%; height: 36px;">&nbsp;眉毛</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 18px;">
-                <td style="width: 35%; height: 18px;" colspan="2">身体小计</td>
-                <td style="width: 160.709%; height: 36px;">/5</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">16</td>
-                <td style="width: 18%; height: 36px;">&nbsp;葡萄</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">17</td>
-                <td style="width: 18%; height: 36px;">&nbsp;玉米</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">18</td>
-                <td style="width: 18%; height: 36px;">&nbsp;西瓜</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">19</td>
-                <td style="width: 18%; height: 36px;">&nbsp;梨</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">20</td>
-                <td style="width: 18%; height: 36px;">&nbsp;白菜</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">10</td>
+                <td style=" ">&nbsp;帽子</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[10]}}</td>
               </tr>
               <tr style="height: 18px;">
-                <td style="width: 35%; height: 18px;" colspan="2">果蔬小计</td>
-                <td style="width: 160.709%; height: 36px;">/5</td>
+                <td style=" height: 18px;" colspan="2">服装小计</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.cloth}}/5</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">21</td>
-                <td style="width: 18%; height: 36px;">&nbsp;锅</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">11</td>
+                <td style=" ">&nbsp;下巴</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[11]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">22</td>
-                <td style="width: 18%; height: 36px;">&nbsp;钥匙</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">12</td>
+                <td style=" ">&nbsp;肩膀</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[12]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">23</td>
-                <td style="width: 18%; height: 36px;">&nbsp;桶</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">13</td>
+                <td style=" ">&nbsp;舌头</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[13]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">24</td>
-                <td style="width: 18%; height: 36px;">&nbsp;眼镜</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">14</td>
+                <td style=" ">&nbsp;耳朵</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[14]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">25</td>
-                <td style="width: 18%; height: 36px;">筷子&nbsp;</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td style=" ">15</td>
+                <td style=" ">&nbsp;眉毛</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[15]}}</td>
               </tr>
               <tr style="height: 18px;">
-                <td style="width: 35%; height: 18px;" colspan="2">工具小计</td>
-                <td style="width: 160.709%; height: 36px;">/5</td>
+                <td style=" height: 18px;" colspan="2">身体小计</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.body}}/5</td>
+              </tr>
+              <tr style="">
+                <td style=" ">16</td>
+                <td style=" ">&nbsp;葡萄</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[16]}}</td>
+              </tr>
+              <tr style="">
+                <td style=" ">17</td>
+                <td style=" ">&nbsp;玉米</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[17]}}</td>
+              </tr>
+              <tr style="">
+                <td style=" ">18</td>
+                <td style=" ">&nbsp;西瓜</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[18]}}</td>
+              </tr>
+              <tr style="">
+                <td style=" ">19</td>
+                <td style=" ">&nbsp;梨</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[19]}}</td>
+              </tr>
+              <tr style="">
+                <td style=" ">20</td>
+                <td style=" ">&nbsp;白菜</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[20]}}</td>
+              </tr>
+              <tr style="height: 18px;">
+                <td style=" height: 18px;" colspan="2">果蔬小计</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.fruit}}/5</td>
+              </tr>
+              <tr style="">
+                <td style=" ">21</td>
+                <td style=" ">&nbsp;锅</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[21]}}</td>
+              </tr>
+              <tr style="">
+                <td style=" ">22</td>
+                <td style=" ">&nbsp;钥匙</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[22]}}</td>
+              </tr>
+              <tr style="">
+                <td style=" ">23</td>
+                <td style=" ">&nbsp;桶</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[23]}}</td>
+              </tr>
+              <tr style="">
+                <td style=" ">24</td>
+                <td style=" ">&nbsp;眼镜</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[24]}}</td>
+              </tr>
+              <tr style="">
+                <td style=" ">25</td>
+                <td style=" ">筷子&nbsp;</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[25]}}</td>
+              </tr>
+              <tr style="height: 18px;">
+                <td style=" height: 18px;" colspan="2">工具小计</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.tool}}/5</td>
               </tr>
             </tbody>
           </table>
@@ -3216,315 +3001,315 @@
               </tr>
             </thead>
             <tbody>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">26</td>
-                <td style="width: 18%; height: 36px;">&nbsp;红色</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >26</td>
+                <td >&nbsp;红色</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[26]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">27</td>
-                <td style="width: 18%; height: 36px;">&nbsp;黄色</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >27</td>
+                <td >&nbsp;黄色</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[27]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">28</td>
-                <td style="width: 18%; height: 36px;">&nbsp;蓝色</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >28</td>
+                <td >&nbsp;蓝色</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[28]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">29</td>
-                <td style="width: 18%; height: 36px;">&nbsp;绿色</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >29</td>
+                <td >&nbsp;绿色</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[29]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">30</td>
-                <td style="width: 18%; height: 36px;">&nbsp;黑色</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >30</td>
+                <td >&nbsp;黑色</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[30]}}</td>
               </tr>
               <tr style="height: 18px;">
                 <td style="width: 35%; height: 18px;" colspan="2">颜色小计</td>
-                <td style="width: 160.709%; height: 36px;">/5</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.color}}/5</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">31</td>
-                <td style="width: 18%; height: 36px;">&nbsp;高跷</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >31</td>
+                <td >&nbsp;高跷</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[31]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">32</td>
-                <td style="width: 18%; height: 36px;">&nbsp;滑板</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >32</td>
+                <td >&nbsp;滑板</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[32]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">33</td>
-                <td style="width: 18%; height: 36px;">&nbsp;熨斗</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >33</td>
+                <td >&nbsp;熨斗</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[33]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">34</td>
-                <td style="width: 18%; height: 36px;">&nbsp;窗花</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >34</td>
+                <td >&nbsp;窗花</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[34]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">35</td>
-                <td style="width: 18%; height: 36px;">&nbsp;浴缸</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >35</td>
+                <td >&nbsp;浴缸</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[35]}}</td>
               </tr>
               <tr style="height: 18px;">
                 <td style="width: 35%; height: 18px;" colspan="2">低频名词小计</td>
-                <td style="width: 160.709%; height: 36px;">/5</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.low}}/5</td>
               </tr>
-              <tr style="height: 36px;">
-                <td class="lian_xi" style="width: 17%; height: 36px;">练习2</td>
-                <td style="width: 18%; height: 36px;">&nbsp;坐</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td class="lian_xi" >练习2</td>
+                <td >&nbsp;坐</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[36]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="height: 36px;" colspan="3">&nbsp;</td>
+              <tr style="">
+                <td style="" colspan="3">&nbsp;</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">36</td>
-                <td style="width: 18%; height: 36px;">&nbsp;睡觉</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >36</td>
+                <td >&nbsp;睡觉</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[37]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">37</td>
-                <td style="width: 18%; height: 36px;">&nbsp;跪</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >37</td>
+                <td >&nbsp;跪</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[38]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">38</td>
-                <td style="width: 18%; height: 36px;">&nbsp;洗澡</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >38</td>
+                <td >&nbsp;洗澡</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[39]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">39</td>
-                <td style="width: 18%; height: 36px;">&nbsp;醉</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >39</td>
+                <td >&nbsp;醉</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[40]}}</td>
               </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">40</td>
-                <td style="width: 18%; height: 36px;">&nbsp;游泳</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+              <tr style="">
+                <td >40</td>
+                <td >&nbsp;游泳</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[41]}}</td>
               </tr>
               <tr style="height: 18px;">
                 <td style="width: 35%; height: 18px;" colspan="2">不及物动词小计</td>
-                <td style="width: 160.709%; height: 36px;">/5</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.vi}}/5</td>
+              </tr>
+              <tr style="">
+                <td >41</td>
+                <td >&nbsp;剪</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[42]}}</td>
+              </tr>
+              <tr style="">
+                <td >42</td>
+                <td >&nbsp;看望</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[43]}}</td>
+              </tr>
+              <tr style="">
+                <td >43</td>
+                <td >&nbsp;逮捕</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[44]}}</td>
+              </tr>
+              <tr style="">
+                <td >44</td>
+                <td >&nbsp;踢</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[45]}}</td>
+              </tr>
+              <tr style="">
+                <td >45</td>
+                <td >&nbsp;表扬</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[46]}}</td>
+              </tr>
+              <tr style="">
+                <td >46</td>
+                <td >&nbsp;骑</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[47]}}</td>
+              </tr>
+              <tr style="">
+                <td >47</td>
+                <td >&nbsp;喂</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[48]}}</td>
+              </tr>
+              <tr style="">
+                <td >48</td>
+                <td >&nbsp;奖励</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[49]}}</td>
+              </tr>
+              <tr style="">
+                <td >49</td>
+                <td >&nbsp;泼</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[50]}}</td>
+              </tr>
+              <tr style="">
+                <td >50</td>
+                <td >&nbsp;询问</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.results[51]}}</td>
               </tr>
               <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">41</td>
-                <td style="width: 18%; height: 36px;">&nbsp;剪</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">42</td>
-                <td style="width: 18%; height: 36px;">&nbsp;看望</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">43</td>
-                <td style="width: 18%; height: 36px;">&nbsp;逮捕</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">44</td>
-                <td style="width: 18%; height: 36px;">&nbsp;踢</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">45</td>
-                <td style="width: 18%; height: 36px;">&nbsp;表扬</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">46</td>
-                <td style="width: 18%; height: 36px;">&nbsp;骑</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">47</td>
-                <td style="width: 18%; height: 36px;">&nbsp;喂</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">48</td>
-                <td style="width: 18%; height: 36px;">&nbsp;奖励</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">49</td>
-                <td style="width: 18%; height: 36px;">&nbsp;泼</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 36px;">
-                <td style="width: 17%; height: 36px;">50</td>
-                <td style="width: 18%; height: 36px;">&nbsp;询问</td>
-                <td style="width: 160.709%; height: 36px;">&nbsp;</td>
-              </tr>
-              <tr style="height: 72px;">
-                <td style="width: 35%; height: 18px;" colspan="2">及物动词小计</td>
-                <td style="width: 160.709%; height: 36px;">/5</td>
+                <td  colspan="2">及物动词小计</td>
+                <td style=" ">{{temp.cases.namedTest.tingjuelijie.vt}}/5</td>
               </tr>
             </tbody>
           </table>
         </div>
 
         <h4>表 G　语义关联评分表</h4>
-        <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
+        <table style="width: 100%; text-align: center; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
-              <th style="width: 20%; height: 18px;">序号</th>
-              <th style="width: 20%; height: 18px;" colspan="2">项目</th>
-              <th style="width: 20%; height: 18px;">标准答案</th>
-              <th style="width: 20%; height: 18px;">反应类别</th>
+              <th style="height: 18px;">序号</th>
+              <th style="height: 18px;" colspan="2">项目</th>
+              <th style="height: 18px;">标准答案</th>
+              <th style="height: 18px;">反应类别</th>
             </tr>
           </thead>
           <tbody>
-            <tr style="height: 36px;">
-              <td class="lian_xi" style="width: 17%; height: 36px;">练习1</td>
-              <td style="width: 18%; height: 36px;">&nbsp;毛衣 / 毯子&nbsp;</td>
-              <td style="width: 19%; height: 36px;">&nbsp;毛衣 / 枕头&nbsp;</td>
-              <td style="height: 36px;">毛衣 / 毯子</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td class="lian_xi" style="">练习1</td>
+              <td style="">&nbsp;毛衣 / 毯子&nbsp;</td>
+              <td style="">&nbsp;毛衣 / 枕头&nbsp;</td>
+              <td style="">毛衣 / 毯子</td>
+                <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[0]">{{temp.cases.namedTest.yuyiguanlian.results[0].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td class="lian_xi" style="width: 17%; height: 36px;">练习2</td>
-              <td style="width: 18%; height: 36px;">&nbsp;毛衣 / 柜子&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">毛衣 / 书架&nbsp;</td>
-              <td style="height: 36px;">毛衣 / 柜子&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td class="lian_xi" style="">练习2</td>
+              <td style="">&nbsp;毛衣 / 柜子&nbsp;&nbsp;</td>
+              <td style="">毛衣 / 书架&nbsp;</td>
+              <td style="">毛衣 / 柜子&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[1]">{{temp.cases.namedTest.yuyiguanlian.results[1].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td class="lian_xi" style="width: 17%; height: 36px;">练习3</td>
-              <td style="width: 18%; height: 36px;">&nbsp;毛衣 / 磁铁&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">毛衣 / 裙子&nbsp;</td>
-              <td style="height: 36px;">毛衣 / 裙子&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td class="lian_xi" style="">练习3</td>
+              <td style="">&nbsp;毛衣 / 磁铁&nbsp;&nbsp;</td>
+              <td style="">毛衣 / 裙子&nbsp;</td>
+              <td style="">毛衣 / 裙子&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[2]">{{temp.cases.namedTest.yuyiguanlian.results[2].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="height: 36px;" colspan="5">&nbsp;</td>
+            <tr style="">
+              <td style="" colspan="5">&nbsp;</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">1</td>
-              <td style="width: 18%; height: 36px;">&nbsp;骆驼 / 书桌&nbsp;</td>
-              <td style="width: 19%; height: 36px;">&nbsp;骆驼 / 三轮车&nbsp;</td>
-              <td style="height: 36px;">骆驼 / 三轮车&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">1</td>
+              <td style="">&nbsp;骆驼 / 书桌&nbsp;</td>
+              <td style="">&nbsp;骆驼 / 三轮车&nbsp;</td>
+              <td style="">骆驼 / 三轮车&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[3]">{{temp.cases.namedTest.yuyiguanlian.results[3].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">2</td>
-              <td style="width: 18%; height: 36px;">&nbsp;兔子 / 萝卜&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">兔子 / 肉&nbsp;</td>
-              <td style="height: 36px;">兔子 / 萝卜&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">2</td>
+              <td style="">&nbsp;兔子 / 萝卜&nbsp;&nbsp;</td>
+              <td style="">兔子 / 肉&nbsp;</td>
+              <td style="">兔子 / 萝卜&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[4]">{{temp.cases.namedTest.yuyiguanlian.results[4].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">3</td>
-              <td style="width: 18%; height: 36px;">&nbsp;老鼠 / 钉子&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">老鼠 / 花生&nbsp;</td>
-              <td style="fheight: 36px;">&nbsp;老鼠 / 花生</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">3</td>
+              <td style="">&nbsp;老鼠 / 钉子&nbsp;&nbsp;</td>
+              <td style="">老鼠 / 花生&nbsp;</td>
+              <td style="f">&nbsp;老鼠 / 花生</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[5]">{{temp.cases.namedTest.yuyiguanlian.results[5].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">4</td>
-              <td style="width: 18%; height: 36px;">&nbsp;碗 / 锅&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">&nbsp;碗 / 铅笔</td>
-              <td style="height: 36px;">&nbsp;碗 / 锅</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">4</td>
+              <td style="">&nbsp;碗 / 锅&nbsp;&nbsp;</td>
+              <td style="">&nbsp;碗 / 铅笔</td>
+              <td style="">&nbsp;碗 / 锅</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[6]">{{temp.cases.namedTest.yuyiguanlian.results[6].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">5</td>
-              <td style="width: 18%; height: 36px;">&nbsp;松鼠 / 鸡蛋&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">松鼠 / 核桃&nbsp;</td>
-              <td style="height: 36px;">松鼠 / 核桃</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">5</td>
+              <td style="">&nbsp;松鼠 / 鸡蛋&nbsp;&nbsp;</td>
+              <td style="">松鼠 / 核桃&nbsp;</td>
+              <td style="">松鼠 / 核桃</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[7]">{{temp.cases.namedTest.yuyiguanlian.results[7].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">6</td>
-              <td style="width: 18%; height: 36px;">骆驼 / 金字塔&nbsp;</td>
-              <td style="width: 19%; height: 36px;">骆驼 / 东方明珠塔&nbsp;&nbsp;</td>
-              <td style="fheight: 36px;">&nbsp;骆驼 / 金字塔</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">6</td>
+              <td style="">骆驼 / 金字塔&nbsp;</td>
+              <td style="">骆驼 / 东方明珠塔&nbsp;&nbsp;</td>
+              <td style="f">&nbsp;骆驼 / 金字塔</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[8]">{{temp.cases.namedTest.yuyiguanlian.results[8].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">7</td>
-              <td style="width: 18%; height: 36px;">&nbsp;剪刀 / 纸&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">剪刀 / 木头&nbsp;</td>
-              <td style="height: 36px;">&nbsp;剪刀 / 纸&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">7</td>
+              <td style="">&nbsp;剪刀 / 纸&nbsp;&nbsp;</td>
+              <td style="">剪刀 / 木头&nbsp;</td>
+              <td style="">&nbsp;剪刀 / 纸&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[9]">{{temp.cases.namedTest.yuyiguanlian.results[9].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">8</td>
-              <td style="width: 18%; height: 36px;">碗 / 水槽&nbsp;</td>
-              <td style="width: 19%; height: 36px;">&nbsp;碗 / 床&nbsp;</td>
-              <td style="height: 36px;">&nbsp;碗 / 水槽</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">8</td>
+              <td style="">碗 / 水槽&nbsp;</td>
+              <td style="">&nbsp;碗 / 床&nbsp;</td>
+              <td style="">&nbsp;碗 / 水槽</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[10]">{{temp.cases.namedTest.yuyiguanlian.results[10].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">9</td>
-              <td style="width: 18%; height: 36px;">眼镜 / 铅笔盒&nbsp;</td>
-              <td style="width: 19%; height: 36px;">眼镜 / 眼镜盒&nbsp;&nbsp;</td>
-              <td style="height: 36px;">眼镜 / 眼镜盒&nbsp;&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">9</td>
+              <td style="">眼镜 / 铅笔盒&nbsp;</td>
+              <td style="">眼镜 / 眼镜盒&nbsp;&nbsp;</td>
+              <td style="">眼镜 / 眼镜盒&nbsp;&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[11]">{{temp.cases.namedTest.yuyiguanlian.results[11].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">10</td>
-              <td style="width: 18%; height: 36px;">老鼠 / 垃圾箱&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">&nbsp;老鼠 / 鸟笼</td>
-              <td style="height: 36px;">老鼠 / 垃圾箱&nbsp;&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">10</td>
+              <td style="">老鼠 / 垃圾箱&nbsp;&nbsp;</td>
+              <td style="">&nbsp;老鼠 / 鸟笼</td>
+              <td style="">老鼠 / 垃圾箱&nbsp;&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[12]">{{temp.cases.namedTest.yuyiguanlian.results[12].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">11</td>
-              <td style="width: 18%; height: 36px;">&nbsp;锯子 / 木头&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">锯子 / 面包&nbsp;</td>
-              <td style="height: 36px;">锯子 / 木头&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">11</td>
+              <td style="">&nbsp;锯子 / 木头&nbsp;&nbsp;</td>
+              <td style="">锯子 / 面包&nbsp;</td>
+              <td style="">锯子 / 木头&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[13]">{{temp.cases.namedTest.yuyiguanlian.results[13].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">12</td>
-              <td style="width: 18%; height: 36px;">&nbsp;松鼠 / 树&nbsp;</td>
-              <td style="width: 19%; height: 36px;">松鼠 / 氢气球&nbsp;&nbsp;</td>
-              <td style="height: 36px;">松鼠 / 树&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">12</td>
+              <td style="">&nbsp;松鼠 / 树&nbsp;</td>
+              <td style="">松鼠 / 氢气球&nbsp;&nbsp;</td>
+              <td style="">松鼠 / 树&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[14]">{{temp.cases.namedTest.yuyiguanlian.results[14].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">13</td>
-              <td style="width: 18%; height: 36px;">&nbsp;剪刀 / 保险箱&nbsp;</td>
-              <td style="width: 19%; height: 36px;">剪刀 / 桌子&nbsp;&nbsp;</td>
-              <td style="height: 36px;">&nbsp;剪刀 / 桌子</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">13</td>
+              <td style="">&nbsp;剪刀 / 保险箱&nbsp;</td>
+              <td style="">剪刀 / 桌子&nbsp;&nbsp;</td>
+              <td style="">&nbsp;剪刀 / 桌子</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[15]">{{temp.cases.namedTest.yuyiguanlian.results[15].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">14</td>
-              <td style="width: 18%; height: 36px;">眼镜 / 耳朵&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">&nbsp;眼镜 / 眼睛</td>
-              <td style="height: 36px;">眼镜 / 眼睛&nbsp;&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">14</td>
+              <td style="">眼镜 / 耳朵&nbsp;&nbsp;</td>
+              <td style="">&nbsp;眼镜 / 眼睛</td>
+              <td style="">眼镜 / 眼睛&nbsp;&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[16]">{{temp.cases.namedTest.yuyiguanlian.results[16].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">15</td>
-              <td style="width: 18%; height: 36px;">锯子 / 锅&nbsp;</td>
-              <td style="width: 19%; height: 36px;">锯子 / 斧头&nbsp;</td>
-              <td style="height: 36px;">锯子 / 斧头&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">15</td>
+              <td style="">锯子 / 锅&nbsp;</td>
+              <td style="">锯子 / 斧头&nbsp;</td>
+              <td style="">锯子 / 斧头&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[17]">{{temp.cases.namedTest.yuyiguanlian.results[17].reactType}}</span></td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">16</td>
-              <td style="width: 18%; height: 36px;">兔子 / 兔窝&nbsp;&nbsp;</td>
-              <td style="width: 19%; height: 36px;">兔子 / 鸟笼&nbsp;</td>
-              <td style="height: 36px;">&nbsp;兔子 / 兔窝&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr style="">
+              <td style="">16</td>
+              <td style="">兔子 / 兔窝&nbsp;&nbsp;</td>
+              <td style="">兔子 / 鸟笼&nbsp;</td>
+              <td style="">&nbsp;兔子 / 兔窝&nbsp;</td>
+              <td style=" "><span v-if="temp.cases.namedTest.yuyiguanlian.results[18]">{{temp.cases.namedTest.yuyiguanlian.results[18].reactType}}</span></td>
             </tr>
-            <tr style="height: 18px;">
-              <td style="width: 35%; height: 18px;" colspan="2">动物小计</td>
-              <td style="width: 19%; height: 18px;">/8</td>
-              <td style="width: 21.2915%; height: 36px;" rowspan="2">合计</td>
-              <td style="width: 160.709%; height: 36px;" rowspan="2">/16</td>
+            <tr style="">
+              <td style="" colspan="2">动物小计</td>
+              <td style="">{{temp.cases.namedTest.yuyiguanlian.ani}}/8</td>
+              <td style="" rowspan="2">合计</td>
+              <td style="" rowspan="2">{{temp.cases.namedTest.yuyiguanlian.total}}/16</td>
             </tr>
-            <tr style="height: 18px;">
-              <td style="width: 35%; height: 18px;" colspan="2">工具小计</td>
-              <td style="width: 19%; height: 18px;">/8</td>
+            <tr style="">
+              <td style="" colspan="2">工具小计</td>
+              <td style="">{{temp.cases.namedTest.yuyiguanlian.tool}}/8</td>
             </tr>
           </tbody>
         </table>
@@ -3536,70 +3321,70 @@
               <th style="width: 20%; height: 18px;">序号</th>
               <th style="width: 20%; height: 18px;">项目</th>
               <th style="width: 30%; height: 18px;">转写错误反应</th>
-              <th style="width: 300%; height: 18px;">反应类别</th>
+              <th style="width: 30%; height: 18px;">反应类别</th>
             </tr>
           </thead>
           <tbody>
-            <tr style="height: 36px;">
-              <td class="lian_xi" style="width: 17%; height: 36px;">练习1</td>
-              <td style="width: 18%; height: 36px;">祛 / 候</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td class="lian_xi" >练习1</td>
+              <td >祛 / 候</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.jiacifushu.results[0]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="height: 36px;" colspan="4">&nbsp;</td>
+            <tr >
+              <td  colspan="4">&nbsp;</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">1</td>
-              <td style="width: 18%; height: 36px;">&nbsp;铁 / 日</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >1</td>
+              <td >&nbsp;铁 / 日</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.jiacifushu.results[1]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">2</td>
-              <td style="width: 18%; height: 36px;">&nbsp;过 / 开</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >2</td>
+              <td >&nbsp;过 / 开</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.jiacifushu.results[2]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">3</td>
-              <td style="width: 18%; height: 36px;">&nbsp;合 / 眯</td>
-              <td style="fheight: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >3</td>
+              <td >&nbsp;合 / 眯</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.jiacifushu.results[3]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">4</td>
-              <td style="width: 18%; height: 36px;">&nbsp;清 / 朵</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >4</td>
+              <td >&nbsp;清 / 朵</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.jiacifushu.results[4]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">5</td>
-              <td style="width: 18%; height: 36px;">啤 / 然&nbsp;</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >5</td>
+              <td >啤 / 然&nbsp;</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.jiacifushu.results[5]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">6</td>
-              <td style="width: 18%; height: 36px;">&nbsp;倭 / 见</td>
-              <td style="fheight: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >6</td>
+              <td >&nbsp;倭 / 见</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.jiacifushu.results[6]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">7</td>
-              <td style="width: 18%; height: 36px;">&nbsp;沮 / 骈</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >7</td>
+              <td >&nbsp;沮 / 骈</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.jiacifushu.results[7]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">8</td>
-              <td style="width: 18%; height: 36px;">&nbsp;礁 / 氓</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >8</td>
+              <td >&nbsp;礁 / 氓</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.jiacifushu.results[8]}}</td>
             </tr>
-            <tr style="height: 18px;">
-              <td style="width: 35%; height: 18px;" colspan="3">合计</td>
-              <td style="width: 160.709%; height: 36px;">/8</td>
+            <tr >
+              <td  colspan="3">合计</td>
+              <td >{{temp.cases.namedTest.jiacifushu.total}}/8</td>
             </tr>
           </tbody>
         </table>
@@ -3611,118 +3396,118 @@
               <th style="width: 20%; height: 18px;">序号</th>
               <th style="width: 20%; height: 18px;">项目</th>
               <th style="width: 30%; height: 18px;">转写错误反应</th>
-              <th style="width: 300%; height: 18px;">反应类别</th>
+              <th style="width: 30%; height: 18px;">反应类别</th>
             </tr>
           </thead>
           <tbody>
-            <tr style="height: 36px;">
-              <td class="lian_xi" style="width: 17%; height: 36px;">练习1</td>
-              <td style="width: 18%; height: 36px;">地 / 点</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td class="lian_xi" >练习1</td>
+              <td >地 / 点</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[0]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="height: 36px;" colspan="4">&nbsp;</td>
+            <tr >
+              <td  colspan="4">&nbsp;</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">1</td>
-              <td style="width: 18%; height: 36px;">蝴 / 蝶</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >1</td>
+              <td >蝴 / 蝶</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[1]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">2</td>
-              <td style="width: 18%; height: 36px;">蚂 / 蟥</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >2</td>
+              <td >蚂 / 蟥</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[2]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">3</td>
-              <td style="width: 18%; height: 36px;">咳 / 嗽</td>
-              <td style="fheight: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >3</td>
+              <td >咳 / 嗽</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[3]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">4</td>
-              <td style="width: 18%; height: 36px;">撺 / 掇</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >4</td>
+              <td >撺 / 掇</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[4]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">5</td>
-              <td style="width: 18%; height: 36px;">菊 / 花</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >5</td>
+              <td >菊 / 花</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[5]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">6</td>
-              <td style="width: 18%; height: 36px;">樟 / 木</td>
-              <td style="fheight: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >6</td>
+              <td >樟 / 木</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[6]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">7</td>
-              <td style="width: 18%; height: 36px;">孵 / 化</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >7</td>
+              <td >孵 / 化</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[7]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">8</td>
-              <td style="width: 18%; height: 36px;">捧 / 场</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >8</td>
+              <td >捧 / 场</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[8]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">9</td>
-              <td style="width: 18%; height: 36px;">手 / 工</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >9</td>
+              <td >手 / 工</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[9]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">10</td>
-              <td style="width: 18%; height: 36px;">白 / 水</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >10</td>
+              <td >白 / 水</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[10]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">11</td>
-              <td style="width: 18%; height: 36px;">转 / 动</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >11</td>
+              <td >转 / 动</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[11]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">12</td>
-              <td style="width: 18%; height: 36px;">风 / 干</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >12</td>
+              <td >风 / 干</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[12]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">13</td>
-              <td style="width: 18%; height: 36px;">海 / 湾</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >13</td>
+              <td >海 / 湾</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[13]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">14</td>
-              <td style="width: 18%; height: 36px;">马 / 驹</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >14</td>
+              <td >马 / 驹</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[14]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">15</td>
-              <td style="width: 18%; height: 36px;">分 / 泌</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >15</td>
+              <td >分 / 泌</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[15]}}</td>
             </tr>
-            <tr style="height: 36px;">
-              <td style="width: 17%; height: 36px;">16</td>
-              <td style="width: 18%; height: 36px;">打 / 嗝</td>
-              <td style="height: 36px;">&nbsp;</td>
-              <td style="width: 160.709%; height: 36px;">&nbsp;</td>
+            <tr >
+              <td >16</td>
+              <td >打 / 嗝</td>
+              <td >&nbsp;</td>
+              <td >{{temp.cases.namedTest.zhencifushu.results[16]}}</td>
             </tr>
-            <tr style="height: 18px;">
-              <td style="width: 35%; height: 18px;" colspan="3">合计</td>
-              <td style="width: 160.709%; height: 36px;">/16</td>
+            <tr >
+              <td  colspan="3">合计</td>
+              <td >{{temp.cases.namedTest.zhencifushu.total}}/16</td>
             </tr>
           </tbody>
         </table>
@@ -3759,8 +3544,8 @@
             <tr>
               <td rowspan="4">听觉辨识（表 A）    </td>
               <td>相同</td>
-              <td>/8</td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yyjm[0]}}/8</td>
+              <td>{{temp.cases.namedTest.huizong.sdjm[0]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3775,8 +3560,8 @@
             </tr>
             <tr>
               <td>声调不同</td>
-              <td>/6 </td>
-              <td>/6 </td>
+              <td>{{temp.cases.namedTest.huizong.yyjm[1]}}/6</td>
+              <td>{{temp.cases.namedTest.huizong.sdjm[1]}}/6</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3791,7 +3576,7 @@
             </tr>
             <tr>
               <td>声母不同</td>
-              <td>/4 </td>
+              <td>{{temp.cases.namedTest.huizong.yyjm[2]}}/4</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3807,7 +3592,7 @@
             </tr>
             <tr>
               <td>韵母不同</td>
-              <td>/4 </td>
+              <td>{{temp.cases.namedTest.huizong.yyjm[3]}}/4</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3825,9 +3610,9 @@
               <td> 声调理解（表 B）</td>
               <td>正确合计</td>
               <td> </td>
-              <td> /12</td>
+              <td>{{temp.cases.namedTest.huizong.sdjm[2]}}/12</td>
               <td> </td>
-              <td>/12 </td>
+              <td>{{temp.cases.namedTest.huizong.tjch[0]}}/12</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3841,9 +3626,9 @@
             <tr>
               <td rowspan="2">  听觉词汇判断<br />（表 C）</td>
               <td>假词小计</td>
-              <td>/8 </td>
+              <td>{{temp.cases.namedTest.huizong.yyjm[4]}}/8</td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yyio[0]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3857,9 +3642,9 @@
             </tr>
             <tr>
               <td>真词小计</td>
-              <td>/8 </td>
+              <td>{{temp.cases.namedTest.huizong.yyjm[5]}}/8</td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yyio[1]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3878,11 +3663,11 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yych[0]}}/8</td>
               <td> </td>
-              <td>/8 </td>
-              <td>/8 </td>
-              <td>/8 </td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[0]}}/8</td>
+              <td>{{temp.cases.namedTest.huizong.smd[0]}}/8</td>
+              <td>{{temp.cases.namedTest.huizong.mdb[0]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3894,10 +3679,10 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yych[1]}}/8</td>
               <td> </td>
-              <td>/8 </td>
-              <td>/8 </td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[1]}}/8</td>
+              <td>{{temp.cases.namedTest.huizong.smd[1]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3910,11 +3695,11 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yych[2]}}/8</td>
               <td> </td>
-              <td>/8</td>
-              <td>/8</td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[2]}}/8</td>
+              <td>{{temp.cases.namedTest.huizong.smd[2]}}/8</td>
+              <td>{{temp.cases.namedTest.huizong.mdb[1]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3926,10 +3711,10 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yych[3]}}/8</td>
               <td> </td>
-              <td>/8</td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[3]}}/8</td>
+              <td>{{temp.cases.namedTest.huizong.smd[3]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3942,9 +3727,9 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yych[4]}}/8</td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[4]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3958,9 +3743,9 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yych[5]}}/8</td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[5]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3974,8 +3759,9 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/10</td>
-              <td>/10</td>
+              <td>{{temp.cases.namedTest.huizong.yych[6]}}/10</td>
+              <td>{{temp.cases.namedTest.huizong.dpc[0]}}/10</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[6]}}/10</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3990,13 +3776,13 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/6</td>
+              <td>{{temp.cases.namedTest.huizong.yych[7]}}/6</td>
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/6</td>
+              <td>{{temp.cases.namedTest.huizong.mdb[2]}}/6</td>
               <td> </td>
-              <td>/6</td>
+              <td>{{temp.cases.namedTest.huizong.dcly[0]}}/6</td>
               <td> </td>
               <td> </td>
             </tr>
@@ -4006,13 +3792,13 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/10</td>
+              <td>{{temp.cases.namedTest.huizong.yych[8]}}/10</td>
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/10</td>
+              <td>{{temp.cases.namedTest.huizong.mdb[3]}}/10</td>
               <td> </td>
-              <td>/10</td>
+              <td>{{temp.cases.namedTest.huizong.dcly[1]}}/10</td>
               <td> </td>
               <td> </td>
             </tr>
@@ -4038,12 +3824,12 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.tjch[1]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
-              <td>/5</td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[7]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.smd[4]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.mdb[4]}}/5</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4054,11 +3840,11 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.tjch[2]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[8]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.smd[5]}}/5</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4070,12 +3856,12 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.tjch[3]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
-              <td>/5</td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[9]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.smd[6]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.mdb[5]}}/5</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4086,11 +3872,11 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.tjch[4]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[10]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.smd[7]}}/5</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4102,10 +3888,10 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.tjch[5]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[11]}}/5</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4118,10 +3904,10 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.tjch[6]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[12]}}/5</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4134,9 +3920,9 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.tjch[7]}}/5</td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.dpc[1]}}/5</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4150,14 +3936,14 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.tjch[8]}}/5</td>
               <td> </td>
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.mdb[6]}}/5</td>
               <td> </td>
-              <td>/5</td>
+              <td>{{temp.cases.namedTest.huizong.dcly[2]}}/5</td>
               <td> </td>
               <td> </td>
             </tr>
@@ -4166,14 +3952,14 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/10 </td>
+              <td>{{temp.cases.namedTest.huizong.tjch[9]}}/10</td>
               <td> </td>
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/10 </td>
+              <td>{{temp.cases.namedTest.huizong.mdb[7]}}/10</td>
               <td> </td>
-              <td>/10 </td>
+              <td>{{temp.cases.namedTest.huizong.dcly[3]}}/10</td>
               <td> </td>
               <td> </td>
             </tr>
@@ -4189,7 +3975,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yygl[0]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4205,7 +3991,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yygl[1]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4213,11 +3999,9 @@
             <tr>
               <td> 假词复述（表 H）</td>
               <td>合计</td>
-              <td>/8</td>
+              <td>{{temp.cases.namedTest.huizong.yyjm[6]}}/8</td>
               <td> </td>
-              <td>/8</td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.namedTest.huizong.yyio[2]}}/8</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4225,14 +4009,16 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/8</td>
+              <td> </td>
+              <td> </td>
+              <td>{{temp.cases.namedTest.huizong.dj[0]}}/8</td>
             </tr>
             <tr>
               <td> 真词复述（表 I）</td>
               <td>合计</td>
               <td> </td>
               <td> </td>
-              <td>/16</td>
+              <td>{{temp.cases.namedTest.huizong.yyio[3]}}/16</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4242,7 +4028,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td>/16</td>
+              <td>{{temp.cases.namedTest.huizong.dj[1]}}/16</td>
             </tr>
           </tbody>
         </table>
@@ -4262,70 +4048,70 @@
           <tr>
           <td rowspan="3">语音分析能力   </td>
           <td> 语音解码</td>
-          <td> /46</td>
-          <td>% </td>
+          <td>{{temp.cases.namedTest.pinggu.yyjm.correct}}/46</td>
+          <td>{{temp.cases.namedTest.pinggu.yyjm.rate}}% </td>
           </tr>
           <tr>
           <td> 声调解码</td>
-          <td> /26</td>
-          <td> %</td>
+          <td>{{temp.cases.namedTest.pinggu.sdjm.correct}}/26</td>
+          <td>{{temp.cases.namedTest.pinggu.sdjm.rate}}% </td>
           </tr>
           <tr>
           <td>听觉输入到语音输出 </td>
-          <td>/40 </td>
-          <td>% </td>
+          <td>{{temp.cases.namedTest.pinggu.yyio.correct}}/40</td>
+          <td>{{temp.cases.namedTest.pinggu.yyio.rate}}% </td>
           </tr>
           <tr>
           <td rowspan="3">词汇加工能力   </td>
           <td>听觉词汇理解 </td>
-          <td>/70 </td>
-          <td> %</td>
+          <td>{{temp.cases.namedTest.pinggu.tjch.correct}}/70</td>
+          <td>{{temp.cases.namedTest.pinggu.tjch.rate}}% </td>
           </tr>
           <tr>
           <td> 语音词汇产出</td>
-          <td>/74</td>
-          <td>% </td>
+          <td>{{temp.cases.namedTest.pinggu.yych.correct}}/74</td>
+          <td>{{temp.cases.namedTest.pinggu.yych.rate}}% </td>
           </tr>
           <tr>
           <td>低频词提取 </td>
-          <td>/15 </td>
-          <td>% </td>
+          <td>{{temp.cases.namedTest.pinggu.dpc.correct}}/15</td>
+          <td>{{temp.cases.namedTest.pinggu.dpc.rate}}% </td>
           </tr>
           <tr>
           <td rowspan="5">语义加工能力  </td>
           <td>名词范畴分类</td>
-          <td>/78</td>
-          <td>%</td>
+          <td>{{temp.cases.namedTest.pinggu.mcfl.correct}}/78</td>
+          <td>{{temp.cases.namedTest.pinggu.mcfl.rate}}% </td>
           </tr>
           <tr>
           <td>名词生命度</td>
-          <td>/52</td>
-          <td>%</td>
+          <td>{{temp.cases.namedTest.pinggu.smd.correct}}/52</td>
+          <td>{{temp.cases.namedTest.pinggu.smd.rate}}% </td>
           </tr>
           <tr>
           <td>名词动词范畴分离</td>
-          <td colspan="2">/26： /31</td>
+          <td colspan="2">{{temp.cases.namedTest.pinggu.mdb.correct}}/26： /31</td>
           </tr>
           <tr>
           <td>语义关联 </td>
-          <td>/ 16</td>
-          <td>% </td>
+          <td>{{temp.cases.namedTest.pinggu.yygl.correct}}/16</td>
+          <td>{{temp.cases.namedTest.pinggu.yygl.rate}}% </td>
           </tr>
           <tr>
           <td>动词论元结构 </td>
-          <td>/16 </td>
-          <td>% </td>
+          <td>{{temp.cases.namedTest.pinggu.dcly.correct}}/16</td>
+          <td>{{temp.cases.namedTest.pinggu.dcly.rate}}% </td>
           </tr>
           <tr>
           <td rowspan="2">认知能力 </td>
           <td>视觉感知物体能力 </td>
           <td> </td>
-          <td>% </td>
+          <td>{{temp.cases.namedTest.pinggu.sj.rate}}% </td>
           </tr>
           <tr>
           <td>听觉短时记忆</td>
-          <td>/24</td>
-          <td>%</td>
+          <td>{{temp.cases.namedTest.pinggu.dj.correct}}/24</td>
+          <td>{{temp.cases.namedTest.pinggu.dj.rate}}% </td>
           </tr>
           </tbody>
           </table>
@@ -6320,6 +6106,57 @@ import waves from '@/directive/waves/index.js' // 水波纹指令
 
 import eChart from '@/components/Charts/eChart'
 
+function tableBMerge(results) {
+  var static_data = [
+    ['练习1', '狗', '钩', '钩', ''], // 0,1,2,3, reactType, reactIndex
+    ['练习2', '米', '蜜', '米', ''],
+    ['1', '竹', '猪', '猪', ''],
+    ['2', '马', '妈', '马', ''],
+    ['3', '笔', '鼻', '鼻', ''],
+    ['4', '猫', '帽', '帽', ''],
+    ['5', '炉', '鹿', '炉', ''],
+    ['6', '鸭', '牙', '牙', ''],
+    ['7', '鼠', '树', '鼠', ''],
+    ['8', '花', '画', '花', ''],
+    ['9', '眼', '烟', '烟', ''],
+    ['10', '兔', '土', '兔', ''],
+    ['11', '河', '鹤', '鹤', ''],
+    ['12', '虎', '湖', '虎', '']
+  ]
+  results.forEach(function(element, i) {
+    static_data[i][4] = element.reactType
+    static_data[i][5] = element.react
+  }, this)
+  return static_data
+}
+
+function tableCMerge(results) {
+  var static_data = [
+    ['练习1', '地 / 点', '', '+', ''],
+    ['练习2', '祛 / 候', '', '-', ''],
+    ['1', '铁 / 日', '', '-', ''],
+    ['2', '蝴 / 蝶', '', '+', ''],
+    ['3', '过 / 开', '', '-', ''],
+    ['4', '蚂 / 蟥', '', '+', ''],
+    ['5', '菊 / 花', '', '+', ''],
+    ['6', '合 / 眯', '', '-', ''],
+    ['7', '清 / 朵', '', '-', ''],
+    ['8', '樟 / 木', '', '+', ''],
+    ['9', '啤 / 然', '', '-', ''],
+    ['10', '手 / 工', '', '+', ''],
+    ['11', '白 / 水', '', '+', ''],
+    ['12', '倭 / 见', '', '-', ''],
+    ['13', '海 / 湾', '', '+', ''],
+    ['14', '沮 / 骈', '', '-', ''],
+    ['15', '礁 / 氓', '', '-', ''],
+    ['16', '马 / 驹', '', '+', '']
+  ]
+  results.forEach(function(element, i) {
+    static_data[i][2] = element.react
+    static_data[i][4] = element.reactType
+  }, this)
+  return static_data
+}
 export default {
   name: 'table_user',
   directives: {
@@ -6740,6 +6577,37 @@ export default {
         this.listLoading = false
       })
     },
+    tableAMerge(data) {
+      var static_data = [
+        // ['序号', '项目', '被测反应', '标准答案', '反应类别'],
+        ['练习1', 'xī / xǐ', '', '-', ''],
+        ['练习2', 'ké / ké', '', '-', ''],
+        ['练习3', 'zuì / tuì', '', '-', ''],
+        ['1', 'bó / bó', '', '+', ''],
+        ['2', 'kā / hā', '', '-', ''],
+        ['3', 'tóu / tòu', '', '-', ''],
+        ['4', 'cā / cā', '', '+', ''],
+        ['5', 'mēn / mén', '', '-', ''],
+        ['6', 'pí / dí', '', '-', ''],
+        ['7', 'hé / hú', '', '-', ''],
+        ['8', 'yóu / yóu', '', '+', ''],
+        ['9', 'duī / diū', '', '-', ''],
+        ['10', 'wāi / wài', '', '-', ''],
+        ['11', 'tiě / tiě', '', '+', ''],
+        ['12', 'niǎo / niǔ', '', '-', ''],
+        ['13', 'kuò / ruò', '', '-', ''],
+        ['14', 'gǔ / gǔ', '', '+', ''],
+        ['15', 'jiā / jiǎ', '', '-', ''],
+        ['16', 'zhuā / zhuā', '', '+', ''],
+        ['17', 'bò / bì', '', '-', ''],
+        ['18', 'jǔ / xǔ', '', '-', ''],
+        ['19', 'yuǎn / yuàn', '', '-', ''],
+        ['20', 'sì / sì', '', '+', ''],
+        ['21', 'shú / shǔ', '', '-', ''],
+        ['22', 'luè / luè', '', '+', '']
+      ]
+      console.log(static_data)
+    },
     handleFilter() {
       this.series[2] = 5
       this.listQuery.page = 1
@@ -6770,7 +6638,27 @@ export default {
       row.status = status
     },
     showReport(row) {
+      row.cases.namedTest.shengdiaolijie.mergedData = tableBMerge(
+        row.cases.namedTest.shengdiaolijie.results
+      )
+      row.cases.namedTest.tingjuecihui.mergedData = tableCMerge(
+        row.cases.namedTest.tingjuecihui.results
+      )
+
       this.temp = Object.assign({}, row)
+      this.renzhi_bar_options.series[0].data[12] = this.temp.cases.namedTest.pinggu.yyjm.rate
+      this.renzhi_bar_options.series[0].data[11] = this.temp.cases.namedTest.pinggu.sdjm.rate
+      this.renzhi_bar_options.series[0].data[10] = this.temp.cases.namedTest.pinggu.yyio.rate
+      this.renzhi_bar_options.series[0].data[9] = this.temp.cases.namedTest.pinggu.tjch.rate
+      this.renzhi_bar_options.series[0].data[8] = this.temp.cases.namedTest.pinggu.yych.rate
+      this.renzhi_bar_options.series[0].data[7] = this.temp.cases.namedTest.pinggu.dpc.rate
+      this.renzhi_bar_options.series[0].data[6] = this.temp.cases.namedTest.pinggu.mcfl.rate
+      this.renzhi_bar_options.series[0].data[5] = this.temp.cases.namedTest.pinggu.smd.rate
+      this.renzhi_bar_options.series[0].data[4] = this.temp.cases.namedTest.pinggu.mdb.rate
+      this.renzhi_bar_options.series[0].data[3] = this.temp.cases.namedTest.pinggu.yygl.rate
+      this.renzhi_bar_options.series[0].data[2] = this.temp.cases.namedTest.pinggu.dcly.rate
+      this.renzhi_bar_options.series[0].data[1] = this.temp.cases.namedTest.pinggu.sj.rate
+      this.renzhi_bar_options.series[0].data[0] = this.temp.cases.namedTest.pinggu.dj.rate
       // this.temp.report = JSON.parse(this.temp.report)
       // TODO get/set report detail
       this.dialogFormVisible = true
@@ -6821,6 +6709,11 @@ $sheng_diao_bu_tong: rgb(229, 184, 183);
 $sheng_mu_bu_tong: rgb(255, 229, 153);
 $yun_mu_bu_tong: rgb(168, 208, 141);
 $he_ji: rgb(0, 129, 204);
+$grey: rgb(217, 217, 217);
+
+.grey_bg {
+  background-color: $grey;
+}
 
 .rtable-header {
   background: $table-header-bg;
