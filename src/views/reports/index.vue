@@ -460,7 +460,6 @@
             </tr>
           </thead>
           <tbody>
-    <!-- // ['练习1', '狗', '钩', '钩', ''], // 0,1,2,3, reactType, reactIndex -->
             <tr :key='item[0]' v-for="item in temp.cases.namedTest.shengdiaolijie.mergedData">
               <td>{{item[0]}}</td>
               <td><input v-if="item[5]==0" type="checkbox" :checked="true" >{{item[1]}}</td>
@@ -1335,7 +1334,7 @@
             </tr>
           </tbody>
         </table>
-
+        <!-- 
         <h4>表 E　对证命名错误分析表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
@@ -2822,7 +2821,7 @@
               <td> </td>
             </tr>
           </tbody>
-        </table>
+        </table> -->
 
         <h4>表 F　听觉理解评分表</h4>
         <div style="display: inline-block; width: 48%;">
@@ -3328,8 +3327,8 @@
             <tr >
               <td class="lian_xi" >练习1</td>
               <td >祛 / 候</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.jiacifushu.results[0]}}</td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[0]">{{temp.cases.namedTest.jiacifushu.results[0].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[0]">{{temp.cases.namedTest.jiacifushu.results[0].reactType}}</span></td>
             </tr>
             <tr >
               <td  colspan="4">&nbsp;</td>
@@ -3337,50 +3336,50 @@
             <tr >
               <td >1</td>
               <td >&nbsp;铁 / 日</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.jiacifushu.results[1]}}</td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[1]">{{temp.cases.namedTest.jiacifushu.results[1].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[1]">{{temp.cases.namedTest.jiacifushu.results[1].reactType}}</span></td>
             </tr>
             <tr >
               <td >2</td>
               <td >&nbsp;过 / 开</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.jiacifushu.results[2]}}</td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[2]">{{temp.cases.namedTest.jiacifushu.results[2].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[2]">{{temp.cases.namedTest.jiacifushu.results[2].reactType}}</span></td>
             </tr>
             <tr >
               <td >3</td>
               <td >&nbsp;合 / 眯</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.jiacifushu.results[3]}}</td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[3]">{{temp.cases.namedTest.jiacifushu.results[3].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[3]">{{temp.cases.namedTest.jiacifushu.results[3].reactType}}</span></td>
             </tr>
             <tr >
               <td >4</td>
               <td >&nbsp;清 / 朵</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.jiacifushu.results[4]}}</td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[4]">{{temp.cases.namedTest.jiacifushu.results[4].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[4]">{{temp.cases.namedTest.jiacifushu.results[4].reactType}}</span></td>
             </tr>
             <tr >
               <td >5</td>
               <td >啤 / 然&nbsp;</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.jiacifushu.results[5]}}</td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[5]">{{temp.cases.namedTest.jiacifushu.results[5].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[5]">{{temp.cases.namedTest.jiacifushu.results[5].reactType}}</span></td>
             </tr>
             <tr >
               <td >6</td>
               <td >&nbsp;倭 / 见</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.jiacifushu.results[6]}}</td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[6]">{{temp.cases.namedTest.jiacifushu.results[6].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[6]">{{temp.cases.namedTest.jiacifushu.results[6].reactType}}</span></td>
             </tr>
             <tr >
               <td >7</td>
               <td >&nbsp;沮 / 骈</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.jiacifushu.results[7]}}</td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[7]">{{temp.cases.namedTest.jiacifushu.results[7].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[7]">{{temp.cases.namedTest.jiacifushu.results[7].reactType}}</span></td>
             </tr>
             <tr >
               <td >8</td>
               <td >&nbsp;礁 / 氓</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.jiacifushu.results[8]}}</td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[7]">{{temp.cases.namedTest.jiacifushu.results[7].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.jiacifushu.results[7]">{{temp.cases.namedTest.jiacifushu.results[7].reactType}}</span></td>
             </tr>
             <tr >
               <td  colspan="3">合计</td>
@@ -3403,8 +3402,8 @@
             <tr >
               <td class="lian_xi" >练习1</td>
               <td >地 / 点</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[0]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[0]">{{temp.cases.namedTest.zhencifushu.results[0].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[0]">{{temp.cases.namedTest.zhencifushu.results[0].reactType}}</span></td>
             </tr>
             <tr >
               <td  colspan="4">&nbsp;</td>
@@ -3412,98 +3411,98 @@
             <tr >
               <td >1</td>
               <td >蝴 / 蝶</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[1]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[1]">{{temp.cases.namedTest.zhencifushu.results[1].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[1]">{{temp.cases.namedTest.zhencifushu.results[1].reactType}}</span></td>
             </tr>
             <tr >
               <td >2</td>
               <td >蚂 / 蟥</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[2]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[2]">{{temp.cases.namedTest.zhencifushu.results[2].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[2]">{{temp.cases.namedTest.zhencifushu.results[2].reactType}}</span></td>
             </tr>
             <tr >
               <td >3</td>
               <td >咳 / 嗽</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[3]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[3]">{{temp.cases.namedTest.zhencifushu.results[3].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[3]">{{temp.cases.namedTest.zhencifushu.results[3].reactType}}</span></td>
             </tr>
             <tr >
               <td >4</td>
               <td >撺 / 掇</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[4]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[4]">{{temp.cases.namedTest.zhencifushu.results[4].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[4]">{{temp.cases.namedTest.zhencifushu.results[4].reactType}}</span></td>
             </tr>
             <tr >
               <td >5</td>
               <td >菊 / 花</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[5]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[5]">{{temp.cases.namedTest.zhencifushu.results[5].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[5]">{{temp.cases.namedTest.zhencifushu.results[5].reactType}}</span></td>
             </tr>
             <tr >
               <td >6</td>
               <td >樟 / 木</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[6]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[6]">{{temp.cases.namedTest.zhencifushu.results[6].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[6]">{{temp.cases.namedTest.zhencifushu.results[6].reactType}}</span></td>
             </tr>
             <tr >
               <td >7</td>
               <td >孵 / 化</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[7]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[7]">{{temp.cases.namedTest.zhencifushu.results[7].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[7]">{{temp.cases.namedTest.zhencifushu.results[7].reactType}}</span></td>
             </tr>
             <tr >
               <td >8</td>
               <td >捧 / 场</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[8]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[8]">{{temp.cases.namedTest.zhencifushu.results[8].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[8]">{{temp.cases.namedTest.zhencifushu.results[8].reactType}}</span></td>
             </tr>
             <tr >
               <td >9</td>
               <td >手 / 工</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[9]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[9]">{{temp.cases.namedTest.zhencifushu.results[9].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[9]">{{temp.cases.namedTest.zhencifushu.results[9].reactType}}</span></td>
             </tr>
             <tr >
               <td >10</td>
               <td >白 / 水</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[10]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[10]">{{temp.cases.namedTest.zhencifushu.results[10].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[10]">{{temp.cases.namedTest.zhencifushu.results[10].reactType}}</span></td>
             </tr>
             <tr >
               <td >11</td>
               <td >转 / 动</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[11]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[11]">{{temp.cases.namedTest.zhencifushu.results[11].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[11]">{{temp.cases.namedTest.zhencifushu.results[11].reactType}}</span></td>
             </tr>
             <tr >
               <td >12</td>
               <td >风 / 干</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[12]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[12]">{{temp.cases.namedTest.zhencifushu.results[12].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[12]">{{temp.cases.namedTest.zhencifushu.results[12].reactType}}</span></td>
             </tr>
             <tr >
               <td >13</td>
               <td >海 / 湾</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[13]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[13]">{{temp.cases.namedTest.zhencifushu.results[13].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[13]">{{temp.cases.namedTest.zhencifushu.results[13].reactType}}</span></td>
             </tr>
             <tr >
               <td >14</td>
               <td >马 / 驹</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[14]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[14]">{{temp.cases.namedTest.zhencifushu.results[14].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[14]">{{temp.cases.namedTest.zhencifushu.results[14].reactType}}</span></td>
             </tr>
             <tr >
               <td >15</td>
               <td >分 / 泌</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[15]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[15]">{{temp.cases.namedTest.zhencifushu.results[15].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[15]">{{temp.cases.namedTest.zhencifushu.results[15].reactType}}</span></td>
             </tr>
             <tr >
               <td >16</td>
               <td >打 / 嗝</td>
-              <td >&nbsp;</td>
-              <td >{{temp.cases.namedTest.zhencifushu.results[16]}}</td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[16]">{{temp.cases.namedTest.zhencifushu.results[16].react}}</span></td>
+              <td ><span v-if="temp.cases.namedTest.zhencifushu.results[16]">{{temp.cases.namedTest.zhencifushu.results[16].reactType}}</span></td>
             </tr>
             <tr >
               <td  colspan="3">合计</td>
@@ -3761,7 +3760,7 @@
               <td> </td>
               <td>{{temp.cases.namedTest.huizong.yych[6]}}/10</td>
               <td>{{temp.cases.namedTest.huizong.dpc[0]}}/10</td>
-              <td>{{temp.cases.namedTest.huizong.mcfl[6]}}/10</td>
+              <td></td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3827,7 +3826,7 @@
               <td>{{temp.cases.namedTest.huizong.tjch[1]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>{{temp.cases.namedTest.huizong.mcfl[7]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[6]}}/5</td>
               <td>{{temp.cases.namedTest.huizong.smd[4]}}/5</td>
               <td>{{temp.cases.namedTest.huizong.mdb[4]}}/5</td>
               <td> </td>
@@ -3843,7 +3842,7 @@
               <td>{{temp.cases.namedTest.huizong.tjch[2]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>{{temp.cases.namedTest.huizong.mcfl[8]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[7]}}/5</td>
               <td>{{temp.cases.namedTest.huizong.smd[5]}}/5</td>
               <td> </td>
               <td> </td>
@@ -3859,7 +3858,7 @@
               <td>{{temp.cases.namedTest.huizong.tjch[3]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>{{temp.cases.namedTest.huizong.mcfl[9]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[8]}}/5</td>
               <td>{{temp.cases.namedTest.huizong.smd[6]}}/5</td>
               <td>{{temp.cases.namedTest.huizong.mdb[5]}}/5</td>
               <td> </td>
@@ -3875,7 +3874,7 @@
               <td>{{temp.cases.namedTest.huizong.tjch[4]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>{{temp.cases.namedTest.huizong.mcfl[10]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[9]}}/5</td>
               <td>{{temp.cases.namedTest.huizong.smd[7]}}/5</td>
               <td> </td>
               <td> </td>
@@ -3891,7 +3890,7 @@
               <td>{{temp.cases.namedTest.huizong.tjch[5]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>{{temp.cases.namedTest.huizong.mcfl[11]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[10]}}/5</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -3907,7 +3906,7 @@
               <td>{{temp.cases.namedTest.huizong.tjch[6]}}/5</td>
               <td> </td>
               <td> </td>
-              <td>{{temp.cases.namedTest.huizong.mcfl[12]}}/5</td>
+              <td>{{temp.cases.namedTest.huizong.mcfl[11]}}/5</td>
               <td> </td>
               <td> </td>
               <td> </td>
@@ -4134,14 +4133,14 @@
             <tr>
               <td class="lian_xi">练习1</td>
               <td>咬</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[0]">{{temp.cases.verbTest.dongcimingming.results[0].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[0]">{{temp.cases.verbTest.dongcimingming.results[0].reactType}}</span></td>
             </tr>
             <tr>
               <td class="lian_xi">练习2</td>
               <td>发抖</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[1]">{{temp.cases.verbTest.dongcimingming.results[1].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[1]">{{temp.cases.verbTest.dongcimingming.results[1].reactType}}</span></td>
             </tr>
             <tr style="height: 18px;">
               <td colspan="4"> </td>
@@ -4149,172 +4148,172 @@
             <tr>
               <td>1</td>
               <td>睡觉</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[2]">{{temp.cases.verbTest.dongcimingming.results[2].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[2]">{{temp.cases.verbTest.dongcimingming.results[2].reactType}}</span></td>
             </tr>
             <tr>
               <td>2</td>
               <td>跪</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[3]">{{temp.cases.verbTest.dongcimingming.results[3].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[3]">{{temp.cases.verbTest.dongcimingming.results[3].reactType}}</span></td>
             </tr>
             <tr>
               <td>3</td>
               <td>蹲</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[4]">{{temp.cases.verbTest.dongcimingming.results[4].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[4]">{{temp.cases.verbTest.dongcimingming.results[4].reactType}}</span></td>
             </tr>
             <tr>
               <td>4</td>
               <td>游泳</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[5]">{{temp.cases.verbTest.dongcimingming.results[5].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[5]">{{temp.cases.verbTest.dongcimingming.results[5].reactType}}</span></td>
             </tr>
             <tr>
               <td>5</td>
               <td>醉</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[6]">{{temp.cases.verbTest.dongcimingming.results[6].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[6]">{{temp.cases.verbTest.dongcimingming.results[6].reactType}}</span></td>
             </tr>
             <tr>
               <td>6</td>
               <td>洗澡</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[7]">{{temp.cases.verbTest.dongcimingming.results[7].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[7]">{{temp.cases.verbTest.dongcimingming.results[7].reactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">一元动词小计</td>
-              <td> </td>
-              <td>正确次数  /6  正确率</td>
+              <td></td>
+              <td>正确次数 {{temp.cases.verbTest.dongcimingming.one.correct}}/6  正确率{{temp.cases.verbTest.dongcimingming.one.rate}}%</td>
             </tr>
             <tr>
               <td>7</td>
               <td>骑</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[8]">{{temp.cases.verbTest.dongcimingming.results[8].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[8]">{{temp.cases.verbTest.dongcimingming.results[8].reactType}}</span></td>
             </tr>
             <tr>
               <td>8</td>
               <td>表扬</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[9]">{{temp.cases.verbTest.dongcimingming.results[9].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[9]">{{temp.cases.verbTest.dongcimingming.results[9].reactType}}</span></td>
             </tr>
             <tr>
               <td>9</td>
               <td>剪</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[10]">{{temp.cases.verbTest.dongcimingming.results[10].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[10]">{{temp.cases.verbTest.dongcimingming.results[10].reactType}}</span></td>
             </tr>
             <tr>
               <td>10</td>
               <td>看望</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[11]">{{temp.cases.verbTest.dongcimingming.results[11].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[11]">{{temp.cases.verbTest.dongcimingming.results[11].reactType}}</span></td>
             </tr>
             <tr>
               <td>11</td>
               <td>逮捕</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[12]">{{temp.cases.verbTest.dongcimingming.results[12].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[12]">{{temp.cases.verbTest.dongcimingming.results[12].reactType}}</span></td>
             </tr>
             <tr>
               <td>12</td>
               <td>踢</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[13]">{{temp.cases.verbTest.dongcimingming.results[13].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[13]">{{temp.cases.verbTest.dongcimingming.results[13].reactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">二元动词小计</td>
               <td> </td>
-              <td>正确次数  /6  正确率</td>
+              <td>正确次数 {{temp.cases.verbTest.dongcimingming.tow.correct}}/6  正确率{{temp.cases.verbTest.dongcimingming.tow.rate}}%</td>
             </tr>
             <tr>
               <td>13</td>
               <td>赠送 </td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[14]">{{temp.cases.verbTest.dongcimingming.results[14].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[14]">{{temp.cases.verbTest.dongcimingming.results[14].reactType}}</span></td>
             </tr>
             <tr>
               <td>14</td>
               <td> 给</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[15]">{{temp.cases.verbTest.dongcimingming.results[15].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[15]">{{temp.cases.verbTest.dongcimingming.results[15].reactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">    强显性三元 (xyz) 小计</td>
               <td> </td>
-              <td>正确次数  /2  正确率 </td>
+              <td>正确次数 {{temp.cases.verbTest.dongcimingming.three1.correct}}/2  正确率{{temp.cases.verbTest.dongcimingming.three1.rate}}%</td>
             </tr>
             <tr>
               <td>15</td>
               <td>  奖励</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[16]">{{temp.cases.verbTest.dongcimingming.results[16].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[16]">{{temp.cases.verbTest.dongcimingming.results[16].reactType}}</span></td>
             </tr>
             <tr>
               <td>16</td>
               <td>  喂</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[17]">{{temp.cases.verbTest.dongcimingming.results[17].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[17]">{{temp.cases.verbTest.dongcimingming.results[17].reactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">中显性三元 (xy) 小计</td>
               <td> </td>
-              <td>正确次数  /2  正确率 </td>
+              <td>正确次数 {{temp.cases.verbTest.dongcimingming.three2.correct}}/2  正确率{{temp.cases.verbTest.dongcimingming.three2.rate}}%</td>
             </tr>
             <tr>
               <td>17</td>
               <td>泼</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[18]">{{temp.cases.verbTest.dongcimingming.results[18].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[18]">{{temp.cases.verbTest.dongcimingming.results[18].reactType}}</span></td>
             </tr>
             <tr>
               <td>18</td>
               <td>卖</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[19]">{{temp.cases.verbTest.dongcimingming.results[19].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[19]">{{temp.cases.verbTest.dongcimingming.results[19].reactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">  中显性三元 (xz) 小计</td>
               <td> </td>
-              <td>正确次数  /2  正确率 </td>
+              <td>正确次数 {{temp.cases.verbTest.dongcimingming.three3.correct}}/2  正确率{{temp.cases.verbTest.dongcimingming.three3.rate}}%</td>
             </tr>
             <tr>
               <td>19</td>
               <td>询问 </td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[20]">{{temp.cases.verbTest.dongcimingming.results[20].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[20]">{{temp.cases.verbTest.dongcimingming.results[20].reactType}}</span></td>
             </tr>
             <tr>
               <td>20</td>
               <td> 教</td>
-              <td> </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[21]">{{temp.cases.verbTest.dongcimingming.results[21].react}}</span></td>
+              <td ><span v-if="temp.cases.verbTest.dongcimingming.results[21]">{{temp.cases.verbTest.dongcimingming.results[21].reactType}}</span></td>
             </tr>
             <tr>
               <td colspan="2">  弱显性三元 (xy/z) 小计</td>
               <td> </td>
-              <td> 正确次数  /2  正确率</td>
+              <td>正确次数 {{temp.cases.verbTest.dongcimingming.three4.correct}}/2  正确率{{temp.cases.verbTest.dongcimingming.three4.rate}}%</td>
             </tr>
             <tr>
               <td colspan="2">  一元动词合计</td>
-              <td>正确次数  /6</td>
-              <td>正确率</td>
+              <td>正确次数  {{temp.cases.verbTest.dongcimingming.one.correct}}/6</td>
+              <td>正确率{{temp.cases.verbTest.dongcimingming.one.rate}}%</td>
             </tr>
             <tr>
               <td colspan="2">  二元动词合计</td>
-              <td>正确次数  /6</td>
-              <td>正确率</td>
+              <td>正确次数  {{temp.cases.verbTest.dongcimingming.tow.correct}}/6</td>
+              <td>正确率{{temp.cases.verbTest.dongcimingming.tow.rate}}%</td>
             </tr>
             <tr>
               <td colspan="2">  三元动词合计</td>
-              <td>正确次数  /8 </td>
-              <td>正确率</td>
+              <td>正确次数  {{temp.cases.verbTest.dongcimingming.three1.correct + temp.cases.verbTest.dongcimingming.three2.correct + temp.cases.verbTest.dongcimingming.three3.correct + temp.cases.verbTest.dongcimingming.three4.correct}}/8</td>
+              <td>正确率{{temp.cases.verbTest.dongcimingming.three1.correct + temp.cases.verbTest.dongcimingming.three2.correct + temp.cases.verbTest.dongcimingming.three3.correct + temp.cases.verbTest.dongcimingming.three4.correct /8}}%</td>
             </tr>
             <tr>
               <td colspan="2"> 总计</td>
-              <td>正确次数  /20</td>
-              <td>正确率</td>
+              <td>正确次数  {{temp.cases.verbTest.dongcimingming.total.correct}}/20</td>
+              <td>正确率{{temp.cases.verbTest.dongcimingming.total.rate}}%</td>
             </tr>
           </tbody>
         </table>
@@ -4337,7 +4336,7 @@
               <td>推 </td>
               <td>坐 </td>
               <td>投 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[0]">{{temp.cases.verbTest.dongcilijie.results[0].react}}</span></td>
             </tr>
             <tr>
               <td class="lian_xi">练习2</td>
@@ -4345,7 +4344,7 @@
               <td>跑步 </td>
               <td>搬 </td>
               <td>喝 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[1]">{{temp.cases.verbTest.dongcilijie.results[1].react}}</span></td>
             </tr>
             <tr style="height: 18px;">
               <td colspan="6"> </td>
@@ -4356,7 +4355,7 @@
               <td>洗澡</td>
               <td>批评</td>
               <td>盗窃</td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[2]">{{temp.cases.verbTest.dongcilijie.results[2].react}}</span></td>
             </tr>
             <tr>
               <td>2</td>
@@ -4364,7 +4363,7 @@
               <td>醉</td>
               <td>背</td>
               <td>罚</td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[3]">{{temp.cases.verbTest.dongcilijie.results[3].react}}</span></td>
             </tr>
             <tr>
               <td>3</td>
@@ -4372,7 +4371,7 @@
               <td>跪</td>
               <td>追</td>
               <td>回答</td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[4]">{{temp.cases.verbTest.dongcilijie.results[4].react}}</span></td>
             </tr>
             <tr>
               <td>4</td>
@@ -4380,7 +4379,7 @@
               <td>睡觉 </td>
               <td>埋葬</td>
               <td>指挥</td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[5]">{{temp.cases.verbTest.dongcilijie.results[5].react}}</span></td>
             </tr>
             <tr>
               <td>5</td>
@@ -4388,7 +4387,7 @@
               <td> 蹲  </td>
               <td>泼</td>
               <td>赏</td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[6]">{{temp.cases.verbTest.dongcilijie.results[6].react}}</span></td>
             </tr>
             <tr>
               <td>6</td>
@@ -4396,11 +4395,11 @@
               <td> 游泳 </td>
               <td>撞</td>
               <td>回答</td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[7]">{{temp.cases.verbTest.dongcilijie.results[7].react}}</span></td>
             </tr>
             <tr>
               <td colspan="5">一元小计   </td>
-              <td>正确次数  /6  正确率</td>
+              <td>正确次数 {{temp.cases.verbTest.dongcilijie.one.correct}}/6  正确率{{temp.cases.verbTest.dongcilijie.one.rate}}%</td>
             </tr>
             <tr>
               <td>7</td>
@@ -4408,7 +4407,7 @@
               <td> 踢</td>
               <td>爬 </td>
               <td>泼 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[8]">{{temp.cases.verbTest.dongcilijie.results[8].react}}</span></td>
             </tr>
             <tr>
               <td>8</td>
@@ -4416,7 +4415,7 @@
               <td>逮捕 </td>
               <td>起床 </td>
               <td>罚 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[9]">{{temp.cases.verbTest.dongcilijie.results[9].react}}</span></td>
             </tr>
             <tr>
               <td>9</td>
@@ -4424,7 +4423,7 @@
               <td>骑 </td>
               <td>摔 </td>
               <td>抢 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[10]">{{temp.cases.verbTest.dongcilijie.results[10].react}}</span></td>
             </tr>
             <tr>
               <td>10</td>
@@ -4432,7 +4431,7 @@
               <td>表扬 </td>
               <td>生病 </td>
               <td>咳嗽 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[11]">{{temp.cases.verbTest.dongcilijie.results[11].react}}</span></td>
             </tr>
             <tr>
               <td>11</td>
@@ -4440,7 +4439,7 @@
               <td>看望 </td>
               <td>盗窃 </td>
               <td>赏 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[12]">{{temp.cases.verbTest.dongcilijie.results[12].react}}</span></td>
             </tr>
             <tr>
               <td>12</td>
@@ -4448,11 +4447,11 @@
               <td>剪 </td>
               <td>抢 </td>
               <td>趴 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[13]">{{temp.cases.verbTest.dongcilijie.results[13].react}}</span></td>
             </tr>
             <tr>
               <td colspan="5">二元小计   </td>
-              <td>正确次数  /6  正确率</td>
+              <td>正确次数 {{temp.cases.verbTest.dongcilijie.tow.correct}}/6  正确率{{temp.cases.verbTest.dongcilijie.tow.rate}}%</td>
             </tr>
             <tr>
               <td>13</td>
@@ -4460,7 +4459,7 @@
               <td> 给</td>
               <td> 咳嗽</td>
               <td>批评 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[14]">{{temp.cases.verbTest.dongcilijie.results[14].react}}</span></td>
             </tr>
             <tr>
               <td>14</td>
@@ -4468,11 +4467,11 @@
               <td>赠送 </td>
               <td>背 </td>
               <td>飞 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[15]">{{temp.cases.verbTest.dongcilijie.results[15].react}}</span></td>
             </tr>
             <tr>
               <td colspan="5">    强显性三元 (xyz) 小计   </td>
-              <td>正确次数  /2  正确率 </td>
+              <td>正确次数 {{temp.cases.verbTest.dongcilijie.three1.correct}}/2  正确率{{temp.cases.verbTest.dongcilijie.three1.rate}}%</td>
             </tr>
             <tr>
               <td>15</td>
@@ -4480,7 +4479,7 @@
               <td>喂 </td>
               <td> 生病</td>
               <td>指挥 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[16]">{{temp.cases.verbTest.dongcilijie.results[16].react}}</span></td>
             </tr>
             <tr>
               <td>16</td>
@@ -4488,11 +4487,11 @@
               <td>奖励 </td>
               <td>刷 </td>
               <td>起床 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[17]">{{temp.cases.verbTest.dongcilijie.results[17].react}}</span></td>
             </tr>
             <tr>
               <td colspan="5">中显性三元 (xy) 小计   </td>
-              <td>正确次数  /2  正确率 </td>
+              <td>正确次数 {{temp.cases.verbTest.dongcilijie.three2.correct}}/2  正确率{{temp.cases.verbTest.dongcilijie.three2.rate}}%</td>
             </tr>
             <tr>
               <td>17</td>
@@ -4500,7 +4499,7 @@
               <td>卖 </td>
               <td>埋葬</td>
               <td>指挥 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[18]">{{temp.cases.verbTest.dongcilijie.results[18].react}}</span></td>
             </tr>
             <tr>
               <td>18</td>
@@ -4508,11 +4507,11 @@
               <td>泼 </td>
               <td>摔 </td>
               <td>飞 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[19]">{{temp.cases.verbTest.dongcilijie.results[19].react}}</span></td>
             </tr>
             <tr>
               <td colspan="5">  中显性三元 (xz) 小计   </td>
-              <td>正确次数  /2  正确率 </td>
+              <td>正确次数 {{temp.cases.verbTest.dongcilijie.three3.correct}}/2  正确率{{temp.cases.verbTest.dongcilijie.three3.rate}}%</td>
             </tr>
             <tr>
               <td>19</td>
@@ -4520,7 +4519,7 @@
               <td>教 </td>
               <td>追 </td>
               <td>刷 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[20]">{{temp.cases.verbTest.dongcilijie.results[20].react}}</span></td>
             </tr>
             <tr>
               <td>20</td>
@@ -4528,27 +4527,27 @@
               <td>询问 </td>
               <td>撞 </td>
               <td>爬 </td>
-              <td> </td>
+              <td ><span v-if="temp.cases.verbTest.dongcilijie.results[21]">{{temp.cases.verbTest.dongcilijie.results[21].react}}</span></td>
             </tr>
             <tr>
               <td colspan="5">  弱显性三元 (xy/z) 小计   </td>
-              <td> 正确次数  /2  正确率</td>
+              <td>正确次数 {{temp.cases.verbTest.dongcilijie.three4.correct}}/2  正确率{{temp.cases.verbTest.dongcilijie.three4.rate}}%</td>
             </tr>
             <tr>
-              <td colspan="5">  一元动词合计  </td>
-              <td>正确次数  /6  正确率</td>
+              <td colspan="5">  一元动词合计</td>
+              <td>正确次数  {{temp.cases.verbTest.dongcilijie.one.correct}}/6 正确率{{temp.cases.verbTest.dongcilijie.one.rate}}%</td>
             </tr>
             <tr>
-              <td colspan="5">  二元动词合计  </td>
-              <td>正确次数  /6  正确率</td>
+              <td colspan="5">  二元动词合计</td>
+              <td>正确次数  {{temp.cases.verbTest.dongcilijie.tow.correct}}/6 正确率{{temp.cases.verbTest.dongcilijie.tow.rate}}%</td>
             </tr>
             <tr>
-              <td colspan="5">  三元动词合计   </td>
-              <td>正确次数  /8  正确率</td>
+              <td colspan="5">  三元动词合计</td>
+              <td>正确次数  {{temp.cases.verbTest.dongcilijie.three1.correct + temp.cases.verbTest.dongcilijie.three2.correct + temp.cases.verbTest.dongcilijie.three3.correct + temp.cases.verbTest.dongcilijie.three4.correct}}/8 正确率{{temp.cases.verbTest.dongcilijie.three1.correct + temp.cases.verbTest.dongcilijie.three2.correct + temp.cases.verbTest.dongcilijie.three3.correct + temp.cases.verbTest.dongcilijie.three4.correct /8}}%</td>
             </tr>
             <tr>
-              <td colspan="5"> 总计  </td>
-              <td>正确次数  /20  正确率</td>
+              <td colspan="5"> 总计</td>
+              <td>正确次数  {{temp.cases.verbTest.dongcilijie.total.correct}}/20 正确率{{temp.cases.verbTest.dongcilijie.total.rate}}%</td>
             </tr>
           </tbody>
         </table>
@@ -4577,14 +4576,14 @@
               <td>狗</td>
               <td>在咬</td>
               <td>猫</td>
-              <td> </td>
-              <td> </td>
-              <td>x</td>
-              <td>V</td>
-              <td> </td>
-              <td>z</td>
-              <td> 论元</td>
-              <td>词汇 </td>
+              <td></td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.results[0].react}}</td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[0].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[0].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[0].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[0].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[0].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[0].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td class="lian_xi">练习2</td>
@@ -4593,13 +4592,13 @@
               <td>投了</td>
               <td>男人</td>
               <td>票</td>
-              <td> </td>
-              <td>x</td>
-              <td>V</td>
-              <td>y</td>
-              <td>z</td>
-              <td> 论元</td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[1]">{{temp.cases.verbTest.lunyuanjiegou.results[1].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[1]&&temp.cases.verbTest.lunyuanjiegou.results[1].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[1]&&temp.cases.verbTest.lunyuanjiegou.results[1].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[1]&&temp.cases.verbTest.lunyuanjiegou.results[1].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[1]&&temp.cases.verbTest.lunyuanjiegou.results[1].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[1]&&temp.cases.verbTest.lunyuanjiegou.results[1].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[1]&&temp.cases.verbTest.lunyuanjiegou.results[1].cihui==1">词汇</span></td>
             </tr>
             <tr style="height: 18px;">
               <td colspan="13"> </td>
@@ -4611,13 +4610,13 @@
               <td>睡觉了</td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td>x</td>
-              <td>V</td>
-              <td> </td>
-              <td> </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[2]">{{temp.cases.verbTest.lunyuanjiegou.results[2].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[2]&&temp.cases.verbTest.lunyuanjiegou.results[2].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[2]&&temp.cases.verbTest.lunyuanjiegou.results[2].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[2]&&temp.cases.verbTest.lunyuanjiegou.results[2].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[2]&&temp.cases.verbTest.lunyuanjiegou.results[2].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[2]&&temp.cases.verbTest.lunyuanjiegou.results[2].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[2]&&temp.cases.verbTest.lunyuanjiegou.results[2].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>2</td>
@@ -4626,13 +4625,13 @@
               <td>跪着</td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td>x</td>
-              <td>V</td>
-              <td> </td>
-              <td> </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[3]">{{temp.cases.verbTest.lunyuanjiegou.results[3].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[3]&&temp.cases.verbTest.lunyuanjiegou.results[3].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[3]&&temp.cases.verbTest.lunyuanjiegou.results[3].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[3]&&temp.cases.verbTest.lunyuanjiegou.results[3].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[3]&&temp.cases.verbTest.lunyuanjiegou.results[3].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[3]&&temp.cases.verbTest.lunyuanjiegou.results[3].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[3]&&temp.cases.verbTest.lunyuanjiegou.results[3].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>3</td>
@@ -4641,13 +4640,13 @@
               <td>蹲着 </td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td>x</td>
-              <td>V</td>
-              <td> </td>
-              <td> </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[4]">{{temp.cases.verbTest.lunyuanjiegou.results[4].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[4]&&temp.cases.verbTest.lunyuanjiegou.results[4].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[4]&&temp.cases.verbTest.lunyuanjiegou.results[4].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[4]&&temp.cases.verbTest.lunyuanjiegou.results[4].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[4]&&temp.cases.verbTest.lunyuanjiegou.results[4].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[4]&&temp.cases.verbTest.lunyuanjiegou.results[4].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[4]&&temp.cases.verbTest.lunyuanjiegou.results[4].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>4</td>
@@ -4656,13 +4655,13 @@
               <td>在游泳 </td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td>x</td>
-              <td>V</td>
-              <td> </td>
-              <td> </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[5]">{{temp.cases.verbTest.lunyuanjiegou.results[5].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[5]&&temp.cases.verbTest.lunyuanjiegou.results[5].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[5]&&temp.cases.verbTest.lunyuanjiegou.results[5].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[5]&&temp.cases.verbTest.lunyuanjiegou.results[5].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[5]&&temp.cases.verbTest.lunyuanjiegou.results[5].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[5]&&temp.cases.verbTest.lunyuanjiegou.results[5].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[5]&&temp.cases.verbTest.lunyuanjiegou.results[5].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>5</td>
@@ -4671,13 +4670,13 @@
               <td>醉了 </td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td>x</td>
-              <td>V</td>
-              <td> </td>
-              <td> </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[6]">{{temp.cases.verbTest.lunyuanjiegou.results[6].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[6]&&temp.cases.verbTest.lunyuanjiegou.results[6].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[6]&&temp.cases.verbTest.lunyuanjiegou.results[6].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[6]&&temp.cases.verbTest.lunyuanjiegou.results[6].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[6]&&temp.cases.verbTest.lunyuanjiegou.results[6].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[6]&&temp.cases.verbTest.lunyuanjiegou.results[6].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[6]&&temp.cases.verbTest.lunyuanjiegou.results[6].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>6</td>
@@ -4686,27 +4685,27 @@
               <td>在洗澡</td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td>x</td>
-              <td>V</td>
-              <td> </td>
-              <td> </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[7]">{{temp.cases.verbTest.lunyuanjiegou.results[7].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[7]&&temp.cases.verbTest.lunyuanjiegou.results[7].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[7]&&temp.cases.verbTest.lunyuanjiegou.results[7].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[7]&&temp.cases.verbTest.lunyuanjiegou.results[7].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[7]&&temp.cases.verbTest.lunyuanjiegou.results[7].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[7]&&temp.cases.verbTest.lunyuanjiegou.results[7].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[7]&&temp.cases.verbTest.lunyuanjiegou.results[7].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td colspan="6" rowspan="2">一元小计    </td>
               <td> </td>
-              <td>/6 </td>
-              <td>/6 </td>
-              <td> </td>
-              <td> </td>
-              <td> /6</td>
-              <td>/6 </td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.one.x}}/6</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.one.V}}/6</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.one.y}}/6</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.one.z}}/6</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.one.lunyuan}}/6</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.one.cihui}}/6</td>
             </tr>
             <tr>
               <td>论元和词汇同时正确</td>
-              <td colspan="6">/6      </td>
+              <td colspan="6">{{temp.cases.verbTest.lunyuanjiegou.one.both}}/6</td>
             </tr>
             <tr>
               <td>7</td>
@@ -4715,13 +4714,13 @@
               <td>在骑 </td>
               <td> </td>
               <td>车 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td> </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[8]">{{temp.cases.verbTest.lunyuanjiegou.results[8].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[8]&&temp.cases.verbTest.lunyuanjiegou.results[8].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[8]&&temp.cases.verbTest.lunyuanjiegou.results[8].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[8]&&temp.cases.verbTest.lunyuanjiegou.results[8].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[8]&&temp.cases.verbTest.lunyuanjiegou.results[8].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[8]&&temp.cases.verbTest.lunyuanjiegou.results[8].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[8]&&temp.cases.verbTest.lunyuanjiegou.results[8].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>8</td>
@@ -4730,13 +4729,13 @@
               <td> 表扬了</td>
               <td> </td>
               <td>男孩 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td> </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[9]">{{temp.cases.verbTest.lunyuanjiegou.results[9].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[9]&&temp.cases.verbTest.lunyuanjiegou.results[9].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[9]&&temp.cases.verbTest.lunyuanjiegou.results[9].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[9]&&temp.cases.verbTest.lunyuanjiegou.results[9].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[9]&&temp.cases.verbTest.lunyuanjiegou.results[9].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[9]&&temp.cases.verbTest.lunyuanjiegou.results[9].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[9]&&temp.cases.verbTest.lunyuanjiegou.results[9].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>9</td>
@@ -4745,13 +4744,13 @@
               <td>在剪</td>
               <td> </td>
               <td>纸 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td> </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[10]">{{temp.cases.verbTest.lunyuanjiegou.results[10].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[10]&&temp.cases.verbTest.lunyuanjiegou.results[10].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[10]&&temp.cases.verbTest.lunyuanjiegou.results[10].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[10]&&temp.cases.verbTest.lunyuanjiegou.results[10].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[10]&&temp.cases.verbTest.lunyuanjiegou.results[10].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[10]&&temp.cases.verbTest.lunyuanjiegou.results[10].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[10]&&temp.cases.verbTest.lunyuanjiegou.results[10].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>10</td>
@@ -4760,13 +4759,13 @@
               <td>在看望 </td>
               <td> </td>
               <td>女人 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td> </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[11]">{{temp.cases.verbTest.lunyuanjiegou.results[11].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[11]&&temp.cases.verbTest.lunyuanjiegou.results[11].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[11]&&temp.cases.verbTest.lunyuanjiegou.results[11].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[11]&&temp.cases.verbTest.lunyuanjiegou.results[11].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[11]&&temp.cases.verbTest.lunyuanjiegou.results[11].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[11]&&temp.cases.verbTest.lunyuanjiegou.results[11].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[11]&&temp.cases.verbTest.lunyuanjiegou.results[11].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>11</td>
@@ -4775,13 +4774,13 @@
               <td>逮捕了 </td>
               <td> </td>
               <td>女人 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td> </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[12]">{{temp.cases.verbTest.lunyuanjiegou.results[12].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[12]&&temp.cases.verbTest.lunyuanjiegou.results[12].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[12]&&temp.cases.verbTest.lunyuanjiegou.results[12].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[12]&&temp.cases.verbTest.lunyuanjiegou.results[12].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[12]&&temp.cases.verbTest.lunyuanjiegou.results[12].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[12]&&temp.cases.verbTest.lunyuanjiegou.results[12].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[12]&&temp.cases.verbTest.lunyuanjiegou.results[12].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>12</td>
@@ -4790,27 +4789,27 @@
               <td>踢了 </td>
               <td> </td>
               <td>男孩 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td> </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[13]">{{temp.cases.verbTest.lunyuanjiegou.results[13].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[13]&&temp.cases.verbTest.lunyuanjiegou.results[13].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[13]&&temp.cases.verbTest.lunyuanjiegou.results[13].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[13]&&temp.cases.verbTest.lunyuanjiegou.results[13].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[13]&&temp.cases.verbTest.lunyuanjiegou.results[13].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[13]&&temp.cases.verbTest.lunyuanjiegou.results[13].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[13]&&temp.cases.verbTest.lunyuanjiegou.results[13].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td colspan="6" rowspan="2">二元小计   </td>
               <td> </td>
-              <td>/6 </td>
-              <td>/6</td>
-              <td> </td>
-              <td>/6 </td>
-              <td>/6 </td>
-              <td>/6 </td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.two.x}}/6</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.two.V}}/6</td>
+              <td></td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.two.z}}/6</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.two.lunyuan}}/6</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.two.cihui}}/6</td>
             </tr>
             <tr>
               <td> 论元和词汇同时正确</td>
-              <td colspan="6">/6      </td>
+              <td colspan="6">{{temp.cases.verbTest.lunyuanjiegou.two.both}}/6      </td>
             </tr>
             <tr>
               <td>13</td>
@@ -4819,13 +4818,13 @@
               <td>赠送了</td>
               <td>男孩</td>
               <td>礼物 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[14]">{{temp.cases.verbTest.lunyuanjiegou.results[14].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[14]&&temp.cases.verbTest.lunyuanjiegou.results[14].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[14]&&temp.cases.verbTest.lunyuanjiegou.results[14].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[14]&&temp.cases.verbTest.lunyuanjiegou.results[14].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[14]&&temp.cases.verbTest.lunyuanjiegou.results[14].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[14]&&temp.cases.verbTest.lunyuanjiegou.results[14].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[14]&&temp.cases.verbTest.lunyuanjiegou.results[14].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>14</td>
@@ -4834,27 +4833,27 @@
               <td>在给 </td>
               <td>女孩</td>
               <td>钱 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[15]">{{temp.cases.verbTest.lunyuanjiegou.results[15].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[15]&&temp.cases.verbTest.lunyuanjiegou.results[15].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[15]&&temp.cases.verbTest.lunyuanjiegou.results[15].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[15]&&temp.cases.verbTest.lunyuanjiegou.results[15].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[15]&&temp.cases.verbTest.lunyuanjiegou.results[15].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[15]&&temp.cases.verbTest.lunyuanjiegou.results[15].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[15]&&temp.cases.verbTest.lunyuanjiegou.results[15].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td colspan="6" rowspan="2">    强显性三元 (xyz) 小计    </td>
               <td> </td>
-              <td> /2</td>
-              <td>/2 </td>
-              <td> /2</td>
-              <td>/2 </td>
-              <td>/2 </td>
-              <td>/2 </td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three1.x}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three1.V}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three1.y}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three1.z}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three1.lunyuan}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three1.cihui}}/2</td>
             </tr>
             <tr>
               <td>论元和词汇同时正确 </td>
-              <td colspan="6"> /2     </td>
+              <td colspan="6"> {{temp.cases.verbTest.lunyuanjiegou.three1.both}}/2     </td>
             </tr>
             <tr>
               <td>15</td>
@@ -4863,13 +4862,13 @@
               <td>奖励了 </td>
               <td>男孩 </td>
               <td> </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td> </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[16]">{{temp.cases.verbTest.lunyuanjiegou.results[16].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[16]&&temp.cases.verbTest.lunyuanjiegou.results[16].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[16]&&temp.cases.verbTest.lunyuanjiegou.results[16].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[16]&&temp.cases.verbTest.lunyuanjiegou.results[16].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[16]&&temp.cases.verbTest.lunyuanjiegou.results[16].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[16]&&temp.cases.verbTest.lunyuanjiegou.results[16].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[16]&&temp.cases.verbTest.lunyuanjiegou.results[16].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>15</td>
@@ -4878,13 +4877,13 @@
               <td>奖励了 </td>
               <td>男孩 </td>
               <td>书</td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[17]">{{temp.cases.verbTest.lunyuanjiegou.results[17].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[17]&&temp.cases.verbTest.lunyuanjiegou.results[17].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[17]&&temp.cases.verbTest.lunyuanjiegou.results[17].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[17]&&temp.cases.verbTest.lunyuanjiegou.results[17].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[17]&&temp.cases.verbTest.lunyuanjiegou.results[17].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[17]&&temp.cases.verbTest.lunyuanjiegou.results[17].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[17]&&temp.cases.verbTest.lunyuanjiegou.results[17].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>16</td>
@@ -4893,13 +4892,13 @@
               <td>在喂 </td>
               <td>女孩 </td>
               <td> </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td> </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[18]">{{temp.cases.verbTest.lunyuanjiegou.results[18].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[18]&&temp.cases.verbTest.lunyuanjiegou.results[18].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[18]&&temp.cases.verbTest.lunyuanjiegou.results[18].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[18]&&temp.cases.verbTest.lunyuanjiegou.results[18].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[18]&&temp.cases.verbTest.lunyuanjiegou.results[18].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[18]&&temp.cases.verbTest.lunyuanjiegou.results[18].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[18]&&temp.cases.verbTest.lunyuanjiegou.results[18].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>16</td>
@@ -4908,27 +4907,27 @@
               <td>在喂 </td>
               <td>女孩 </td>
               <td>饭</td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[19]">{{temp.cases.verbTest.lunyuanjiegou.results[19].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[19]&&temp.cases.verbTest.lunyuanjiegou.results[19].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[19]&&temp.cases.verbTest.lunyuanjiegou.results[19].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[19]&&temp.cases.verbTest.lunyuanjiegou.results[19].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[19]&&temp.cases.verbTest.lunyuanjiegou.results[19].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[19]&&temp.cases.verbTest.lunyuanjiegou.results[19].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[19]&&temp.cases.verbTest.lunyuanjiegou.results[19].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td colspan="6" rowspan="2">中显性三元 (xy) 小计    </td>
               <td> </td>
-              <td> /2</td>
-              <td> /2</td>
-              <td>/2 </td>
-              <td> /2</td>
-              <td> /2</td>
-              <td>/2 </td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three2.x}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three2.V}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three2.y}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three2.z}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three2.lunyuan}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three2.cihui}}/2</td>
             </tr>
             <tr>
               <td>论元和词汇同时正确 </td>
-              <td colspan="6">  /2    </td>
+              <td colspan="6">  {{temp.cases.verbTest.lunyuanjiegou.three2.both}}/2</td>
             </tr>
             <tr>
               <td>17</td>
@@ -4937,13 +4936,13 @@
               <td>泼了</td>
               <td> </td>
               <td>水 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td> </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[20]">{{temp.cases.verbTest.lunyuanjiegou.results[20].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[20]&&temp.cases.verbTest.lunyuanjiegou.results[20].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[20]&&temp.cases.verbTest.lunyuanjiegou.results[20].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[20]&&temp.cases.verbTest.lunyuanjiegou.results[20].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[20]&&temp.cases.verbTest.lunyuanjiegou.results[20].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[20]&&temp.cases.verbTest.lunyuanjiegou.results[20].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[20]&&temp.cases.verbTest.lunyuanjiegou.results[20].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>17</td>
@@ -4952,13 +4951,13 @@
               <td>泼了</td>
               <td>男人 </td>
               <td>水 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[21]">{{temp.cases.verbTest.lunyuanjiegou.results[21].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[21]&&temp.cases.verbTest.lunyuanjiegou.results[21].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[21]&&temp.cases.verbTest.lunyuanjiegou.results[21].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[21]&&temp.cases.verbTest.lunyuanjiegou.results[21].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[21]&&temp.cases.verbTest.lunyuanjiegou.results[21].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[21]&&temp.cases.verbTest.lunyuanjiegou.results[21].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[21]&&temp.cases.verbTest.lunyuanjiegou.results[21].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>18</td>
@@ -4967,13 +4966,13 @@
               <td>在卖</td>
               <td> </td>
               <td>西瓜 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td> </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[22]">{{temp.cases.verbTest.lunyuanjiegou.results[22].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[22]&&temp.cases.verbTest.lunyuanjiegou.results[22].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[22]&&temp.cases.verbTest.lunyuanjiegou.results[22].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[22]&&temp.cases.verbTest.lunyuanjiegou.results[22].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[22]&&temp.cases.verbTest.lunyuanjiegou.results[22].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[22]&&temp.cases.verbTest.lunyuanjiegou.results[22].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[22]&&temp.cases.verbTest.lunyuanjiegou.results[22].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>18</td>
@@ -4982,27 +4981,27 @@
               <td>在卖</td>
               <td>女孩 </td>
               <td>西瓜 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[23]">{{temp.cases.verbTest.lunyuanjiegou.results[23].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[23]&&temp.cases.verbTest.lunyuanjiegou.results[23].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[23]&&temp.cases.verbTest.lunyuanjiegou.results[23].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[23]&&temp.cases.verbTest.lunyuanjiegou.results[23].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[23]&&temp.cases.verbTest.lunyuanjiegou.results[23].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[23]&&temp.cases.verbTest.lunyuanjiegou.results[23].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[23]&&temp.cases.verbTest.lunyuanjiegou.results[23].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td colspan="6" rowspan="2">  中显性三元 (xz) 小计    </td>
               <td> </td>
-              <td> /2</td>
-              <td> /2</td>
-              <td> /2</td>
-              <td> /2</td>
-              <td>/2 </td>
-              <td>/2 </td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three3.x}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three3.V}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three3.y}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three3.z}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three3.lunyuan}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three3.cihui}}/2</td>
             </tr>
             <tr>
               <td>论元和词汇同时正确 </td>
-              <td colspan="6"> /2     </td>
+              <td colspan="6"> {{temp.cases.verbTest.lunyuanjiegou.three3.both}}/2</td>
             </tr>
             <tr>
               <td>19</td>
@@ -5011,13 +5010,13 @@
               <td>在询问 </td>
               <td>女人 </td>
               <td> </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td> </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[24]">{{temp.cases.verbTest.lunyuanjiegou.results[24].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[24]&&temp.cases.verbTest.lunyuanjiegou.results[24].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[24]&&temp.cases.verbTest.lunyuanjiegou.results[24].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[24]&&temp.cases.verbTest.lunyuanjiegou.results[24].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[24]&&temp.cases.verbTest.lunyuanjiegou.results[24].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[24]&&temp.cases.verbTest.lunyuanjiegou.results[24].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[24]&&temp.cases.verbTest.lunyuanjiegou.results[24].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>19</td>
@@ -5026,13 +5025,13 @@
               <td>在询问 </td>
               <td> </td>
               <td>事情 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td> </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[25]">{{temp.cases.verbTest.lunyuanjiegou.results[25].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[25]&&temp.cases.verbTest.lunyuanjiegou.results[25].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[25]&&temp.cases.verbTest.lunyuanjiegou.results[25].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[25]&&temp.cases.verbTest.lunyuanjiegou.results[25].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[25]&&temp.cases.verbTest.lunyuanjiegou.results[25].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[25]&&temp.cases.verbTest.lunyuanjiegou.results[25].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[25]&&temp.cases.verbTest.lunyuanjiegou.results[25].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>19</td>
@@ -5041,13 +5040,13 @@
               <td>在询问 </td>
               <td>女人 </td>
               <td>事情 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[26]">{{temp.cases.verbTest.lunyuanjiegou.results[26].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[26]&&temp.cases.verbTest.lunyuanjiegou.results[26].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[26]&&temp.cases.verbTest.lunyuanjiegou.results[26].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[26]&&temp.cases.verbTest.lunyuanjiegou.results[26].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[26]&&temp.cases.verbTest.lunyuanjiegou.results[26].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[26]&&temp.cases.verbTest.lunyuanjiegou.results[26].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[26]&&temp.cases.verbTest.lunyuanjiegou.results[26].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>20</td>
@@ -5056,13 +5055,13 @@
               <td>在教 </td>
               <td>男孩 </td>
               <td> </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td> </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[27]">{{temp.cases.verbTest.lunyuanjiegou.results[27].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[27]&&temp.cases.verbTest.lunyuanjiegou.results[27].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[27]&&temp.cases.verbTest.lunyuanjiegou.results[27].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[27]&&temp.cases.verbTest.lunyuanjiegou.results[27].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[27]&&temp.cases.verbTest.lunyuanjiegou.results[27].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[27]&&temp.cases.verbTest.lunyuanjiegou.results[27].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[27]&&temp.cases.verbTest.lunyuanjiegou.results[27].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>20</td>
@@ -5071,13 +5070,13 @@
               <td>在教 </td>
               <td> </td>
               <td>字母 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td> </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[28]">{{temp.cases.verbTest.lunyuanjiegou.results[28].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[28]&&temp.cases.verbTest.lunyuanjiegou.results[28].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[28]&&temp.cases.verbTest.lunyuanjiegou.results[28].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[28]&&temp.cases.verbTest.lunyuanjiegou.results[28].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[28]&&temp.cases.verbTest.lunyuanjiegou.results[28].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[28]&&temp.cases.verbTest.lunyuanjiegou.results[28].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[28]&&temp.cases.verbTest.lunyuanjiegou.results[28].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td>20</td>
@@ -5086,27 +5085,27 @@
               <td>在教 </td>
               <td>男孩 </td>
               <td>字母 </td>
-              <td> </td>
-              <td>x </td>
-              <td>V </td>
-              <td>y </td>
-              <td>z </td>
-              <td>论元 </td>
-              <td>词汇 </td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[29]">{{temp.cases.verbTest.lunyuanjiegou.results[29].react}}</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[29]&&temp.cases.verbTest.lunyuanjiegou.results[29].x==1">x</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[29]&&temp.cases.verbTest.lunyuanjiegou.results[29].V==1">V</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[29]&&temp.cases.verbTest.lunyuanjiegou.results[29].y==1">y</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[29]&&temp.cases.verbTest.lunyuanjiegou.results[29].z==1">z</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[29]&&temp.cases.verbTest.lunyuanjiegou.results[29].lunyuan==1">论元</span></td>
+              <td><span v-if="temp.cases.verbTest.lunyuanjiegou.results[29]&&temp.cases.verbTest.lunyuanjiegou.results[29].cihui==1">词汇</span></td>
             </tr>
             <tr>
               <td colspan="6" rowspan="2">  弱显性三元 (xy/z) 小计    </td>
               <td> </td>
-              <td>/2 </td>
-              <td>/2 </td>
-              <td> /2</td>
-              <td> /2</td>
-              <td>/2 </td>
-              <td>/2 </td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three4.x}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three4.V}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three4.y}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three4.z}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three4.lunyuan}}/2</td>
+              <td>{{temp.cases.verbTest.lunyuanjiegou.three4.cihui}}/2</td>
             </tr>
             <tr>
               <td>论元和词汇同时正确 </td>
-              <td colspan="6">/2      </td>
+              <td colspan="6">{{temp.cases.verbTest.lunyuanjiegou.three4.both}}/2      </td>
             </tr>
           </tbody>
         </table>
@@ -6273,6 +6272,7 @@ export default {
           verbTest: {
             dongcilijie: {
               one: { correct: 0, rate: 0 },
+              results: [{ react: '' }],
               three: { correct: 0, rate: 0 },
               three1: { correct: 0, rate: 0 },
               three2: { correct: 0, rate: 0 },
@@ -6283,6 +6283,7 @@ export default {
             },
             dongcimingming: {
               one: { correct: 0, rate: 0 },
+              results: [{ react: '', reactType: '+' }],
               three: { correct: 0, rate: 0 },
               three1: { correct: 0, rate: 0 },
               three2: { correct: 0, rate: 0 },
@@ -6309,6 +6310,15 @@ export default {
                 y: 0,
                 z: 0
               },
+              results: [{
+                V: 0,
+                cihui: 0,
+                lunyuan: 0,
+                react: '',
+                x: 0,
+                y: 0,
+                z: 0
+              }],
               three1: {
                 V: 0,
                 both: 0,
@@ -6646,19 +6656,34 @@ export default {
       )
 
       this.temp = Object.assign({}, row)
-      this.renzhi_bar_options.series[0].data[12] = this.temp.cases.namedTest.pinggu.yyjm.rate
-      this.renzhi_bar_options.series[0].data[11] = this.temp.cases.namedTest.pinggu.sdjm.rate
-      this.renzhi_bar_options.series[0].data[10] = this.temp.cases.namedTest.pinggu.yyio.rate
-      this.renzhi_bar_options.series[0].data[9] = this.temp.cases.namedTest.pinggu.tjch.rate
-      this.renzhi_bar_options.series[0].data[8] = this.temp.cases.namedTest.pinggu.yych.rate
-      this.renzhi_bar_options.series[0].data[7] = this.temp.cases.namedTest.pinggu.dpc.rate
-      this.renzhi_bar_options.series[0].data[6] = this.temp.cases.namedTest.pinggu.mcfl.rate
-      this.renzhi_bar_options.series[0].data[5] = this.temp.cases.namedTest.pinggu.smd.rate
-      this.renzhi_bar_options.series[0].data[4] = this.temp.cases.namedTest.pinggu.mdb.rate
-      this.renzhi_bar_options.series[0].data[3] = this.temp.cases.namedTest.pinggu.yygl.rate
-      this.renzhi_bar_options.series[0].data[2] = this.temp.cases.namedTest.pinggu.dcly.rate
-      this.renzhi_bar_options.series[0].data[1] = this.temp.cases.namedTest.pinggu.sj.rate
-      this.renzhi_bar_options.series[0].data[0] = this.temp.cases.namedTest.pinggu.dj.rate
+      this.renzhi_bar_options.series[0].data = [
+        this.temp.cases.namedTest.pinggu.dj.rate,
+        this.temp.cases.namedTest.pinggu.sj.rate,
+        this.temp.cases.namedTest.pinggu.dcly.rate,
+        this.temp.cases.namedTest.pinggu.yygl.rate,
+        this.temp.cases.namedTest.pinggu.mdb.rate,
+        this.temp.cases.namedTest.pinggu.smd.rate,
+        this.temp.cases.namedTest.pinggu.mcfl.rate,
+        this.temp.cases.namedTest.pinggu.dpc.rate,
+        this.temp.cases.namedTest.pinggu.yych.rate,
+        this.temp.cases.namedTest.pinggu.tjch.rate,
+        this.temp.cases.namedTest.pinggu.yyio.rate,
+        this.temp.cases.namedTest.pinggu.sdjm.rate,
+        this.temp.cases.namedTest.pinggu.yyjm.rate
+      ]
+      // this.renzhi_bar_options.series[0].data[12] = this.temp.cases.namedTest.pinggu.yyjm.rate
+      // this.renzhi_bar_options.series[0].data[11] = this.temp.cases.namedTest.pinggu.sdjm.rate
+      // this.renzhi_bar_options.series[0].data[10] = this.temp.cases.namedTest.pinggu.yyio.rate
+      // this.renzhi_bar_options.series[0].data[9] = this.temp.cases.namedTest.pinggu.tjch.rate
+      // this.renzhi_bar_options.series[0].data[8] = this.temp.cases.namedTest.pinggu.yych.rate
+      // this.renzhi_bar_options.series[0].data[7] = this.temp.cases.namedTest.pinggu.dpc.rate
+      // this.renzhi_bar_options.series[0].data[6] = this.temp.cases.namedTest.pinggu.mcfl.rate
+      // this.renzhi_bar_options.series[0].data[5] = this.temp.cases.namedTest.pinggu.smd.rate
+      // this.renzhi_bar_options.series[0].data[4] = this.temp.cases.namedTest.pinggu.mdb.rate
+      // this.renzhi_bar_options.series[0].data[3] = this.temp.cases.namedTest.pinggu.yygl.rate
+      // this.renzhi_bar_options.series[0].data[2] = this.temp.cases.namedTest.pinggu.dcly.rate
+      // this.renzhi_bar_options.series[0].data[1] = this.temp.cases.namedTest.pinggu.sj.rate
+      // this.renzhi_bar_options.series[0].data[0] = this.temp.cases.namedTest.pinggu.dj.rate
       // this.temp.report = JSON.parse(this.temp.report)
       // TODO get/set report detail
       this.dialogFormVisible = true
