@@ -5591,8 +5591,8 @@
               <td class="lian_xi"> </td>
               <td>女人撞了男人。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[0]"><em>{{temp.cases.verbTest.yujulijie.results[0].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[0]">{{temp.cases.verbTest.yujulijie.results[0].reactType}}</span> </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5601,8 +5601,8 @@
               <td class="lian_xi"> </td>
               <td>咬小猫的小狗戴着帽子。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[1]"><em>{{temp.cases.verbTest.yujulijie.results[1].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[1]">{{temp.cases.verbTest.yujulijie.results[1].reactType}}</span> </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5611,8 +5611,8 @@
               <td class="lian_xi"> </td>
               <td>男人在指挥谁？</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[2]"><em>{{temp.cases.verbTest.yujulijie.results[2].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[2]">{{temp.cases.verbTest.yujulijie.results[2].reactType}}</span> </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5624,217 +5624,217 @@
               <td rowspan="4">主动句</td>
               <td>小猫在追小狗。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[3]"><em>{{temp.cases.verbTest.yujulijie.results[3].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[3]">{{temp.cases.verbTest.yujulijie.results[3].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujulijie.zhudong.correct}}/4</td>
+              <td rowspan="4">{{Math.round(temp.cases.verbTest.yujulijie.zhudong.correct/4 *100)}}%</td>
             </tr>
             <tr>
               <td>2</td>
               <td>男人批评了女孩。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[4]"><em>{{temp.cases.verbTest.yujulijie.results[4].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[4]">{{temp.cases.verbTest.yujulijie.results[4].reactType}}</span> </td>
             </tr>
             <tr>
               <td>3</td>
               <td>女孩推了男孩。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[5]"><em>{{temp.cases.verbTest.yujulijie.results[5].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[5]">{{temp.cases.verbTest.yujulijie.results[5].reactType}}</span> </td>
             </tr>
             <tr>
               <td>4</td>
               <td>男人在埋葬女人。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[6]"><em>{{temp.cases.verbTest.yujulijie.results[6].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[6]">{{temp.cases.verbTest.yujulijie.results[6].reactType}}</span> </td>
             </tr>
             <tr>
               <td>5</td>
               <td rowspan="4">把字句</td>
               <td>女孩把男孩推倒了。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[7]"><em>{{temp.cases.verbTest.yujulijie.results[7].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[7]">{{temp.cases.verbTest.yujulijie.results[7].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujulijie.bazi.correct}}/4</td>
+              <td rowspan="4">{{Math.round(temp.cases.verbTest.yujulijie.bazi.correct/4 *100)}}%</td>
             </tr>
             <tr>
               <td>6</td>
               <td>女人把男人埋葬了。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[8]"><em>{{temp.cases.verbTest.yujulijie.results[8].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[8]">{{temp.cases.verbTest.yujulijie.results[8].reactType}}</span> </td>
             </tr>
             <tr>
               <td>7</td>
               <td>小狗把小猫追上了。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[9]"><em>{{temp.cases.verbTest.yujulijie.results[9].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[9]">{{temp.cases.verbTest.yujulijie.results[9].reactType}}</span> </td>
             </tr>
             <tr>
               <td>8</td>
               <td>男人把女孩批评了。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[10]"><em>{{temp.cases.verbTest.yujulijie.results[10].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[10]">{{temp.cases.verbTest.yujulijie.results[10].reactType}}</span> </td>
             </tr>
             <tr>
               <td>9</td>
               <td rowspan="4">被字句</td>
               <td>小猫被小狗追上了。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[11]"><em>{{temp.cases.verbTest.yujulijie.results[11].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[11]">{{temp.cases.verbTest.yujulijie.results[11].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujulijie.beizi.correct}}/4</td>
+              <td rowspan="4">{{Math.round(temp.cases.verbTest.yujulijie.beizi.correct/4 *100)}}%</td>
             </tr>
             <tr>
               <td>10</td>
               <td>女孩被男孩推倒了。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[12]"><em>{{temp.cases.verbTest.yujulijie.results[12].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[12]">{{temp.cases.verbTest.yujulijie.results[12].reactType}}</span> </td>
             </tr>
             <tr>
               <td>11</td>
               <td>男孩被女人批评了。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[13]"><em>{{temp.cases.verbTest.yujulijie.results[13].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[13]">{{temp.cases.verbTest.yujulijie.results[13].reactType}}</span> </td>
             </tr>
             <tr>
               <td>12</td>
               <td>女人被男人埋葬了。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[14]"><em>{{temp.cases.verbTest.yujulijie.results[14].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[14]">{{temp.cases.verbTest.yujulijie.results[14].reactType}}</span> </td>
             </tr>
             <tr>
               <td>13</td>
               <td rowspan="4">主语疑问句</td>
               <td>谁批评了男孩？</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[15]"><em>{{temp.cases.verbTest.yujulijie.results[15].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[15]">{{temp.cases.verbTest.yujulijie.results[15].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujulijie.zhuyuyiwen.correct}}/4</td>
+              <td rowspan="4">{{Math.round(temp.cases.verbTest.yujulijie.zhuyuyiwen.correct/4 *100)}}%</td>
             </tr>
             <tr>
               <td>14</td>
               <td>谁推了男孩？</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[16]"><em>{{temp.cases.verbTest.yujulijie.results[16].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[16]">{{temp.cases.verbTest.yujulijie.results[16].reactType}}</span> </td>
             </tr>
             <tr>
               <td>15</td>
               <td>谁在埋葬女人？</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[17]"><em>{{temp.cases.verbTest.yujulijie.results[17].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[17]">{{temp.cases.verbTest.yujulijie.results[17].reactType}}</span> </td>
             </tr>
             <tr>
               <td>16</td>
               <td>谁在追小狗？</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[18]"><em>{{temp.cases.verbTest.yujulijie.results[18].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[18]">{{temp.cases.verbTest.yujulijie.results[18].reactType}}</span> </td>
             </tr>
             <tr>
               <td>17</td>
               <td rowspan="4">宾语疑问句</td>
               <td>男人在埋葬谁？</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[19]"><em>{{temp.cases.verbTest.yujulijie.results[19].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[19]">{{temp.cases.verbTest.yujulijie.results[19].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujulijie.binyuyiwen.correct}}/4</td>
+              <td rowspan="4">{{Math.round(temp.cases.verbTest.yujulijie.binyuyiwen.correct/4 *100)}}%</td>
             </tr>
             <tr>
               <td>18</td>
               <td>男人批评了谁？</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[20]"><em>{{temp.cases.verbTest.yujulijie.results[20].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[20]">{{temp.cases.verbTest.yujulijie.results[20].reactType}}</span> </td>
             </tr>
             <tr>
               <td>19</td>
               <td>女孩推了谁？</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[21]"><em>{{temp.cases.verbTest.yujulijie.results[21].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[21]">{{temp.cases.verbTest.yujulijie.results[21].reactType}}</span> </td>
             </tr>
             <tr>
               <td>20</td>
               <td>小狗在追谁？</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[22]"><em>{{temp.cases.verbTest.yujulijie.results[22].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[22]">{{temp.cases.verbTest.yujulijie.results[22].reactType}}</span> </td>
             </tr>
             <tr>
               <td>21</td>
               <td rowspan="4">主语从句</td>
               <td>批评男孩的女人戴着帽子。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[23]"><em>{{temp.cases.verbTest.yujulijie.results[23].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[23]">{{temp.cases.verbTest.yujulijie.results[23].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujulijie.zhuyu.correct}}/4</td>
+              <td rowspan="4">{{Math.round(temp.cases.verbTest.yujulijie.zhuyu.correct/4 *100)}}%</td>
             </tr>
             <tr>
               <td>22</td>
               <td>推女孩的男孩戴着帽子。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[24]"><em>{{temp.cases.verbTest.yujulijie.results[24].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[24]">{{temp.cases.verbTest.yujulijie.results[24].reactType}}</span> </td>
             </tr>
             <tr>
               <td>23</td>
               <td>追小狗的小猫戴着帽子。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[25]"><em>{{temp.cases.verbTest.yujulijie.results[25].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[25]">{{temp.cases.verbTest.yujulijie.results[25].reactType}}</span> </td>
             </tr>
             <tr>
               <td>24</td>
               <td>埋葬男人的女人戴着帽子。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[26]"><em>{{temp.cases.verbTest.yujulijie.results[26].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[26]">{{temp.cases.verbTest.yujulijie.results[26].reactType}}</span> </td>
             </tr>
             <tr>
               <td>25</td>
               <td rowspan="4">宾语从句</td>
               <td>小狗追的小猫戴着帽子。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[27]"><em>{{temp.cases.verbTest.yujulijie.results[27].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[27]">{{temp.cases.verbTest.yujulijie.results[27].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujulijie.binyu.correct}}/4</td>
+              <td rowspan="4">{{Math.round(temp.cases.verbTest.yujulijie.binyu.correct/4 *100)}}%</td>
             </tr>
             <tr>
               <td>26</td>
               <td>女人批评的男孩戴着帽子。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[28]"><em>{{temp.cases.verbTest.yujulijie.results[28].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[28]">{{temp.cases.verbTest.yujulijie.results[28].reactType}}</span> </td>
             </tr>
             <tr>
               <td>27</td>
               <td>男人埋葬的女人戴着帽子。</td>
               <td>1</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[29]"><em>{{temp.cases.verbTest.yujulijie.results[29].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[29]">{{temp.cases.verbTest.yujulijie.results[29].reactType}}</span> </td>
             </tr>
             <tr>
               <td>28</td>
               <td>女孩推的男孩戴着帽子。</td>
               <td>2</td>
-              <td> </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[30]"><em>{{temp.cases.verbTest.yujulijie.results[30].react}}</em></span> </td>
+              <td> <span v-if="temp.cases.verbTest.yujulijie.results[30]">{{temp.cases.verbTest.yujulijie.results[30].reactType}}</span> </td>
             </tr>
           </tbody>
         </table>
@@ -6411,6 +6411,7 @@ export default {
               lyjg: { correct: 0, rate: 0 }
             },
             yujulijie: {
+              results: [{ react: '1', reactType: '+' }],
               bazi: { correct: 0, rate: 0 },
               beizi: { correct: 0, rate: 0 },
               binyu: { correct: 0, rate: 0 },
