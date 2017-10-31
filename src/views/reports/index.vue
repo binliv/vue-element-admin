@@ -5861,25 +5861,25 @@
             <tr>
               <td colspan="2" rowspan="3">动词命名</td>
               <td>一元动词正确率</td>
+              <td>{{temp.cases.verbTest.huizong.dccc[0]}} </td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.lyjg[0]}} </td>
               <td> </td>
               <td> </td>
             </tr>
             <tr>
               <td>二元动词正确率</td>
+              <td>{{temp.cases.verbTest.huizong.dccc[1]}} </td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.lyjg[1]}} </td>
               <td> </td>
               <td> </td>
             </tr>
             <tr>
               <td>三元动词正确率</td>
+              <td>{{temp.cases.verbTest.huizong.dccc[2]}} </td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.lyjg[2]}} </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5887,24 +5887,24 @@
               <td colspan="2" rowspan="3">动词理解</td>
               <td>一元动词正确率</td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.dclj[0]}} </td>
+              <td>{{temp.cases.verbTest.huizong.lyjg[3]}} </td>
               <td> </td>
               <td> </td>
             </tr>
             <tr>
               <td>二元动词正确率</td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.dclj[1]}} </td>
+              <td>{{temp.cases.verbTest.huizong.lyjg[4]}} </td>
               <td> </td>
               <td> </td>
             </tr>
             <tr>
               <td>三元动词正确率</td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.dclj[2]}} </td>
+              <td>{{temp.cases.verbTest.huizong.lyjg[5]}} </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5913,7 +5913,7 @@
               <td>一元动词论元正确率</td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.lyjg[6]}} </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5921,7 +5921,7 @@
               <td>二元动词论元正确率</td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.lyjg[7]}} </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5929,7 +5929,7 @@
               <td>三元动词论元正确率</td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.lyjg[8]}} </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5938,7 +5938,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.chcr[0]}} </td>
               <td> </td>
             </tr>
             <tr>
@@ -5946,7 +5946,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.chcr[1]}} </td>
               <td> </td>
             </tr>
             <tr>
@@ -5954,7 +5954,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.chcr[2]}} </td>
               <td> </td>
             </tr>
             <tr>
@@ -5964,24 +5964,24 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.chcr[3]}} </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[0]}} </td>
             </tr>
             <tr>
               <td>主语疑问句正确率</td>
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.chcr[4]}} </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[1]}} </td>
             </tr>
             <tr>
               <td>宾语从句正确率</td>
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.chcr[5]}} </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[2]}} </td>
             </tr>
             <tr>
               <td rowspan="4">非典型语序</td>
@@ -5989,32 +5989,32 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.chcr[6]}} </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[3]}} </td>
             </tr>
             <tr>
               <td>被字句正确率</td>
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.chcr[7]}} </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[4]}} </td>
             </tr>
             <tr>
               <td>宾语疑问句正确率</td>
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.chcr[8]}} </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[5]}} </td>
             </tr>
             <tr>
               <td>主语从句正确率</td>
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.chcr[9]}} </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[6]}} </td>
             </tr>
             <tr>
               <td rowspan="7">语句理解</td>
@@ -6024,7 +6024,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[7]}} </td>
             </tr>
             <tr>
               <td>主语疑问句正确率</td>
@@ -6032,7 +6032,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[8]}} </td>
             </tr>
             <tr>
               <td>宾语从句正确率</td>
@@ -6040,7 +6040,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[9]}} </td>
             </tr>
             <tr>
               <td rowspan="4">非典型语序</td>
@@ -6049,7 +6049,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[10]}} </td>
             </tr>
             <tr>
               <td>被字句正确率</td>
@@ -6057,7 +6057,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[11]}} </td>
             </tr>
             <tr>
               <td>宾语疑问句正确率</td>
@@ -6065,7 +6065,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[12]}} </td>
             </tr>
             <tr>
               <td>主语从句正确率</td>
@@ -6073,7 +6073,7 @@
               <td> </td>
               <td> </td>
               <td> </td>
-              <td> </td>
+              <td>{{temp.cases.verbTest.huizong.jfjg[13]}} </td>
             </tr>
           </tbody>
         </table>
@@ -6091,24 +6091,24 @@
               <tr>
                 <td style="width: 13%;" rowspan="2">动词   </td>
                 <td style="width: 10%;">动词产出</td>
-                <td style="width: 10%;">%</td>
+                <td style="width: 10%;">{{temp.cases.verbTest.pinggu.dccc.rate}}%</td>
               </tr>
               <tr>
                 <td style="width: 10%;">动词理解</td>
-                <td style="width: 10%;">%</td>
+                <td style="width: 10%;">{{temp.cases.verbTest.pinggu.dclj.rate}}%</td>
               </tr>
               <tr>
                 <td style="width: 13%;" rowspan="3">语法加工能力   </td>
                 <td style="width: 10%;">论元结构</td>
-                <td style="width: 10%;">%</td>
+                <td style="width: 10%;">{{temp.cases.verbTest.pinggu.lyjg.rate}}%</td>
               </tr>
               <tr>
                 <td style="width: 10%;">词汇插入</td>
-                <td style="width: 10%;">%</td>
+                <td style="width: 10%;">{{temp.cases.verbTest.pinggu.chcr.rate}}%</td>
               </tr>
               <tr>
                 <td style="width: 10%;">句法结构分析及转换</td>
-                <td style="width: 10%;">%</td>
+                <td style="width: 10%;">{{temp.cases.verbTest.pinggu.jfjg.rate}}%</td>
               </tr>
             </tbody>
           </table>
@@ -6705,6 +6705,14 @@ export default {
         this.temp.cases.namedTest.pinggu.yyio.rate,
         this.temp.cases.namedTest.pinggu.sdjm.rate,
         this.temp.cases.namedTest.pinggu.yyjm.rate
+      ]
+
+      this.dongci_bar_options.series[0].data = [
+        this.temp.cases.verbTest.pinggu.jfjg.rate,
+        this.temp.cases.verbTest.pinggu.chcr.rate,
+        this.temp.cases.verbTest.pinggu.lyjg.rate,
+        this.temp.cases.verbTest.pinggu.dclj.rate,
+        this.temp.cases.verbTest.pinggu.dccc.rate
       ]
       // this.renzhi_bar_options.series[0].data[12] = this.temp.cases.namedTest.pinggu.yyjm.rate
       // this.renzhi_bar_options.series[0].data[11] = this.temp.cases.namedTest.pinggu.sdjm.rate
