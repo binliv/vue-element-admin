@@ -4698,8 +4698,8 @@
               <td> </td>
               <td>{{temp.cases.verbTest.lunyuanjiegou.one.x}}/6</td>
               <td>{{temp.cases.verbTest.lunyuanjiegou.one.V}}/6</td>
-              <td>{{temp.cases.verbTest.lunyuanjiegou.one.y}}/6</td>
-              <td>{{temp.cases.verbTest.lunyuanjiegou.one.z}}/6</td>
+              <td></td>
+              <td></td>
               <td>{{temp.cases.verbTest.lunyuanjiegou.one.lunyuan}}/6</td>
               <td>{{temp.cases.verbTest.lunyuanjiegou.one.cihui}}/6</td>
             </tr>
@@ -5135,107 +5135,107 @@
           <tbody>
             <tr style="height: 18px;">
               <td class="lian_xi" style="height: 18px;">一元小计</td>
-              <td style="height: 18px;">/6 </td>
-              <td style="height: 18px;">/6 </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;">/6 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;">/6 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.one.x}}/6</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.one.V}}/6</td>
+              <td style="height: 18px;"></td>
+              <td style="height: 18px;"></td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.one.lunyuan}}/6</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.one.lunyuan/6 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.one.cihui}}/6</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.one.cihui/6 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.one.both}}/6 </td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.one.both/6 * 100 )}}%</td>
             </tr>
             <tr style="height: 18px;">
               <td class="lian_xi" style="height: 18px;">二元小计</td>
-              <td style="height: 18px;">/6 </td>
-              <td style="height: 18px;">/6 </td>
-              <td style="height: 18px;">/6 </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;">/6 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;">/6 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.two.x}}/6</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.two.V}}/6</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.two.y}}/6</td>
+              <td style="height: 18px;"></td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.two.lunyuan}}/6</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.two.lunyuan/6 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.two.cihui}}/6</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.two.cihui/6 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.two.both}}/6 </td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.two.both/6 * 100 )}}%</td>
             </tr>
             <tr style="height: 18px;">
               <td class="lian_xi" style="height: 18px;"> 强显性三元 (xyz)</td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.x}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.V}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.y}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.z}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.lunyuan}}/2</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three1.lunyuan/2 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.cihui}}/2</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three1.cihui/2 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.both}}/2 </td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three1.both/2 * 100 )}}%</td>
             </tr>
             <tr style="height: 18px;">
               <td class="lian_xi" style="height: 18px;">中显性三元 (xy)</td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three2.x}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three2.V}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three2.y}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three2.z}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three2.lunyuan}}/2</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three2.lunyuan/2 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three2.cihui}}/2</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three2.cihui/2 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three2.both}}/2 </td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three2.both/2 * 100 )}}%</td>
             </tr>
             <tr style="height: 18px;">
               <td class="lian_xi" style="height: 18px;">中显性三元 (xz)</td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three3.x}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three3.V}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three3.y}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three3.z}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three3.lunyuan}}/2</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three3.lunyuan/2 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three3.cihui}}/2</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three3.cihui/2 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three3.both}}/2 </td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three3.both/2 * 100 )}}%</td>
             </tr>
             <tr style="height: 18px;">
               <td class="lian_xi" style="height: 18px;"> 弱显性三元 (xy/z)</td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;">/2 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three4.x}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three4.V}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three4.y}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three4.z}}/2</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three4.lunyuan}}/2</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three4.lunyuan/2 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three4.cihui}}/2</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three4.cihui/2 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three4.both}}/2 </td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three4.both/2 * 100 )}}%</td>
             </tr>
             <tr style="height: 18px;">
               <td class="lian_xi" style="height: 18px;"> 三元小计</td>
-              <td style="height: 18px;">/8 </td>
-              <td style="height: 18px;">/8 </td>
-              <td style="height: 18px;">/8 </td>
-              <td style="height: 18px;">/8 </td>
-              <td style="height: 18px;">/8 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;">/8 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.x + temp.cases.verbTest.lunyuanjiegou.three2.x + temp.cases.verbTest.lunyuanjiegou.three3.x + temp.cases.verbTest.lunyuanjiegou.three4.x}}/8</td>
+              <td style="height: 18pV;">{{temp.cases.verbTest.lunyuanjiegou.three1.V + temp.cases.verbTest.lunyuanjiegou.three2.V + temp.cases.verbTest.lunyuanjiegou.three3.V + temp.cases.verbTest.lunyuanjiegou.three4.V}}/8</td>
+              <td style="height: 18py;">{{temp.cases.verbTest.lunyuanjiegou.three1.y + temp.cases.verbTest.lunyuanjiegou.three2.y + temp.cases.verbTest.lunyuanjiegou.three3.y + temp.cases.verbTest.lunyuanjiegou.three4.y}}/8</td>
+              <td style="height: 18pz;">{{temp.cases.verbTest.lunyuanjiegou.three1.z + temp.cases.verbTest.lunyuanjiegou.three2.z + temp.cases.verbTest.lunyuanjiegou.three3.z + temp.cases.verbTest.lunyuanjiegou.three4.z}}/8</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.lunyuan + temp.cases.verbTest.lunyuanjiegou.three2.lunyuan + temp.cases.verbTest.lunyuanjiegou.three3.lunyuan + temp.cases.verbTest.lunyuanjiegou.three4.lunyuan}}/8</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three1.lunyuan + temp.cases.verbTest.lunyuanjiegou.three2.lunyuan + temp.cases.verbTest.lunyuanjiegou.three3.lunyuan + temp.cases.verbTest.lunyuanjiegou.three4.lunyuan/8 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.cihui + temp.cases.verbTest.lunyuanjiegou.three2.cihui + temp.cases.verbTest.lunyuanjiegou.three3.cihui + temp.cases.verbTest.lunyuanjiegou.three4.cihui}}/8</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three1.cihui + temp.cases.verbTest.lunyuanjiegou.three2.cihui + temp.cases.verbTest.lunyuanjiegou.three3.cihui + temp.cases.verbTest.lunyuanjiegou.three4.cihui/8 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.three1.both + temp.cases.verbTest.lunyuanjiegou.three2.both + temp.cases.verbTest.lunyuanjiegou.three3.both + temp.cases.verbTest.lunyuanjiegou.three4.both}}/8 </td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.three1.both + temp.cases.verbTest.lunyuanjiegou.three2.both + temp.cases.verbTest.lunyuanjiegou.three3.both + temp.cases.verbTest.lunyuanjiegou.three4.both/8 * 100 )}}% </td>
             </tr>
             <tr style="height: 18px;">
               <td class="lian_xi" style="height: 18px;"> 合计 ( 一元＋二元＋三元 )</td>
-              <td style="height: 18px;">/8 </td>
-              <td style="height: 18px;">/8 </td>
-              <td style="height: 18px;">/8 </td>
-              <td style="height: 18px;">/8 </td>
-              <td style="height: 18px;">/20 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;">/20 </td>
-              <td style="height: 18px;">% </td>
-              <td style="height: 18px;"> </td>
-              <td style="height: 18px;">% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.one.x + temp.cases.verbTest.lunyuanjiegou.two.x + temp.cases.verbTest.lunyuanjiegou.three1.x + temp.cases.verbTest.lunyuanjiegou.three2.x + temp.cases.verbTest.lunyuanjiegou.three3.x + temp.cases.verbTest.lunyuanjiegou.three4.x}}/20</td>
+              <td style="height: 18pV;">{{temp.cases.verbTest.lunyuanjiegou.one.V + temp.cases.verbTest.lunyuanjiegou.two.V + temp.cases.verbTest.lunyuanjiegou.three1.V + temp.cases.verbTest.lunyuanjiegou.three2.V + temp.cases.verbTest.lunyuanjiegou.three3.V + temp.cases.verbTest.lunyuanjiegou.three4.V}}/20</td>
+              <td style="height: 18py;">{{temp.cases.verbTest.lunyuanjiegou.one.y + temp.cases.verbTest.lunyuanjiegou.two.y + temp.cases.verbTest.lunyuanjiegou.three1.y + temp.cases.verbTest.lunyuanjiegou.three2.y + temp.cases.verbTest.lunyuanjiegou.three3.y + temp.cases.verbTest.lunyuanjiegou.three4.y}}/14</td>
+              <td style="height: 18pz;">{{temp.cases.verbTest.lunyuanjiegou.one.z + temp.cases.verbTest.lunyuanjiegou.two.z + temp.cases.verbTest.lunyuanjiegou.three1.z + temp.cases.verbTest.lunyuanjiegou.three2.z + temp.cases.verbTest.lunyuanjiegou.three3.z + temp.cases.verbTest.lunyuanjiegou.three4.z}}/8</td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.one.lunyuan + temp.cases.verbTest.lunyuanjiegou.two.lunyuan + temp.cases.verbTest.lunyuanjiegou.three1.lunyuan + temp.cases.verbTest.lunyuanjiegou.three2.lunyuan + temp.cases.verbTest.lunyuanjiegou.three3.lunyuan + temp.cases.verbTest.lunyuanjiegou.three4.lunyuan}}/20</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.one.lunyuan + temp.cases.verbTest.lunyuanjiegou.two.lunyuan + temp.cases.verbTest.lunyuanjiegou.three1.lunyuan + temp.cases.verbTest.lunyuanjiegou.three2.lunyuan + temp.cases.verbTest.lunyuanjiegou.three3.lunyuan + temp.cases.verbTest.lunyuanjiegou.three4.lunyuan/20 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.one.cihui + temp.cases.verbTest.lunyuanjiegou.two.cihui + temp.cases.verbTest.lunyuanjiegou.three1.cihui + temp.cases.verbTest.lunyuanjiegou.three2.cihui + temp.cases.verbTest.lunyuanjiegou.three3.cihui + temp.cases.verbTest.lunyuanjiegou.three4.cihui}}/20</td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.one.cihui + temp.cases.verbTest.lunyuanjiegou.two.cihui + temp.cases.verbTest.lunyuanjiegou.three1.cihui + temp.cases.verbTest.lunyuanjiegou.three2.cihui + temp.cases.verbTest.lunyuanjiegou.three3.cihui + temp.cases.verbTest.lunyuanjiegou.three4.cihui/20 * 100 )}}% </td>
+              <td style="height: 18px;">{{temp.cases.verbTest.lunyuanjiegou.one.both + temp.cases.verbTest.lunyuanjiegou.two.both + temp.cases.verbTest.lunyuanjiegou.three1.both + temp.cases.verbTest.lunyuanjiegou.three2.both + temp.cases.verbTest.lunyuanjiegou.three3.both + temp.cases.verbTest.lunyuanjiegou.three4.both}}/20 </td>
+              <td style="height: 18px;">{{Math.round(temp.cases.verbTest.lunyuanjiegou.one.both + temp.cases.verbTest.lunyuanjiegou.two.both + temp.cases.verbTest.lunyuanjiegou.three1.both + temp.cases.verbTest.lunyuanjiegou.three2.both + temp.cases.verbTest.lunyuanjiegou.three3.both + temp.cases.verbTest.lunyuanjiegou.three4.both/20 * 100 )}}% </td>
             </tr>
           </tbody>
         </table>
@@ -5259,9 +5259,10 @@
               <td class="lian_xi"> </td>
               <td style="text-align: left;"> 女人撞了男人。</td>
               <td style="text-align: left;">
-                <em> 男人撞了女人。</em>
+                <!-- <em> 男人撞了女人。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[0]"><em>{{temp.cases.verbTest.yujuqidong.results[0].react}}</em></span>
               </td>
-              <td> </td>
+              <td><span v-if="temp.cases.verbTest.yujuqidong.results[0]">{{temp.cases.verbTest.yujuqidong.results[0].reactType}}</span> </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5270,9 +5271,10 @@
               <td class="lian_xi"> </td>
               <td style="text-align: left;"> 咬小狗的小猫戴着帽子。</td>
               <td style="text-align: left;">
-                <em> 咬小猫的小狗戴着帽子。</em>
+                <!-- <em> 咬小猫的小狗戴着帽子。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[1]"><em>{{temp.cases.verbTest.yujuqidong.results[1].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[1]">{{temp.cases.verbTest.yujuqidong.results[1].reactType}}</span> </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5281,9 +5283,10 @@
               <td class="lian_xi"> </td>
               <td style="text-align: left;"> 男人在指挥谁？</td>
               <td style="text-align: left;">
-                <em> 女人在指挥谁？</em>
+                <!-- <em> 女人在指挥谁？</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[2]"><em>{{temp.cases.verbTest.yujuqidong.results[2].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[2]">{{temp.cases.verbTest.yujuqidong.results[2].reactType}}</span> </td>
               <td> </td>
               <td> </td>
             </tr>
@@ -5297,245 +5300,273 @@
               <td rowspan="4">主动句</td>
               <td style="text-align: left;"> 小猫在追小狗。</td>
               <td style="text-align: left;">
-                <em> 小狗在追小猫。</em>
+                <!-- <em> 小狗在追小猫。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[3]"><em>{{temp.cases.verbTest.yujuqidong.results[3].react}}</em></span>
               </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[3]">{{temp.cases.verbTest.yujuqidong.results[3].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.zhudong.correct}}/4</td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.zhudong.rate}}%</td>
             </tr>
             <tr>
               <td>2</td>
               <td style="text-align: left;"> 男人批评了女孩。</td>
               <td style="text-align: left;">
-                <em> 女人批评了男孩。</em>
+                <!-- <em> 女人批评了男孩。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[4]"><em>{{temp.cases.verbTest.yujuqidong.results[4].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[4]">{{temp.cases.verbTest.yujuqidong.results[4].reactType}}</span> </td>
             </tr>
             <tr>
               <td>3</td>
               <td style="text-align: left;"> 男孩推了女孩。</td>
               <td style="text-align: left;">
-                <em> 女孩推了男孩。</em>
+                <!-- <em> 女孩推了男孩。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[5]"><em>{{temp.cases.verbTest.yujuqidong.results[5].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[5]">{{temp.cases.verbTest.yujuqidong.results[5].reactType}}</span> </td>
             </tr>
             <tr>
               <td>4</td>
               <td style="text-align: left;"> 女人在埋葬男人。</td>
               <td style="text-align: left;">
-                <em> 男人在埋葬女人。</em>
+                <!-- <em> 男人在埋葬女人。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[6]"><em>{{temp.cases.verbTest.yujuqidong.results[6].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[6]">{{temp.cases.verbTest.yujuqidong.results[6].reactType}}</span> </td>
             </tr>
             <tr>
               <td>5</td>
               <td rowspan="4">把字句</td>
               <td style="text-align: left;"> 女孩把男孩推倒了。</td>
               <td style="text-align: left;">
-                <em> 男孩把女孩推倒了。</em>
+                <!-- <em> 男孩把女孩推倒了。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[7]"><em>{{temp.cases.verbTest.yujuqidong.results[7].react}}</em></span>
               </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[7]">{{temp.cases.verbTest.yujuqidong.results[7].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.bazi.correct}}/4</td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.bazi.rate}}%</td>
             </tr>
             <tr>
               <td>6</td>
               <td style="text-align: left;"> 男人把女人埋葬了。</td>
               <td style="text-align: left;">
-                <em> 女人把男人埋葬了。</em>
+                <!-- <em> 女人把男人埋葬了。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[8]"><em>{{temp.cases.verbTest.yujuqidong.results[8].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[8]">{{temp.cases.verbTest.yujuqidong.results[8].reactType}}</span> </td>
             </tr>
             <tr>
               <td>7</td>
               <td style="text-align: left;"> 小狗把小猫追上了。</td>
               <td style="text-align: left;">
-                <em> 小猫把小狗追上了。</em>
+                <!-- <em> 小猫把小狗追上了。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[9]"><em>{{temp.cases.verbTest.yujuqidong.results[9].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[9]">{{temp.cases.verbTest.yujuqidong.results[9].reactType}}</span> </td>
             </tr>
             <tr>
               <td>8</td>
               <td style="text-align: left;"> 女人把男孩批评了。</td>
               <td style="text-align: left;">
-                <em> 男人把女孩批评了。</em>
+                <!-- <em> 男人把女孩批评了。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[10]"><em>{{temp.cases.verbTest.yujuqidong.results[10].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[10]">{{temp.cases.verbTest.yujuqidong.results[10].reactType}}</span> </td>
             </tr>
             <tr>
               <td>9</td>
               <td rowspan="4">被字句</td>
               <td style="text-align: left;">小狗被小猫追上了。</td>
               <td style="text-align: left;">
-                <em>小猫被小狗追上了。</em>
+                <!-- <em>小猫被小狗追上了。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[11]"><em>{{temp.cases.verbTest.yujuqidong.results[11].react}}</em></span>
               </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[11]">{{temp.cases.verbTest.yujuqidong.results[11].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.beizi.correct}}/4</td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.beizi.rate}}%</td>
             </tr>
             <tr>
               <td>10</td>
               <td style="text-align: left;">女孩被男孩推倒了。</td>
               <td style="text-align: left;">
-                <em>男孩被女孩推倒了。</em>
+                <!-- <em>男孩被女孩推倒了。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[12]"><em>{{temp.cases.verbTest.yujuqidong.results[12].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[12]">{{temp.cases.verbTest.yujuqidong.results[12].reactType}}</span> </td>
             </tr>
             <tr>
               <td>11</td>
               <td style="text-align: left;">男孩被女人批评了。</td>
               <td style="text-align: left;">
-                <em>女孩被男人批评了。</em>
+                <!-- <em>女孩被男人批评了。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[13]"><em>{{temp.cases.verbTest.yujuqidong.results[13].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[13]">{{temp.cases.verbTest.yujuqidong.results[13].reactType}}</span> </td>
             </tr>
             <tr>
               <td>12</td>
               <td style="text-align: left;">男人被女人埋葬了。</td>
               <td style="text-align: left;">
-                <em>女人被男人埋葬了。</em>
+                <!-- <em>女人被男人埋葬了。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[14]"><em>{{temp.cases.verbTest.yujuqidong.results[14].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[14]">{{temp.cases.verbTest.yujuqidong.results[14].reactType}}</span> </td>
             </tr>
             <tr>
               <td>13</td>
               <td rowspan="4">主语疑问句</td>
               <td style="text-align: left;">谁批评了女孩？</td>
               <td style="text-align: left;">
-                <em>谁批评了男孩？</em>
+                <!-- <em>谁批评了男孩？</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[15]"><em>{{temp.cases.verbTest.yujuqidong.results[15].react}}</em></span>
               </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[15]">{{temp.cases.verbTest.yujuqidong.results[15].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.zhuyuyiwen.correct}}/4</td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.zhuyuyiwen.rate}}%</td>
             </tr>
             <tr>
               <td>14</td>
               <td style="text-align: left;">谁推了男孩？</td>
               <td style="text-align: left;">
-                <em>谁推了女孩？</em>
+                <!-- <em>谁推了女孩？</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[16]"><em>{{temp.cases.verbTest.yujuqidong.results[16].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[16]">{{temp.cases.verbTest.yujuqidong.results[16].reactType}}</span> </td>
             </tr>
             <tr>
               <td>15</td>
               <td style="text-align: left;">谁在埋葬男人？</td>
               <td style="text-align: left;">
-                <em>谁在埋葬女人？</em>
+                <!-- <em>谁在埋葬女人？</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[17]"><em>{{temp.cases.verbTest.yujuqidong.results[17].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[17]">{{temp.cases.verbTest.yujuqidong.results[17].reactType}}</span> </td>
             </tr>
             <tr>
               <td>16</td>
               <td style="text-align: left;">谁在追小狗？</td>
               <td style="text-align: left;">
-                <em>谁在追小猫？</em>
+                <!-- <em>谁在追小猫？</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[18]"><em>{{temp.cases.verbTest.yujuqidong.results[18].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[18]">{{temp.cases.verbTest.yujuqidong.results[18].reactType}}</span> </td>
             </tr>
             <tr>
               <td>17</td>
               <td rowspan="4">宾语疑问句</td>
               <td style="text-align: left;">男人在埋葬谁？</td>
               <td style="text-align: left;">
-                <em>女人在埋葬谁？</em>
+                <!-- <em>女人在埋葬谁？</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[19]"><em>{{temp.cases.verbTest.yujuqidong.results[19].react}}</em></span>
               </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[19]">{{temp.cases.verbTest.yujuqidong.results[19].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.binyuyiwen.correct}}/4</td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.binyuyiwen.rate}}%</td>
             </tr>
             <tr>
               <td>18</td>
               <td style="text-align: left;">女人批评了谁？</td>
               <td style="text-align: left;">
-                <em>男人批评了谁？</em>
+                <!-- <em>男人批评了谁？</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[20]"><em>{{temp.cases.verbTest.yujuqidong.results[20].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[20]">{{temp.cases.verbTest.yujuqidong.results[20].reactType}}</span> </td>
             </tr>
             <tr>
               <td>19</td>
               <td style="text-align: left;">男孩推了谁？</td>
               <td style="text-align: left;">
-                <em>女孩推了谁？</em>
+                <!-- <em>女孩推了谁？</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[21]"><em>{{temp.cases.verbTest.yujuqidong.results[21].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[21]">{{temp.cases.verbTest.yujuqidong.results[21].reactType}}</span> </td>
             </tr>
             <tr>
               <td>20</td>
               <td style="text-align: left;">小狗在追谁？</td>
               <td style="text-align: left;">
-                <em>小猫在追谁？</em>
+                <!-- <em>小猫在追谁？</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[22]"><em>{{temp.cases.verbTest.yujuqidong.results[22].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[22]">{{temp.cases.verbTest.yujuqidong.results[22].reactType}}</span> </td>
             </tr>
             <tr>
               <td>21</td>
               <td rowspan="4">主语从句</td>
               <td style="text-align: left;">批评女孩的男人戴着帽子。</td>
               <td style="text-align: left;">
-                <em>批评男孩的女人戴着帽子。</em>
+                <!-- <em>批评男孩的女人戴着帽子。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[23]"><em>{{temp.cases.verbTest.yujuqidong.results[23].react}}</em></span>
               </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[23]">{{temp.cases.verbTest.yujuqidong.results[23].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.zhuyu.correct}}/4</td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.zhuyu.rate}}%</td>
             </tr>
             <tr>
               <td>22</td>
               <td style="text-align: left;">推男孩的女孩戴着帽子。</td>
               <td style="text-align: left;">
-                <em>推女孩的男孩戴着帽子。</em>
+                <!-- <em>推女孩的男孩戴着帽子。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[24]"><em>{{temp.cases.verbTest.yujuqidong.results[24].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[24]">{{temp.cases.verbTest.yujuqidong.results[24].reactType}}</span> </td>
             </tr>
             <tr>
               <td>23</td>
               <td style="text-align: left;">追小狗的小猫戴着帽子。</td>
               <td style="text-align: left;">
-                <em>追小猫的小狗戴着帽子。</em>
+                <!-- <em>追小猫的小狗戴着帽子。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[25]"><em>{{temp.cases.verbTest.yujuqidong.results[25].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[25]">{{temp.cases.verbTest.yujuqidong.results[25].reactType}}</span> </td>
             </tr>
             <tr>
               <td>24</td>
               <td style="text-align: left;">埋葬男人的女人戴着帽子。</td>
               <td style="text-align: left;">
-                <em>埋葬女人的男人戴着帽子。</em>
+                <!-- <em>埋葬女人的男人戴着帽子。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[26]"><em>{{temp.cases.verbTest.yujuqidong.results[26].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[26]">{{temp.cases.verbTest.yujuqidong.results[26].reactType}}</span> </td>
             </tr>
             <tr>
               <td>25</td>
               <td rowspan="4">宾语从句</td>
               <td style="text-align: left;">小猫追的小狗戴着帽子。</td>
               <td style="text-align: left;">
-                <em>小狗追的小猫戴着帽子。</em>
+                <!-- <em>小狗追的小猫戴着帽子。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[27]"><em>{{temp.cases.verbTest.yujuqidong.results[27].react}}</em></span>
               </td>
-              <td> </td>
-              <td rowspan="4">/4</td>
-              <td rowspan="4">%</td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[27]">{{temp.cases.verbTest.yujuqidong.results[27].reactType}}</span> </td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.binyu.correct}}/4</td>
+              <td rowspan="4">{{temp.cases.verbTest.yujuqidong.binyu.rate}}%</td>
             </tr>
             <tr>
               <td>26</td>
               <td style="text-align: left;">女人批评的男孩戴着帽子。</td>
               <td style="text-align: left;">
-                <em>男人批评的女孩戴着帽子。</em>
+                <!-- <em>男人批评的女孩戴着帽子。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[28]"><em>{{temp.cases.verbTest.yujuqidong.results[28].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[28]">{{temp.cases.verbTest.yujuqidong.results[28].reactType}}</span> </td>
             </tr>
             <tr>
               <td>27</td>
               <td style="text-align: left;">男人埋葬的女人戴着帽子。</td>
               <td style="text-align: left;">
-                <em>女人埋葬的男人戴着帽子。</em>
+                <!-- <em>女人埋葬的男人戴着帽子。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[29]"><em>{{temp.cases.verbTest.yujuqidong.results[29].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[29]">{{temp.cases.verbTest.yujuqidong.results[29].reactType}}</span> </td>
             </tr>
             <tr>
               <td>28</td>
               <td style="text-align: left;">男孩推的女孩戴着帽子。</td>
               <td style="text-align: left;">
-                <em>女孩推的男孩戴着帽子。</em>
+                <!-- <em>女孩推的男孩戴着帽子。</em> -->
+                <span v-if="temp.cases.verbTest.yujuqidong.results[30]"><em>{{temp.cases.verbTest.yujuqidong.results[30].react}}</em></span>
               </td>
-              <td> </td>
+              <td> <span v-if="temp.cases.verbTest.yujuqidong.results[30]">{{temp.cases.verbTest.yujuqidong.results[30].reactType}}</span> </td>
             </tr>
           </tbody>
         </table>
@@ -6310,15 +6341,17 @@ export default {
                 y: 0,
                 z: 0
               },
-              results: [{
-                V: 0,
-                cihui: 0,
-                lunyuan: 0,
-                react: '',
-                x: 0,
-                y: 0,
-                z: 0
-              }],
+              results: [
+                {
+                  V: 0,
+                  cihui: 0,
+                  lunyuan: 0,
+                  react: '',
+                  x: 0,
+                  y: 0,
+                  z: 0
+                }
+              ],
               three1: {
                 V: 0,
                 both: 0,
@@ -6387,6 +6420,7 @@ export default {
               zhuyuyiwen: { correct: 0, rate: 0 }
             },
             yujuqidong: {
+              results: [{ react: '1', reactType: '+' }],
               bazi: { correct: 0, rate: 0 },
               beizi: { correct: 0, rate: 0 },
               binyu: { correct: 0, rate: 0 },
