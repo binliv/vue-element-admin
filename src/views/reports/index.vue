@@ -233,9 +233,8 @@
       </tr>
       </tbody>
       </table>
-<p>&nbsp;</p>
 
-        <h4>表 A　听觉辨识评分表</h4>
+        <h4 class="table-name">表 A　听觉辨识评分表</h4>
 
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
@@ -250,180 +249,180 @@
           <tr>
             <td class="lian_xi">练习1</td>
             <td>xī / xǐ</td>
-            <td style="font-size: 28px;">{{temp.cases.namedTest.tingjuebianshi.results[0].react}}</td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;">{{temp.cases.namedTest.tingjuebianshi.results[0].reactType}}</td>
+            <td >{{temp.cases.namedTest.tingjuebianshi.results[0].react}}</td>
+            <td >-</td>
+            <td >{{temp.cases.namedTest.tingjuebianshi.results[0].reactType}}</td>
           </tr>
           <tr>
             <td class="lian_xi">练习2</td>
             <td>ké / ké</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[1]">{{temp.cases.namedTest.tingjuebianshi.results[1].react}}</span></td>
-            <td style="font-size: 28px;">+</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[1]">{{temp.cases.namedTest.tingjuebianshi.results[1].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[1]">{{temp.cases.namedTest.tingjuebianshi.results[1].react}}</span></td>
+            <td >+</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[1]">{{temp.cases.namedTest.tingjuebianshi.results[1].reactType}}</span></td>
           </tr>
           <tr>
             <td class="lian_xi">练习3</td>
             <td>zuì / tuì</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[2]">{{temp.cases.namedTest.tingjuebianshi.results[2].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[2]">{{temp.cases.namedTest.tingjuebianshi.results[2].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[2]">{{temp.cases.namedTest.tingjuebianshi.results[2].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[2]">{{temp.cases.namedTest.tingjuebianshi.results[2].reactType}}</span></td>
           </tr>
           <tr>
-            <td style="font-size: 28px;" colspan="5">&nbsp;</td>
+            <td  colspan="5">&nbsp;</td>
           </tr>
           <tr>
             <td>1</td>
             <td>bó / bó</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[3]">{{temp.cases.namedTest.tingjuebianshi.results[3].react}}</span></td>
-            <td style="font-size: 28px;">+</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[3]">{{temp.cases.namedTest.tingjuebianshi.results[3].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[3]">{{temp.cases.namedTest.tingjuebianshi.results[3].react}}</span></td>
+            <td >+</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[3]">{{temp.cases.namedTest.tingjuebianshi.results[3].reactType}}</span></td>
           </tr>
           <tr class="sheng_mu_bu_tong">
             <td>2</td>
             <td>kā / hā</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[4]">{{temp.cases.namedTest.tingjuebianshi.results[4].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[4]">{{temp.cases.namedTest.tingjuebianshi.results[4].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[4]">{{temp.cases.namedTest.tingjuebianshi.results[4].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[4]">{{temp.cases.namedTest.tingjuebianshi.results[4].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>3</td>
             <td>tóu / tòu</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[5]">{{temp.cases.namedTest.tingjuebianshi.results[5].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[5]">{{temp.cases.namedTest.tingjuebianshi.results[5].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[5]">{{temp.cases.namedTest.tingjuebianshi.results[5].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[5]">{{temp.cases.namedTest.tingjuebianshi.results[5].reactType}}</span></td>
           </tr>
           <tr>
             <td>4</td>
             <td>cā / cā</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[6]">{{temp.cases.namedTest.tingjuebianshi.results[6].react}}</span></td>
-            <td style="font-size: 28px;">+</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[6]">{{temp.cases.namedTest.tingjuebianshi.results[6].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[6]">{{temp.cases.namedTest.tingjuebianshi.results[6].react}}</span></td>
+            <td >+</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[6]">{{temp.cases.namedTest.tingjuebianshi.results[6].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>5</td>
             <td>mēn / mén</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[7]">{{temp.cases.namedTest.tingjuebianshi.results[7].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[7]">{{temp.cases.namedTest.tingjuebianshi.results[7].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[7]">{{temp.cases.namedTest.tingjuebianshi.results[7].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[7]">{{temp.cases.namedTest.tingjuebianshi.results[7].reactType}}</span></td>
           </tr>
           <tr class="sheng_mu_bu_tong">
             <td>6</td>
             <td>pí / dí</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[8]">{{temp.cases.namedTest.tingjuebianshi.results[8].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[8]">{{temp.cases.namedTest.tingjuebianshi.results[8].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[8]">{{temp.cases.namedTest.tingjuebianshi.results[8].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[8]">{{temp.cases.namedTest.tingjuebianshi.results[8].reactType}}</span></td>
           </tr>
           <tr class="yun_mu_bu_tong">
             <td>7</td>
             <td>hé / hú</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[9]">{{temp.cases.namedTest.tingjuebianshi.results[9].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[9]">{{temp.cases.namedTest.tingjuebianshi.results[9].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[9]">{{temp.cases.namedTest.tingjuebianshi.results[9].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[9]">{{temp.cases.namedTest.tingjuebianshi.results[9].reactType}}</span></td>
           </tr>
           <tr>
             <td>8</td>
             <td>yóu / yóu</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[10]">{{temp.cases.namedTest.tingjuebianshi.results[10].react}}</span></td>
-            <td style="font-size: 28px;">+</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[10]">{{temp.cases.namedTest.tingjuebianshi.results[10].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[10]">{{temp.cases.namedTest.tingjuebianshi.results[10].react}}</span></td>
+            <td >+</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[10]">{{temp.cases.namedTest.tingjuebianshi.results[10].reactType}}</span></td>
           </tr>
           <tr class="yun_mu_bu_tong">
             <td>9</td>
             <td>duī / diū</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[11]">{{temp.cases.namedTest.tingjuebianshi.results[11].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[11]">{{temp.cases.namedTest.tingjuebianshi.results[11].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[11]">{{temp.cases.namedTest.tingjuebianshi.results[11].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[11]">{{temp.cases.namedTest.tingjuebianshi.results[11].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>10</td>
             <td>wāi / wài</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[12]">{{temp.cases.namedTest.tingjuebianshi.results[12].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[12]">{{temp.cases.namedTest.tingjuebianshi.results[12].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[12]">{{temp.cases.namedTest.tingjuebianshi.results[12].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[12]">{{temp.cases.namedTest.tingjuebianshi.results[12].reactType}}</span></td>
           </tr>
           <tr>
             <td>11</td>
             <td>tiě / tiě</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[13]">{{temp.cases.namedTest.tingjuebianshi.results[13].react}}</span></td>
-            <td style="font-size: 28px;">+</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[13]">{{temp.cases.namedTest.tingjuebianshi.results[13].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[13]">{{temp.cases.namedTest.tingjuebianshi.results[13].react}}</span></td>
+            <td >+</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[13]">{{temp.cases.namedTest.tingjuebianshi.results[13].reactType}}</span></td>
           </tr>
           <tr class="yun_mu_bu_tong">
             <td>12</td>
             <td>niǎo / niǔ</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[14]">{{temp.cases.namedTest.tingjuebianshi.results[14].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[14]">{{temp.cases.namedTest.tingjuebianshi.results[14].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[14]">{{temp.cases.namedTest.tingjuebianshi.results[14].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[14]">{{temp.cases.namedTest.tingjuebianshi.results[14].reactType}}</span></td>
           </tr>
           <tr class="sheng_mu_bu_tong">
             <td>13</td>
             <td>kuò / ruò</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[15]">{{temp.cases.namedTest.tingjuebianshi.results[15].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[15]">{{temp.cases.namedTest.tingjuebianshi.results[15].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[15]">{{temp.cases.namedTest.tingjuebianshi.results[15].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[15]">{{temp.cases.namedTest.tingjuebianshi.results[15].reactType}}</span></td>
           </tr>
           <tr>
             <td>14</td>
             <td>gǔ / gǔ</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[16]">{{temp.cases.namedTest.tingjuebianshi.results[16].react}}</span></td>
-            <td style="font-size: 28px;">+</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[16]">{{temp.cases.namedTest.tingjuebianshi.results[16].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[16]">{{temp.cases.namedTest.tingjuebianshi.results[16].react}}</span></td>
+            <td >+</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[16]">{{temp.cases.namedTest.tingjuebianshi.results[16].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>15</td>
             <td>jiā / jiǎ</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[17]">{{temp.cases.namedTest.tingjuebianshi.results[17].react}}</span></td>
-            <td style="font-size: 28px;">+</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[17]">{{temp.cases.namedTest.tingjuebianshi.results[17].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[17]">{{temp.cases.namedTest.tingjuebianshi.results[17].react}}</span></td>
+            <td >+</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[17]">{{temp.cases.namedTest.tingjuebianshi.results[17].reactType}}</span></td>
           </tr>
           <tr>
             <td>16</td>
             <td>zhuā / zhuā</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[18]">{{temp.cases.namedTest.tingjuebianshi.results[18].react}}</span></td>
-            <td style="font-size: 28px;">+</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[18]">{{temp.cases.namedTest.tingjuebianshi.results[18].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[18]">{{temp.cases.namedTest.tingjuebianshi.results[18].react}}</span></td>
+            <td >+</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[18]">{{temp.cases.namedTest.tingjuebianshi.results[18].reactType}}</span></td>
           </tr>
           <tr class="yun_mu_bu_tong">
             <td>17</td>
             <td>bò / bì</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[19]">{{temp.cases.namedTest.tingjuebianshi.results[19].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[19]">{{temp.cases.namedTest.tingjuebianshi.results[19].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[19]">{{temp.cases.namedTest.tingjuebianshi.results[19].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[19]">{{temp.cases.namedTest.tingjuebianshi.results[19].reactType}}</span></td>
           </tr>
           <tr class="sheng_mu_bu_tong">
             <td>18</td>
             <td>jǔ / xǔ</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[20]">{{temp.cases.namedTest.tingjuebianshi.results[20].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[20]">{{temp.cases.namedTest.tingjuebianshi.results[20].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[20]">{{temp.cases.namedTest.tingjuebianshi.results[20].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[20]">{{temp.cases.namedTest.tingjuebianshi.results[20].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>19</td>
             <td>yuǎn / yuàn</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[21]">{{temp.cases.namedTest.tingjuebianshi.results[21].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[21]">{{temp.cases.namedTest.tingjuebianshi.results[21].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[21]">{{temp.cases.namedTest.tingjuebianshi.results[21].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[21]">{{temp.cases.namedTest.tingjuebianshi.results[21].reactType}}</span></td>
           </tr>
           <tr>
             <td>20</td>
             <td>sì / sì</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[22]">{{temp.cases.namedTest.tingjuebianshi.results[22].react}}</span></td>
-            <td style="font-size: 28px;">+</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[22]">{{temp.cases.namedTest.tingjuebianshi.results[22].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[22]">{{temp.cases.namedTest.tingjuebianshi.results[22].react}}</span></td>
+            <td >+</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[22]">{{temp.cases.namedTest.tingjuebianshi.results[22].reactType}}</span></td>
           </tr>
           <tr class="sheng_diao_bu_tong">
             <td>21</td>
             <td>shú / shǔ</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[23]">{{temp.cases.namedTest.tingjuebianshi.results[23].react}}</span></td>
-            <td style="font-size: 28px;">-</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[23]">{{temp.cases.namedTest.tingjuebianshi.results[23].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[23]">{{temp.cases.namedTest.tingjuebianshi.results[23].react}}</span></td>
+            <td >-</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[23]">{{temp.cases.namedTest.tingjuebianshi.results[23].reactType}}</span></td>
           </tr>
           <tr>
             <td>22</td>
             <td>luè / luè</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[24]">{{temp.cases.namedTest.tingjuebianshi.results[24].react}}</span></td>
-            <td style="font-size: 28px;">+</td>
-            <td style="font-size: 28px;"><span v-if="temp.cases.namedTest.tingjuebianshi.results[24]">{{temp.cases.namedTest.tingjuebianshi.results[24].reactType}}</span></td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[24]">{{temp.cases.namedTest.tingjuebianshi.results[24].react}}</span></td>
+            <td >+</td>
+            <td ><span v-if="temp.cases.namedTest.tingjuebianshi.results[24]">{{temp.cases.namedTest.tingjuebianshi.results[24].reactType}}</span></td>
           </tr>
           <tr>
             <td rowspan="4">正确反应小计</td>
@@ -448,7 +447,7 @@
           </tr/>
         </table>
 
-        <h4>表 B　声调理解评分表</h4>
+        <h4 class="table-name">表 B　声调理解评分表</h4>
 
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
@@ -465,7 +464,7 @@
               <td><input v-if="item[5]==0" type="checkbox" :checked="true" >{{item[1]}}</td>
               <td><input v-if="item[5]==1" type="checkbox" :checked="true" >{{item[2]}}</td>
               <td>{{item[3]}}</td>
-              <td style="font-size: 28px;">{{item[4]}}</td>
+              <td>{{item[4]}}</td>
             </tr>
             <tr class="he_ji">
               <td colspan="2">合计</td>
@@ -474,7 +473,7 @@
           </tbody>
         </table>
 
-        <h4>表 C　听觉词汇判断评分表</h4>
+        <h4 class="table-name">表 C　听觉词汇判断评分表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header">
@@ -508,7 +507,7 @@
           </tbody>
         </table>
 
-        <h4>表 D　对证命名评分表</h4>
+        <h4 class="table-name">表 D　对证命名评分表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -1335,7 +1334,7 @@
           </tbody>
         </table>
         <!-- 
-        <h4>表 E　对证命名错误分析表</h4>
+        <h4 class="table-name">表 E　对证命名错误分析表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -2823,7 +2822,7 @@
           </tbody>
         </table> -->
 
-        <h4>表 F　听觉理解评分表</h4>
+        <h4 class="table-name">表 F　听觉理解评分表</h4>
         <div style="display: inline-block; width: 48%;">
           <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
             <thead>
@@ -3153,7 +3152,7 @@
           </table>
         </div>
 
-        <h4>表 G　语义关联评分表</h4>
+        <h4 class="table-name">表 G　语义关联评分表</h4>
         <table style="width: 100%; text-align: center; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -3313,7 +3312,7 @@
           </tbody>
         </table>
 
-        <h4>表 H　假词复述评分表</h4>
+        <h4 class="table-name">表 H　假词复述评分表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -3388,7 +3387,7 @@
           </tbody>
         </table>
 
-        <h4>表 I　真词复述评分表</h4>
+        <h4 class="table-name">表 I　真词复述评分表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -3511,7 +3510,7 @@
           </tbody>
         </table>
 
-        <h4>表 X　命名分量表计分汇总表</h4>
+        <h4 class="table-name">表 X　命名分量表计分汇总表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -4032,15 +4031,15 @@
           </tbody>
         </table>
 
-        <h4>表 Z　语言认知能力评估表</h4>
-        <div style="width: 40%; display: inline-block; margin-bottom: 35px;">
+        <h4 class="table-name">表 Z　语言认知能力评估表</h4>
+        <div style="width: 40%; display: inline-block; margin-bottom: 30px;">
           <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
           <tr class="rtable-header" style="height: 18px;">
-          <th style="width: 13%;"> 语言加工能力</th>
-          <th style="width: 10%;"> </th>
-          <th style="width: 10%;"> 原始得分</th>
-          <th style="width: 10%;"> 正确率</th>
+          <th style="width: 25%;"> 语言加工能力</th>
+          <th style="width: 35%;"> </th>
+          <th style="width: 20%;"> 原始得分</th>
+          <th style="width: 20%;"> 正确率</th>
           </tr>
           </thead>
           <tbody>
@@ -4115,11 +4114,11 @@
           </tbody>
           </table>
         </div>
-        <div style='width: 50%; height:300px; display: inline-block;'>
-            <e-chart height='400px' width='100%' :options="renzhi_bar_options"></e-chart>
+        <div style='width: 50%; height:250px; display: inline-block;'>
+            <e-chart height='320px' width='100%' :options="renzhi_bar_options"></e-chart>
         </div>
 
-        <h4>表 K　动词命名评分表</h4>
+        <h4 class="table-name">表 K　动词命名评分表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -4318,7 +4317,7 @@
           </tbody>
         </table>
 
-        <h4>表 L　动词理解评分表</h4>
+        <h4 class="table-name">表 L　动词理解评分表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -4552,7 +4551,7 @@
           </tbody>
         </table>
 
-        <h4>表 M　论元结构产出评分表</h4>
+        <h4 class="table-name">表 M　论元结构产出评分表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -5110,7 +5109,7 @@
           </tbody>
         </table>
 
-        <h4>表 N　论元结构产出合计表</h4>
+        <h4 class="table-name">表 N　论元结构产出合计表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -5240,7 +5239,7 @@
           </tbody>
         </table>
 
-        <h4>表 O　语句启动产出计分表</h4>
+        <h4 class="table-name">表 O　语句启动产出计分表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -5571,7 +5570,7 @@
           </tbody>
         </table>
 
-        <h4>表 P　语句理解计分表</h4>
+        <h4 class="table-name">表 P　语句理解计分表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -5839,7 +5838,7 @@
           </tbody>
         </table>
 
-        <h4>表 V　《动词语句分量表》计分汇总表</h4>
+        <h4 class="table-name">表 V　《动词语句分量表》计分汇总表</h4>
         <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
           <thead>
             <tr class="rtable-header" style="height: 18px;">
@@ -6078,8 +6077,8 @@
           </tbody>
         </table>
 
-        <h4>表 W　动词语句加工能力评估表</h4>
-        <div style="width: 40%; display: inline-block; margin-bottom: 20px;">
+        <div style="width: 40%; display: inline-block; margin-bottom: 20px; vertical-align: top;">
+        <h4 class="table-name">表 W　动词语句加工能力评估表</h4>
           <table style="text-align: center; width: 100%; border: none; border-color: gray; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1 solid" cellspacing="0" cellpadding="0">
             <thead>
               <tr class="rtable-header" style="height: 18px;">
@@ -6113,7 +6112,7 @@
             </tbody>
           </table>
         </div>
-        <div style='width: 50%; height:300px; display: inline-block;'>
+        <div style='width: 50%; height:200px; display: inline-block;'>
             <e-chart id="chart2" height='200px' width='100%' :options="dongci_bar_options"></e-chart>
         </div>
 
@@ -6810,5 +6809,8 @@ $grey: rgb(217, 217, 217);
 .chart-container {
   position: relative;
   width: 60%;
+}
+.table-name {
+  margin-top: 35px;
 }
 </style>
