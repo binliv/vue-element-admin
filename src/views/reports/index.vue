@@ -28,7 +28,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column width="180px" label="测试人">
+      <el-table-column width="180px" label="施试人">
         <template scope="scope">
           <span>{{scope.row.tester}}</span>
         </template>
