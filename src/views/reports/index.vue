@@ -3,8 +3,10 @@
     <div class="filter-container">
       <el-input @keyup.enter.native="handleFilter" style="width: 200px;" class="filter-item" placeholder="被测人" v-model="listQuery.testee">
       </el-input>
+      <el-input v-if="roles[0]==='admin'" @keyup.enter.native="handleFilter" style="width: 200px;" class="filter-item" placeholder="施测人" v-model="listQuery.tester">
+      </el-input>
 
-      <el-select @change='handleFilter' style="width: 120px" class="filter-item" v-model="listQuery.sort" placeholder="排序">
+      <el-select @change='handleFilter' style="width: 150px" class="filter-item" v-model="listQuery.sort" placeholder="排序">
         <el-option v-for="item in sortOptions" :key="item.key" :label="item.label" :value="item.key">
         </el-option>
       </el-select>
@@ -47,7 +49,7 @@
     </el-table>
 
     <div v-show="!listLoading" class="pagination-container">
-      <el-pagination @size-change="handleSizeChange" @current-change="handleCurrentChange" :current-page.sync="listQuery.page" :page-sizes="[10,20,30, 50]" :page-size="listQuery.limit" layout="total, sizes, prev, pager, next, jumper" :total="total">
+      <el-pagination @size-change="handleSizeChange" @current-change="handleCurrentChange" :current-page.sync="listQuery.page" :page-sizes="[10,20,30, 50]" :page-size="listQuery.size" layout="total, sizes, prev, pager, next, jumper" :total="total">
       </el-pagination>
     </div>
 
@@ -6117,11 +6119,7 @@
         </div>
 
       </el-form>
-      <div slot="footer" class="dialog-footer">
-        <el-button @click="dialogFormVisible = false">取 消</el-button>
-        <el-button v-if="dialogStatus=='create'" type="primary" @click="handleCreateUser">确 定</el-button>
-        <el-button v-else type="primary" @click="update">确 定</el-button>
-      </div>
+      <div slot="footer" class="dialog-footer"></div>
     </el-dialog>
 
   </div>
@@ -6129,11 +6127,13 @@
 
 <script>
 import { fetchList } from '@/api/report'
+import BackToTop from '@/components/BackToTop'
 
 import waves from '@/directive/waves/index.js' // 水波纹指令
 // import { parseTime } from '@/utils'
 
 import eChart from '@/components/Charts/eChart'
+import store from '../../store'
 
 function tableBMerge(results) {
   var static_data = [
@@ -6193,13 +6193,14 @@ export default {
   },
   data() {
     return {
+      roles: store.getters.roles.sort(),
       series: [1, 2, 3],
       list: null,
       total: null,
       listLoading: true,
       listQuery: {
         page: 1,
-        limit: 20,
+        size: 20,
         importance: undefined,
         title: undefined,
         type: undefined,
@@ -6506,7 +6507,9 @@ export default {
       piantan_texts: ['左侧', '右侧', '双侧'],
       sortOptions: [
         { label: '按ID升序列', key: 'id,ASC' },
-        { label: '按ID降序', key: 'id,DESC' }
+        { label: '按ID降序', key: 'id,DESC' },
+        { label: '按被测人升序', key: 'testee' },
+        { label: '按被测人降序', key: 'testee,DESC' }
       ],
       statusOptions: ['published', 'draft', 'deleted'],
       dialogFormVisible: false,
@@ -6599,6 +6602,15 @@ export default {
             data: [11, 22, 33, 44, 55, 66, 77, 88, 99, 10, 11, 12, 13]
           }
         ]
+      },
+      myBackToTopStyle: {
+        right: '50px',
+        bottom: '50px',
+        width: '40px',
+        height: '40px',
+        'border-radius': '4px',
+        'line-height': '45px', // 请保持与高度一致以垂直居中
+        background: '#e7eaf1' // 按钮的背景颜色
       }
     }
   },
@@ -6658,7 +6670,8 @@ export default {
       this.getList()
     },
     handleSizeChange(val) {
-      this.listQuery.limit = val
+      console.log(store.getters.roles)
+      this.listQuery.size = val
       this.getList()
     },
     handleCurrentChange(val) {
@@ -6763,7 +6776,7 @@ export default {
       console.log('bingfazheng clicked: ' + type)
     }
   },
-  components: { eChart }
+  components: { eChart, BackToTop }
 }
 </script>
 
