@@ -4097,7 +4097,7 @@
           </tr>
           <tr>
           <td>动词论元结构 </td>
-          <td>{{temp.cases.namedTest.pinggu.dcly.correct}}/16</td>
+          <td>{{temp.cases.namedTest.pinggu.dcly.correct}}/31</td>
           <td>{{temp.cases.namedTest.pinggu.dcly.rate}}% </td>
           </tr>
           <tr>
@@ -4224,7 +4224,7 @@
             <tr>
               <td colspan="2">二元动词小计</td>
               <td> </td>
-              <td>正确次数 {{temp.cases.verbTest.dongcimingming.tow.correct}}/6  正确率{{temp.cases.verbTest.dongcimingming.tow.rate}}%</td>
+              <td>正确次数 {{temp.cases.verbTest.dongcimingming.two.correct}}/6  正确率{{temp.cases.verbTest.dongcimingming.two.rate}}%</td>
             </tr>
             <tr>
               <td>13</td>
@@ -4301,8 +4301,8 @@
             </tr>
             <tr>
               <td colspan="2">  二元动词合计</td>
-              <td>正确次数  {{temp.cases.verbTest.dongcimingming.tow.correct}}/6</td>
-              <td>正确率{{temp.cases.verbTest.dongcimingming.tow.rate}}%</td>
+              <td>正确次数  {{temp.cases.verbTest.dongcimingming.two.correct}}/6</td>
+              <td>正确率{{temp.cases.verbTest.dongcimingming.two.rate}}%</td>
             </tr>
             <tr>
               <td colspan="2">  三元动词合计</td>
@@ -4450,7 +4450,7 @@
             </tr>
             <tr>
               <td colspan="5">二元小计   </td>
-              <td>正确次数 {{temp.cases.verbTest.dongcilijie.tow.correct}}/6  正确率{{temp.cases.verbTest.dongcilijie.tow.rate}}%</td>
+              <td>正确次数 {{temp.cases.verbTest.dongcilijie.two.correct}}/6  正确率{{temp.cases.verbTest.dongcilijie.two.rate}}%</td>
             </tr>
             <tr>
               <td>13</td>
@@ -4538,7 +4538,7 @@
             </tr>
             <tr>
               <td colspan="5">  二元动词合计</td>
-              <td>正确次数  {{temp.cases.verbTest.dongcilijie.tow.correct}}/6 正确率{{temp.cases.verbTest.dongcilijie.tow.rate}}%</td>
+              <td>正确次数  {{temp.cases.verbTest.dongcilijie.two.correct}}/6 正确率{{temp.cases.verbTest.dongcilijie.two.rate}}%</td>
             </tr>
             <tr>
               <td colspan="5">  三元动词合计</td>
@@ -6309,7 +6309,7 @@ export default {
               three3: { correct: 0, rate: 0 },
               three4: { correct: 0, rate: 0 },
               total: { correct: 0, rate: 0 },
-              tow: { correct: 0, rate: 0 }
+              two: { correct: 0, rate: 0 }
             },
             dongcimingming: {
               one: { correct: 0, rate: 0 },
@@ -6320,7 +6320,7 @@ export default {
               three3: { correct: 0, rate: 0 },
               three4: { correct: 0, rate: 0 },
               total: { correct: 0, rate: 0 },
-              tow: { correct: 0, rate: 0 }
+              two: { correct: 0, rate: 0 }
             },
             huizong: {
               chcr: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
