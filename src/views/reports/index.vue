@@ -147,7 +147,7 @@
       <td style="text-align: center;" colspan="2"><input type="checkbox" :checked="temp.info.bingfazheng.zhuting===1" >助听器&nbsp;&nbsp;</td>
       <td style="text-align: center;" colspan="2"><input type="checkbox" :checked="temp.info.bingfazheng.xujiu===1" >酗酒*</td>
       <td style="text-align: center;">其他&nbsp;</td>
-      <td style="text-align: center;" colspan="4">{{temp.info.bingfazheng.other}}</td>
+      <td style="text-align: center;" colspan="4">{{temp.info.bingfazheng.others}}</td>
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="11">*本次发病前，平均每日饮酒量超过 2 瓶啤酒 /1 两白酒；或每周至少 1 次，每次饮酒量超过 5 瓶啤酒 /3 两白酒</td>
@@ -173,8 +173,7 @@
       </tr>
       <tr style="height: 28px;">
       <td style="text-align: center;" colspan="2">流利度类型</td>
-      <td style="text-align: center;" colspan="2"><input type="checkbox" :checked="temp.info.liulidu===1" >流畅性</td>
-      <td style="text-align: center;" colspan="2"><input type="checkbox" :checked="temp.info.liulidu===0" >非流畅性</td>
+      <td style="text-align: center;" colspan="4">{{liulidu_texts[temp.info.liulidu]}}</td>
       <td style="text-align: center;" colspan="2">失语症类型</td>
       <td style="text-align: center;" colspan="4">{{temp.info.shiyuType}}</td>
       </tr>
@@ -6499,12 +6498,13 @@ export default {
         },
         miliTime: 1509074114876
       },
-      yn_texts: ['否', '是'],
+      yn_texts: ['是', '否'],
       gendar_texts: ['男', '女'],
-      handedness_texts: ['左利手', '右利手'],
+      handedness_texts: ['右利手', '左利手'],
       education_texts: ['中学以下', '中学', '大学', '大学以上'],
       marriage_texts: ['单身', '已婚', '丧偶', '离异'],
       piantan_texts: ['左侧', '右侧', '双侧'],
+      liulidu_texts: ['流畅性', '非流畅性'],
       sortOptions: [
         { label: '按ID升序列', key: 'id,ASC' },
         { label: '按ID降序', key: 'id,DESC' },
