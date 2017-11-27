@@ -6503,7 +6503,7 @@ export default {
       handedness_texts: ['右利手', '左利手'],
       education_texts: ['中学以下', '中学', '大学', '大学以上'],
       marriage_texts: ['单身', '已婚', '丧偶', '离异'],
-      piantan_texts: ['左侧', '右侧', '双侧'],
+      piantan_texts: ['', '左侧', '右侧', '双侧'],
       liulidu_texts: ['流畅性', '非流畅性'],
       sortOptions: [
         { label: '按ID升序列', key: 'id,ASC' },
